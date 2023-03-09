@@ -6,12 +6,12 @@ import {GiInjustice} from 'react-icons/gi'
 
 const SubHeader = () => {
   return (
-    <section>
+    <section className='subHeader'>
         <div className='subheader-sect1'>
         <img src="Madein.PNG" alt='our log'/>
         </div>
         <div className='subheader-sect2'>
-        <select>
+        <select className='subheader-select'>
           <option value="option1">Option 1</option>
           <option value="option2">Option 2</option>
           <option value="option3">Option 3</option>
@@ -19,15 +19,15 @@ const SubHeader = () => {
          <input type='text' placeholder='Search' className='semnav-search'/>
         </div>
         <div className='subheader-sect3'>
+          <div>
+           <p>Live chat or:</p>
+            <p>0784535454</p>
+          </div>
         <div>
-              <span>Live chat or:</span>
-               <span>0784535454</span>
-              </div>
-              <div>
-                <div>
-                <button><AiOutlineHeart/></button>
-                <span>wishlist</span>
-                </div>
+            <div>
+            <button><AiOutlineHeart/></button>
+            <span>wishlist</span>
+            </div>
                 <div>
                 <button><GiInjustice/></button>
                 <span>compare</span>
@@ -36,7 +36,7 @@ const SubHeader = () => {
                 <button><AiOutlineShoppingCart/></button>
                 <span>cart</span>
                 </div>
-              </div>
+         </div>
         </div>
     </section>
   )
