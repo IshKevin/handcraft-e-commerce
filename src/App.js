@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import VendorDashboard from './Pages/VendorDashboard';
 
 function App() {
-  return 
-  
-}
+
+  return (
+    <>
+    <VendorDashboard/>
+    </>
+  );
+
 
 export default App;
 
