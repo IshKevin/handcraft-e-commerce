@@ -1,11 +1,11 @@
 import React from 'react'
 
-function vendorDashboard() {
+const vendorDashboard = () => {
   return (
     <div>
-      <h1>vendorDashboard</h1>
+     
     </div>
-  )
+  );
 }
 
-export default vendorDashboard
+export default vendorDashboard;
