@@ -2,11 +2,14 @@ import React from 'react'
 import './SubHeader.css'
 import {AiOutlineHeart, AiOutlineShoppingCart} from 'react-icons/ai'
 import {GiInjustice} from 'react-icons/gi'
+import {MdOutlineLocationOn} from 'react-icons/md'
+import {MdOutlineDiscount} from 'react-icons/md'
 
 
 const SubHeader = () => {
   return (
-    <section className='subHeader'>
+   <div>
+    <section className='subHeader' >
         <div className='subheader-sect1'>
         <img src="Madein.PNG" alt='our log'/>
         </div>
@@ -36,9 +39,31 @@ const SubHeader = () => {
                 <button><AiOutlineShoppingCart/></button><br/>
                 <span>cart</span>
                 </div>
+
          </div>
         </div>
+    
     </section>
+     <div className='subheader-footer'>
+     <select className='subheader-select2'>
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </select>
+        <div className='nav-link'>
+        <a href="#" >Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Vender</a>
+        <a href="#">About</a>
+        </div>
+        <div>
+            <MdOutlineLocationOn/> Track your order
+            <MdOutlineDiscount/> Dialy Deals 
+        </div>
+    
+     </div>
+    </div>
+
   )
 }
 

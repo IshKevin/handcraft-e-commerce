@@ -8,6 +8,10 @@
     margin-right: auto;
 }
 
+.line {
+    border-bottom: 1px solid black;
+  }
+  
 
 
 .subheader-sect3{
@@ -26,4 +30,12 @@
     padding-left: 10px;
     padding-right: 10px;
 
+}
+
+.subheader-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    height: 50px;
 }
