@@ -20,20 +20,20 @@ const SubHeader = () => {
         </div>
         <div className='subheader-sect3'>
           <div>
-           <p>Live chat or:</p>
-            <p>0784535454</p>
+           <span>Live chat or:</span> <br/>
+            <span>0784535454</span>
           </div>
-        <div>
+        <div className='subheader-logs'>
             <div>
-            <button><AiOutlineHeart/></button>
+            <button><AiOutlineHeart/></button><br/>
             <span>wishlist</span>
             </div>
                 <div>
-                <button><GiInjustice/></button>
+                <button><GiInjustice/></button><br/>
                 <span>compare</span>
                 </div>
                 <div>
-                <button><AiOutlineShoppingCart/></button>
+                <button><AiOutlineShoppingCart/></button><br/>
                 <span>cart</span>
                 </div>
          </div>
