@@ -1,16 +1,19 @@
-
-
+import React from 'react'
 import './App.css';
-import VendorDashboard from './Pages/VendorDashboard';
+import Home from './Pages/Home'
 
 
-function App() {
+const App = () => {
   return (
-    <>
-    <VendorDashboard/>
-    </>
-  );
-  
+    <div>
+      <Home />
+    </div>
+  )
 }
 
-export default App;
+export default App
+
+
+
+
+
