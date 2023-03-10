@@ -1,7 +1,10 @@
 import React from 'react'
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home'
+ import Home from './Pages/Home'
+ import VendorDashboard from './Pages/VendorDashboard';
+import AdminDashboard from './Pages/AdminDashboard';
+import AdminContent from './Pages/AdminContent';
 import VendorDashboard from './Pages/VendorDashboard';
 
 
@@ -9,7 +12,6 @@ import VendorDashboard from './Pages/VendorDashboard';
 const App = () => {
   return (
     <>
-    
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />}/>
