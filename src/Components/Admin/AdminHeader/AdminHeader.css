@@ -1,0 +1,41 @@
+.admin-header-component ul{
+  display: flex;
+  gap: 55rem;
+  margin-left: 17.5rem;
+  background-color: rgba(0, 0, 0, 0.219);
+  padding: 10px 10px;
+  margin-top: 0%;
+}
+.admin-header-component ul li{
+  list-style: none;
+}
+.card1{
+  background-color: black;
+  width: 30%;
+  height: 8rem;
+  border-radius: 5px;
+}
+.card2{
+  background-color: black;
+  width: 30%;
+  height: 8rem;
+  border-radius: 5px;
+}
+.card3{
+  background-color: black;
+  width: 30%;
+  height: 8rem;
+  border-radius: 5px;
+}
+.Admin-cards1{
+  display: flex;
+  margin-left: 18rem;
+  gap: 2rem;
+  border-radius: 5px;
+}
+.Admin-cards2{
+  display: flex;
+  margin-left: 18rem;
+  gap: 2rem;
+  margin-top: 1rem;
+}

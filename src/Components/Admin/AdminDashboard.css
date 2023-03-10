@@ -1,0 +1,32 @@
+.sidebar{
+    background-color:#151515 ;
+    width:276px;
+    height: 2096px;
+}
+.sidebar-profile{
+    display:flex;
+    padding:40px 30px;
+    color:white;
+}
+.sidebar-profile-text-h1{
+    margin-top:-19px;
+    font-size:15px;
+}
+.sidebar-profile-text{
+   margin-top: -14px;
+   padding:0px 15px;
+}
+.sidebar-menu{
+    color:white;
+    display: flex;
+    gap: 3rem;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+.sidebar-menu :hover{
+   background-color: white;
+   color: black;
+}
+.D-icon1{
+   margin-top: 1rem;
+}
