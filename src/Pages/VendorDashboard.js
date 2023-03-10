@@ -10,5 +10,13 @@
 //     </div>
 //   );
 // }
+const vendorDashboard = () => {
+  return (
+    <div className='dash'>
+      <VendorDashboard/>
+       <VendorSidebar/>
+    </div>
+  );
+}
 
-// export default vendorDashboard;
+export default vendorDashboard;
