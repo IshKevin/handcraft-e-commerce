@@ -1,7 +1,7 @@
 .sidebar{
     background-color:#151515 ;
     width:276px;
-    height: 2096px;
+    height: 1096px;
 
 }
 .sidebar-profile{
@@ -17,3 +17,21 @@
    margin-top: -14px;
    padding:0px 15px;
 }
+.sidebar-menu-single{
+    padding:10px 30px;
+    display: flex;
+    /* background-color:; */
+}
+.sidebar-menu-text-h1{
+    padding:0px 20px;
+    margin-top:5px;
+    color:white;
+}
+#icons{
+    color: aliceblue;
+}
+/* .sidebar-menu-single :hover{
+    background-color: aqua;
+    width:276px;
+    height:30px;
+} */
