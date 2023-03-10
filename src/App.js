@@ -5,7 +5,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
  import VendorDashboard from './Pages/VendorDashboard';
 import AdminDashboard from './Pages/AdminDashboard';
 import AdminContent from './Pages/AdminContent';
-import VendorDashboard from './Pages/VendorDashboard';
 
 
 
@@ -16,7 +15,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="VenderDashboard" element={<VendorDashboard/>}/>
-      {/* <Route path="Login" element={<Login/>}/> */}
+      <Route path="AdminDashboard" element={<AdminDashboard/>}/> 
       {/* <Route path="dashBoard" element={<DashBoard posts={posts}/>}/>
       <Route path="/:blogId" element={<SinglePost posts={posts}/>}/>
       <Route path="Manage" element={<Manage posts={posts}/>}/>
