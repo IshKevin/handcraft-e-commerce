@@ -4,7 +4,7 @@ import VendorSidebar from '../Components/Vendor/VendorSidebar/VendorSidebar'
 
 const vendorDashboard = () => {
   return (
-    <div>
+    <div className='dash'>
       <VendorDashboard/>
        <VendorSidebar/>
     </div>
