@@ -26,6 +26,7 @@
   background-color: white;
   border-radius: 10px;
   height: 50px;
+  font-size: large;
   cursor: pointer;
   outline: none;
 }
@@ -50,6 +51,15 @@
   margin-left: 30px;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: large;
+}
+.subheader-logs button {
+  border: none;
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 40px;
+  cursor: pointer;
 }
 
 .subheader-footer {
@@ -61,6 +71,8 @@
 }
 
 .nav-link {
-  justify-content: space-between;
   text-decoration: none;
+  color: black;
+  font-size: large;
+  cursor: pointer;
 }/*# sourceMappingURL=SubHeader.css.map */

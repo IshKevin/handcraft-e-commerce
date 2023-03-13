@@ -35,6 +35,7 @@ $subheight:47px;
         background-color:$color;
         border-radius:$border_radius ;
         height: $height;
+        font-size: large;
         cursor: pointer;
         outline: none; 
     }
@@ -64,6 +65,15 @@ $subheight:47px;
     margin-left: 30px;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: large;
+    button{
+        border: none;
+        background-color:$color;
+        color: $border_color;
+        height: 30px;
+        width: 40px;
+        cursor: pointer;
+    }
 
 }
 
@@ -73,9 +83,12 @@ $subheight:47px;
     justify-content: space-between;
     border: 1px solid #000000;
     height: 50px;
+    
 }
 
 .nav-link{
-    justify-content: space-between;
+
     text-decoration: none;
-}
+    color: #000;
+    cursor: pointer;
+ 

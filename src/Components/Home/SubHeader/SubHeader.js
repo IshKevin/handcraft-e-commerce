@@ -47,15 +47,15 @@ const SubHeader = () => {
     </section>
      <div className='subheader-footer'>
      <select className='subheader-select2'>
-          <option value="option1">Option 1</option>
+          <option value="option1"> Option 1</option>
           <option value="option2">Option 2</option>
           <option value="option3">Option 3</option>
         </select>
         <div className='nav-link'>
-        <a href="#" >Home</a>
-        <a href="#">Shop</a>
+        <Link to='#' >Home</Link>
+        <Link to='#'>Shop</Link>
         <Link to='/vender '>Vender</Link>
-        <a href="#">About</a>
+        <Link to='#'>About</Link>
         </div>
         <div>
             <MdOutlineLocationOn/> Track your order
