@@ -1,5 +1,6 @@
 
 $border_color:black;
+$color:white;
 $border_radius:10px;
 $width:400px;
 $subwidth:200px;
@@ -31,6 +32,7 @@ $subheight:47px;
     select{
         border: none;
         width: $subwidth;
+        color:$color;
         border-radius:$border_radius ;
         height: $height;
         cursor: pointer;
