@@ -1,7 +1,6 @@
 .admin-header-component ul{
   display: flex;
-  gap: 55rem;
-  margin-left: 17.5rem;
+  gap: 58rem;
   background-color: rgba(0, 0, 0, 0.219);
   padding: 10px 10px;
   margin-top: 0%;
@@ -29,13 +28,14 @@
 }
 .Admin-cards1{
   display: flex;
-  margin-left: 18rem;
   gap: 2rem;
   border-radius: 5px;
 }
 .Admin-cards2{
   display: flex;
-  margin-left: 18rem;
   gap: 2rem;
   margin-top: 1rem;
+}
+.cards-container{
+  margin-left:3rem;
 }
