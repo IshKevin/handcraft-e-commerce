@@ -3,7 +3,32 @@ import './venderBody.css'
 
 const VenderBody = () => {
   return (
-    <div>VenderBody</div>
+    <>
+    <div className='vender-card-layout'>
+    <div className="vender-card-layout__item">
+        <div className='vender-adderss'>
+        <div className='vender-adderss__item'>
+        <h1>UMUSHANANA SHOP</h1>
+        <span>Huye-Rwanda</span>
+        <span>phone</span>
+        </div>
+        <div className='vender-adderss__item'>
+        <span>email</span>
+        <span>website</span>
+        </div>
+        </div>
+        <p>Umushanana shop is a shop that sells all kinds of clothes and shoes</p>
+    </div>
+    <div className="vender-card-layout__item">...</div>
+    <div className="vender-card-layout__item">...</div>
+    <div className="vender-card-layout__item">...</div>
+    <div className="vender-card-layout__item">...</div>
+    <div className="vender-card-layout__item">...</div>
+    <div className="vender-card-layout__item">...</div>
+    <div className="vender-card-layout__item">...</div>
+    <div className="vender-card-layout__item">...</div>
+    </div>
+    </>
   )
 }
 
