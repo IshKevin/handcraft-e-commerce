@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import {RxAvatar} from 'react-icons/rx'
 import './Header.css'
 
@@ -13,7 +14,7 @@ const Header = () => {
         <div>
         <RxAvatar className='Header-icon'/>
         </div>
-        <div><a className='header-link' href="#">SignIn</a>/<a className='header-link' href="#">Register</a></div>
+        <div><Link to='./VenderDashboard' className='header-link' >SignIn</Link>/<Link to='/AdminDashboard' className='header-link'>Register</Link></div>
       </div>
     </div>
   </section>
