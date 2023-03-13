@@ -19,9 +19,9 @@
 .sidebar-menu{
     color:white;
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
     cursor: pointer;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 }
 .sidebar-menu :hover{
    background-color: white;

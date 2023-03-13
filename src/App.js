@@ -1,15 +1,16 @@
 import React from 'react'
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
- import Home from './Pages/Home'
- import VendorDashboard from './Pages/VendorDashboard';
+import { BrowserRouter, Routes, Route }  from 'react-router-dom';
+ import Home  from './Pages/Home'
+ import VendorDashboard  from './Pages/VendorDashboard/VendorDashboard';
 import AdminDashboard from './Pages/AdminDashboard';
-import AdminContent from './Pages/AdminContent';
+// import AdminContent from './Pages/AdminContent';
 
 
 
 const App = () => {
   return (
+
     <>
     <BrowserRouter>
     <Routes>
