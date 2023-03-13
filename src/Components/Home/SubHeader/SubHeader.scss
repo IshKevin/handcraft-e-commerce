@@ -1,6 +1,10 @@
 
 $border_color:black;
-$border_radius:15px;
+$border_radius:10px;
+$width:400px;
+$subwidth:200px;
+$height:50px;
+$subheight:47px;
 
 
 .subHeader{
@@ -19,6 +23,28 @@ $border_radius:15px;
   
 .subheader-sect2{
     border: 1px solid $border_color;
+    border-radius: $border_radius;
+    width: $width;
+    height: $height;
+    display: flex;
+    flex-direction: row;
+    select{
+        border: none;
+        width: $subwidth;
+        border-radius:$border_radius ;
+        height: $height;
+        cursor: pointer;
+        outline: none; 
+    }
+    input{
+        border: none;
+        width: $subwidth;
+        border-radius:$border_radius ;
+        height: $subheight;
+        
+    }
+
+
 }
 
 .subheader-sect3{
