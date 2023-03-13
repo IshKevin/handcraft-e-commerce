@@ -52,10 +52,10 @@ const SubHeader = () => {
           <option value="option3">Option 3</option>
         </select>
         <div className='nav-link'>
-        <Link to='#' >Home</Link>
-        <Link to='#'>Shop</Link>
-        <Link to='/vender '>Vender</Link>
-        <Link to='#'>About</Link>
+        <Link  to='#'className='nav-link'>Home</Link>
+        <Link to='#'className='nav-link'>Shop</Link>
+        <Link to='/vender ' className='nav-link'>Vender</Link>
+        <Link to='#'className='nav-link'>About</Link>
         </div>
         <div>
             <MdOutlineLocationOn/> Track your order
