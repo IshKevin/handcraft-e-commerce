@@ -38,6 +38,93 @@ const VendorDashboard = () => {
         
     });
 
+    const LData = [
+      {
+        id: 1,
+        content: "Jan",
+        userGain:50,
+        userLost: 30,
+      },
+      {
+        id: 2,
+        content: "Feb",
+        userGain: 25,
+        userLost: 15,
+      },
+      {
+        id: 3,
+        content: "Mar",
+        userGain: 5,
+        userLost: 0,
+      },
+      {
+        id: 3,
+        content: "Apr",
+        userGain: 5,
+        userLost: 0,
+      },
+      {
+        id: 3,
+        content: "May",
+        userGain: 5,
+        userLost: 0,
+      },
+      {
+        id: 3,
+        content: "Jun",
+        userGain: 5,
+        userLost: 0,
+      },
+      {
+        id: 3,
+        content: "Jul",
+        userGain: 5,
+        userLost: 0,
+      },
+      {
+        id: 3,
+        content: "Aug",
+        userGain: 5,
+        userLost: 0,
+      },
+      {
+        id: 3,
+        content: "Sept",
+        userGain: 5,
+        userLost: 0,
+      },
+      {
+        id: 3,
+        content: "Oct",
+        userGain: 5,
+        userLost: 0,
+      },
+      {
+        id: 3,
+        content: "Nov",
+        userGain: 5,
+        userLost: 0,
+      },
+      {
+        id: 3,
+        content: "Dec",
+        userGain: 5,
+        userLost: 0,
+      },
+      
+    ]
+    ;
+  
+      const [userData,setuserData] = useState({
+  
+          labels : LData.map((data)=>data.content),
+          datasets :[{
+              label:"comments",
+              data : LData.map((data)=>data.userGain),
+              backgroundColor :["green","brown","teal",],
+          },],
+          
+      });
  
 
 
@@ -64,12 +151,14 @@ const VendorDashboard = () => {
 
         </div>
         <div className='main-dash'>
-          <div className='card' id="">
+          <div className='card' id="card">
           <h1>Earnings</h1>
-          <Pie data={useData} className="pie-chart"/>
+          <Pie data={useData} className="pie"/>
           </div>
           <div className='card'> hey there</div>
-          <div className='card' id='box3'> het there</div>
+          <div className='card' id='box3'>
+            <Bar data={userData}/>
+          </div>
           <div className='card' id='box4'> hey there</div>
 
         </div>

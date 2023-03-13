@@ -9,11 +9,11 @@
 
 const vendorDashboard = () => {
   return (
-    <div className='dash'>
-       <VendorSidebar/>
+    <>
+       {/* <VendorSidebar/> */}
       <VendorDashboard/>
       
-    </div>
+    </>
   );
 }
 
