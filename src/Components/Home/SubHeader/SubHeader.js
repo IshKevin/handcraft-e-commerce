@@ -4,6 +4,7 @@ import {AiOutlineHeart, AiOutlineShoppingCart} from 'react-icons/ai'
 import {GiInjustice} from 'react-icons/gi'
 import {MdOutlineLocationOn} from 'react-icons/md'
 import {MdOutlineDiscount} from 'react-icons/md'
+import {Link} from 'react-router-dom'
 
 
 const SubHeader = () => {
@@ -53,7 +54,7 @@ const SubHeader = () => {
         <div className='nav-link'>
         <a href="#" >Home</a>
         <a href="#">Shop</a>
-        <a href="#">Vender</a>
+        <Link to='/vender '>Vender</Link>
         <a href="#">About</a>
         </div>
         <div>
