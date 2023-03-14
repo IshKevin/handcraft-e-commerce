@@ -13,11 +13,13 @@ const VenderBody = () => {
         <span>phone</span>
         </div>
         <div className='vender-adderss__item'>
-        <span>email</span>
-        <span>website</span>
+        <div className="vender-body-avatar">
+          <img className="vender-avatar__image" src="Home/download.jpg" />
         </div>
         </div>
-        <p>Umushanana shop is a shop that sells all kinds of clothes and shoes</p>
+        </div>
+        <p>Umushanana shop is a shop that sells <br/>
+        all kinds of clothes and shoes</p>
     </div>
     <div className="vender-card-layout__item">...</div>
     <div className="vender-card-layout__item">...</div>
