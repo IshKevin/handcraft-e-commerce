@@ -14,7 +14,7 @@ const Header = () => {
         <div>
         <RxAvatar className='Header-icon'/>
         </div>
-        <div><Link to='./VenderDashboard' className='header-link' >SignIn</Link>/<Link to='/AdminDashboard' className='header-link'>Register</Link></div>
+        <div><Link to='./VendorDashboard' className='header-link' >SignIn</Link>/<Link to='/AdminDashboard' className='header-link'>Register</Link></div>
       </div>
     </div>
   </section>

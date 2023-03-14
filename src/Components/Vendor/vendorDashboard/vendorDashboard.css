@@ -56,7 +56,10 @@
 .card h1{
  padding: 0px 10px;
 }
-.pie-chart{
+.pie{
  height:50px;
  width:50px;
+}
+#card{
+    display: flex;
 }

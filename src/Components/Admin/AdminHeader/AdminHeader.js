@@ -9,18 +9,32 @@ function AdminHeader() {
           <li>Admin</li>
         </ul>
       </div>
-    <div className="cards-container">
-      <div className="Admin-cards1">
-        <div className="card1"></div>
-        <div className="card2"></div>
-        <div className="card3"></div>
+      <div className="cards-container">
+        <div className="Admin-cards1">
+          <div className="card1"></div>
+          <div className="card2"></div>
+          <div className="card3"></div>
+        </div>
+        <div className="Admin-cards2">
+          <div className="card1"></div>
+          <div className="card2"></div>
+          <div className="card3"></div>
+        </div>
+        <div className="newcard">
+          <div className="Admin-cards3">
+            <div className="cardnew1"></div>
+            <div className="cardnew2"></div>
+            <div className="cardnew1"></div>
+            <div className="cardnew2"></div>
+          </div>
+          <div className="Admin-cards4">
+            <div className="cardnew1"></div>
+            <div className="cardnew2"></div>
+            <div className="cardnew1"></div>
+            <div className="cardnew2"></div>
+          </div>
+        </div>
       </div>
-      <div className="Admin-cards2">
-        <div className="card1"></div>
-        <div className="card2"></div>
-        <div className="card3"></div>
-      </div>
-    </div>
     </div>
   );
 }

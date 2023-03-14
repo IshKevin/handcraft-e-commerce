@@ -4,9 +4,13 @@
   background-color: rgba(0, 0, 0, 0.219);
   padding: 10px 10px;
   margin-top: 0%;
+  width: 100%;
 }
 .admin-header-component ul li{
   list-style: none;
+}
+.Admin-header{
+  background-color:#F4F5F9;
 }
 .card1{
   background-color: black;
@@ -38,4 +42,20 @@
 }
 .cards-container{
   margin-left:3rem;
+}
+.cardnew1{
+  background-color: black;
+  width: 45%;
+  height: 18rem;
+  border-radius: 5px;
+}
+.Admin-cards3{
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.Admin-cards4{
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
 }
