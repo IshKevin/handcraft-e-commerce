@@ -1,0 +1,61 @@
+@function bg-image($filename) {
+    @return url('/public/Home/#{$filename}');
+  }
+
+.body-slide-text{
+    background-image: bg-image('jordan.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 5;
+    left: 3;
+    right: 3;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    color: rgb(32, 35, 233);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: right;
+    .body-slide-image{
+        margin: 30px;
+    }
+    
+    .body-slide-text__title{
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        margin-right: 10px;
+
+    }
+    .body-slide-text__subtitle{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        z-index: 2;
+        margin-right: 10px;
+    }
+    button{
+        z-index: 2;
+        left: 2;
+        margin-left: auto;
+        background-color: transparent;
+        width: 200px;
+        color: #ffffff;
+        border: 1px solid #000;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        &:hover{
+            background-color: #000;
+            color: #fff;
+        }
+    }
+}
