@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Outlet }  from 'react-router-dom';
 import Vender from './Pages/Vender';
 import Home  from './Pages/Home'
 import AdminDashboard from './Pages/AdminDashboard/AdminDashboard';
-import AdminUsers from './Pages/Users/AdminUsers';
+import AdminUsers from './Pages/AdminUsers/AdminUsers';
 import AdminSideBar from './Components/Admin/AdminSidebar/AdminSideBar';
 import VendorSidebar from './Components/Vendor/VendorSidebar/VendorSidebar';
 import Product from "./Pages/VendorDashboard/Product";

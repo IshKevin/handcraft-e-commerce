@@ -52,7 +52,7 @@ const SubHeader = () => {
           <option value="option3">Option 3</option>
         </select>
         <div className='nav-link'>
-        <Link  to='#'className='nav-link'>Home</Link>
+        <Link  to='./'className='nav-link'>Home</Link>
         <Link to='#'className='nav-link'>Shop</Link>
         <Link to='/vender ' className='nav-link'>Vender</Link>
         <Link to='#'className='nav-link'>About</Link>
