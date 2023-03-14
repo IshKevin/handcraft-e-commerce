@@ -27,7 +27,6 @@
 .sidebar-menu-single{
     padding:0px 40px;
     display: flex;
-    /* background-color:; */
 }
 .sidebar-menu-text-h1{
     padding:0px 20px;
@@ -37,8 +36,4 @@
 #icons{
     color: rgb(122, 126, 129);
 }
-/* .sidebar-menu-single :hover{
-    background-color: aqua;
-    width:276px;
-    height:30px;
-} */
+

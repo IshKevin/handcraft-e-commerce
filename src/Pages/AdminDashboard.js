@@ -5,7 +5,7 @@ function AdminDashboard() {
   return (
     <div>
       <AdminHeader />
-      <SideBar />
+      {/* <SideBar /> */}
     </div>
   );
 }
