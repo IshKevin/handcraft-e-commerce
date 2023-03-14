@@ -24,7 +24,9 @@
   height: 4rem;
   width: 4rem;
 }
-.vender-body-avatar img {
+
+.vender-avatar__image {
   height: 50%;
   width: 50%;
+  border-radius: 50%;
 }/*# sourceMappingURL=venderBody.css.map */
