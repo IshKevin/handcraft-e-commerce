@@ -4,6 +4,7 @@ import {AiOutlineHeart, AiOutlineShoppingCart} from 'react-icons/ai'
 import {GiInjustice} from 'react-icons/gi'
 import {MdOutlineLocationOn} from 'react-icons/md'
 import {MdOutlineDiscount} from 'react-icons/md'
+import {Link} from 'react-router-dom'
 
 
 const SubHeader = () => {
@@ -46,15 +47,15 @@ const SubHeader = () => {
     </section>
      <div className='subheader-footer'>
      <select className='subheader-select2'>
-          <option value="option1">Option 1</option>
+          <option value="option1"> Option 1</option>
           <option value="option2">Option 2</option>
           <option value="option3">Option 3</option>
         </select>
         <div className='nav-link'>
-        <a href="#" >Home</a>
-        <a href="#">Shop</a>
-        <a href="#">Vender</a>
-        <a href="#">About</a>
+        <Link  to='#'className='nav-link'>Home</Link>
+        <Link to='#'className='nav-link'>Shop</Link>
+        <Link to='/vender ' className='nav-link'>Vender</Link>
+        <Link to='#'className='nav-link'>About</Link>
         </div>
         <div>
             <MdOutlineLocationOn/> Track your order

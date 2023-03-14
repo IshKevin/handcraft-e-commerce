@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css';
-
 import { BrowserRouter, Routes, Route, Outlet }  from 'react-router-dom';
- import Home  from './Pages/Home'
+import Vender from './Pages/Vender';
+import Home  from './Pages/Home'
 import AdminDashboard from './Pages/AdminDashboard/AdminDashboard';
 import AdminUsers from './Pages/Users/AdminUsers';
 import AdminSideBar from './Components/Admin/AdminSidebar/AdminSideBar';
@@ -19,7 +19,8 @@ const App = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<h1>Client</h1>} />
+          <Route path="/" element={<Home />}/>
+          <Route path="Vender" element={<Vender/>}/>
           <Route index element={<Home />} />
           <Route />
           <Route
