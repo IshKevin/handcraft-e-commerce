@@ -6,3 +6,35 @@ $height: 50px;
 $subheight: 47px;
 $subwidth: 200px;
 
+.vender-card-layout{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+   
+}
+
+.vender-card-layout_item{
+        flex-basis: 33.33333%;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+    }
+ .vender-adderss__item{
+    display:flex;
+    flex-direction: column;
+ } 
+ 
+ .vender-body-avatar{
+        border-radius: 50%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 4rem;
+        width: 4rem;
+ }
+.vender-avatar__image {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+    
