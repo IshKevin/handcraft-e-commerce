@@ -2,10 +2,11 @@
     @return url('/public/Home/#{$filename}');
   }
 
-.body-slide-text{
+.body-slide{
     background-image: bg-image('jordan.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+
+    background-size: 100% 120%;
     height: 70%;
     width: 100%;
     position: absolute;
@@ -17,12 +18,15 @@
     flex-direction: column;
     justify-content: right;
     align-items: right;
-    color: rgb(32, 35, 233);
+    color: rgb(248, 248, 65);
     font-size: 1.5rem;
     font-weight: 600;
     text-align: right;
-    .body-slide-image{
-        margin: 30px;
+    
+    .body-slide-text{
+        margin: 120px 30px;
+       
+
     }
     
     .body-slide-text__title{
@@ -59,3 +63,4 @@
         }
     }
 }
+

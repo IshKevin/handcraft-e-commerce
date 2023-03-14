@@ -1,7 +1,7 @@
-.body-slide-text {
+.body-slide {
   background-image: url("/public/Home/jordan.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 120%;
   height: 70%;
   width: 100%;
   position: absolute;
@@ -13,28 +13,28 @@
   flex-direction: column;
   justify-content: right;
   align-items: right;
-  color: rgb(32, 35, 233);
+  color: rgb(248, 248, 65);
   font-size: 1.5rem;
   font-weight: 600;
   text-align: right;
 }
-.body-slide-text .body-slide-image {
-  margin: 30px;
+.body-slide .body-slide-text {
+  margin: 120px 30px;
 }
-.body-slide-text .body-slide-text__title {
+.body-slide .body-slide-text__title {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
   margin-right: 10px;
 }
-.body-slide-text .body-slide-text__subtitle {
+.body-slide .body-slide-text__subtitle {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
   z-index: 2;
   margin-right: 10px;
 }
-.body-slide-text button {
+.body-slide button {
   z-index: 2;
   left: 2;
   margin-left: auto;
@@ -49,7 +49,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.body-slide-text button:hover {
+.body-slide button:hover {
   background-color: #000;
   color: #fff;
 }/*# sourceMappingURL=Bodyslide.css.map */
