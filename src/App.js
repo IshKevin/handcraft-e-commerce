@@ -19,17 +19,15 @@ const App = () => {
     <Routes>
        <Route path="/" element={<Home />}/>
       <Route index element={<Home />}/>
-      </Route>
       <Route path="VendorDashboard"  element={
     <div className='dash'>
     <VendorSidebar/>
     <Outlet />
       </div>
-    }>
+    }/>
       <Route path="Vender" element={<Vender/>}/>
       <Route index element={<VendorDashboard/>}/>
       <Route path="product" element={<Product/>}/>
-      </Route>
       <Route path="*" element={<h1>404 Not Found</h1>}/>
     </Routes>
     </BrowserRouter>
