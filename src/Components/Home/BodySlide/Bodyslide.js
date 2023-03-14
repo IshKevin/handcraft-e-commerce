@@ -41,7 +41,7 @@ const Bodyslide = () => {
          </div>   
     </SwiperSlide>
     <SwiperSlide className='body-slide'>
-
+      <img src='Home/slide2.jpg'/>
        <div className='body-slide-image'>
         <div className='body-slide-text'>
             <p>Shoe for running  </p> 

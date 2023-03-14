@@ -3,11 +3,12 @@
   }
 
 .body-slide{
-    background-image: bg-image('jordan.jpg');
+    // background-image: bg-image('slide2.jpg');
     background-repeat: no-repeat;
 
-    background-size: 100% 120%;
-    height: 70%;
+    background-size: cover;
+    object-fit: cover;
+    heigth: auto;
     width: 100%;
     position: absolute;
     top: 5;

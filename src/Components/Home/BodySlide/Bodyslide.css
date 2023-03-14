@@ -1,8 +1,9 @@
 .body-slide {
-  background-image: url("/public/Home/jordan.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 120%;
-  height: 70%;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  heigth: auto;
   width: 100%;
   position: absolute;
   top: 5;
