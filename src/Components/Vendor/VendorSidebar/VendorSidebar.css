@@ -17,18 +17,25 @@
    margin-top: -14px;
    padding:0px 15px;
 }
+.sidebar-menu{
+  width: 276px;
+  display: table-column;
+  flex-direction: column;
+  height: fit-content;
+
+}
 .sidebar-menu-single{
-    padding:10px 30px;
+    padding:0px 40px;
     display: flex;
     /* background-color:; */
 }
 .sidebar-menu-text-h1{
     padding:0px 20px;
     margin-top:5px;
-    color:white;
+    color:white
 }
 #icons{
-    color: aliceblue;
+    color: rgb(122, 126, 129);
 }
 /* .sidebar-menu-single :hover{
     background-color: aqua;
