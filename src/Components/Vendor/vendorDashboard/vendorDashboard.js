@@ -54,13 +54,13 @@ const VendorDashboard = () => {
       {
         id: 3,
         content: "Mar",
-        userGain: 5,
+        userGain: 10,
         userLost: 0,
       },
       {
         id: 3,
         content: "Apr",
-        userGain: 5,
+        userGain: 25,
         userLost: 0,
       },
       {
@@ -72,43 +72,43 @@ const VendorDashboard = () => {
       {
         id: 3,
         content: "Jun",
-        userGain: 5,
+        userGain: 15,
         userLost: 0,
       },
       {
         id: 3,
         content: "Jul",
-        userGain: 5,
+        userGain: 45,
         userLost: 0,
       },
       {
         id: 3,
         content: "Aug",
-        userGain: 5,
+        userGain: 32,
         userLost: 0,
       },
       {
         id: 3,
         content: "Sept",
-        userGain: 5,
+        userGain: 34,
         userLost: 0,
       },
       {
         id: 3,
         content: "Oct",
-        userGain: 5,
+        userGain: 60,
         userLost: 0,
       },
       {
         id: 3,
         content: "Nov",
-        userGain: 5,
+        userGain: 23,
         userLost: 0,
       },
       {
         id: 3,
         content: "Dec",
-        userGain: 5,
+        userGain: 30,
         userLost: 0,
       },
       
@@ -121,7 +121,7 @@ const VendorDashboard = () => {
           datasets :[{
               label:"comments",
               data : LData.map((data)=>data.userGain),
-              backgroundColor :["green","brown","teal",],
+              backgroundColor :["green","brown","teal","lightblue","black","blue"],
           },],
           
       });
