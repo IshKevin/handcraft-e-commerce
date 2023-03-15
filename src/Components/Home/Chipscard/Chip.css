@@ -35,4 +35,64 @@
   font-size: 30px;
   background-color: hsla(0, 0%, 39%, 0.644);
   width: 100%;
+}
+
+.chips-card2 {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
+.chip-view1 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(5, 22, 80);
+  color: aliceblue;
+  margin: 20px;
+}
+.chip-view1 h1 {
+  margin-left: 6px;
+}
+.chip-view1 img {
+  height: 90px;
+  width: 60px;
+  left: 0;
+}
+.chip-view1 botton {
+  color: black;
+  background-color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 50%;
+}
+.chip-view1 Link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.chip-view {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(5, 22, 80);
+  color: aliceblue;
+  margin: 20px;
+}
+.chip-view h1 {
+  margin-left: 6px;
+}
+.chip-view img {
+  height: 40px;
+  width: 60px;
+  margin-left: auto;
+  right: 0;
+}
+.chip-view button {
+  color: black;
+  background-color: aliceblue;
+  border: 1px solid aliceblue;
+  width: 50px;
+  border-radius: 50%;
+}
+.chip-view Link {
+  text-decoration: none;
+  cursor: pointer;
 }/*# sourceMappingURL=Chip.css.map */

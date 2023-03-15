@@ -39,3 +39,64 @@
     }
 
 }
+
+.chips-card2{
+    display: flex;
+    flex-direction: row;
+    margin:25px;
+    
+}
+
+.chip-view1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(5, 22, 80);
+    color: aliceblue;
+    margin:20px;
+    h1{
+        margin-left: 6px;
+    }
+    img{
+        height: 90px;
+        width: 60px;
+        left: 0;
+    }
+    botton{
+        color:black;
+        background-color: aliceblue;
+        border: 1px solid aliceblue;
+        border-radius: 50%;
+    }
+    Link{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.chip-view{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(5, 22, 80);
+    color: aliceblue;
+    margin:20px;
+    h1{
+        margin-left: 6px;
+    }
+    img{
+        height: 40px;
+        width: 60px;
+        margin-left:auto;
+        right: 0;
+    }
+    button{
+        color:black;
+        background-color: aliceblue;
+        border: 1px solid aliceblue;
+        width: 50px;
+        border-radius: 50%;
+    }
+    Link{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

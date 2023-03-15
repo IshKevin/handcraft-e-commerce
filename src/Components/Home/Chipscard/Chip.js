@@ -1,5 +1,6 @@
 import React from 'react'
 import './Chip.css'
+import {Link} from 'react-router-dom'
 
 const Chip = () => {
   return (
@@ -24,12 +25,44 @@ const Chip = () => {
     </div>
     <div className='chips-card2'>
       <div className='chips-card3_img'>
-        <div>chip1</div>
-        <div>chip2</div>
+        <div className='chip-view1'>
+          <div>
+            <h1>MEN FASHION</h1>
+            <button> <Link to='#'>view all </Link> </button>
+          </div>
+          <div>
+            <img src={'Home/jordan.jpg'} alt='men shoes' />
+          </div>
+        </div>
+        <div className='chip-view2'>
+          <div>
+            <h1>Tvs</h1>
+            <button> <Link to='#'>view all </Link> </button>
+          </div>
+          <div>
+            <img src='Home/jordan.jpg' alt='men shoes'/>
+          </div>
+        </div>
       </div>
       <div className='chips-card3_img'>
-        <div>chip3</div>
-        <div>chip4</div>
+      <div className='chip-view3'>
+          <div>
+            <h1> ACCESORIES</h1>
+            <button> <Link to='#'>view all </Link> </button>
+          </div>
+          <div>
+            <img src='Home/jordan.jpg' alt='men shoes'/>
+          </div>
+        </div>
+        <div className='chip-view4'>
+          <div>
+            <h1>JAWERY</h1>
+            <button> <Link to='#'>view all </Link> </button>
+          </div>
+          <div>
+            <img src='Home/jordan.jpg' alt='men shoes'/>
+          </div>
+        </div>
       </div>
     </div>
     </>
