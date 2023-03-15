@@ -31,17 +31,19 @@ const Bodyslide = () => {
  className="mySwiper">
     <SwiperSlide className='body-slide'>
 
-       <div className='body-slide-image'>
+       {/* <div className='body-slide-image'>
         <div className='body-slide-text'>
             <p>Shoe for running  </p> 
             <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
             <p>Shop from the comfort of your home</p>
             <button>Shop Now</button>
          </div>
-         </div>   
+         </div>    */}
+
+        <h1>hello swiper1</h1>
     </SwiperSlide>
     <SwiperSlide className='body-slide'>
-      <img src='Home/slide2.jpg'/>
+      {/* <img src='Home/slide2.jpg'/>
        <div className='body-slide-image'>
         <div className='body-slide-text'>
             <p>Shoe for running  </p> 
@@ -49,7 +51,7 @@ const Bodyslide = () => {
             <p>Shop from the comfort of your home</p>
             <button>Shop Now</button>
          </div>
-         </div>   
+         </div>    */}
     </SwiperSlide>
     </Swiper>
   )
