@@ -1,0 +1,38 @@
+.chips-card1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 40px;
+  width: 100%;
+  justify-content: space-around;
+}
+.chips-card1 .chips-card1_img {
+  border: 1px solid #000;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.chips-card1 .chip-text-cont {
+  z-index: 1;
+}
+.chips-card1 .chips-card2_img {
+  border: 1px solid #000;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.chips-card1 img {
+  z-index: 0;
+  height: 250px;
+  width: 350px;
+}
+.chips-card1 span {
+  color: red;
+}
+.chips-card1 p {
+  font-size: 30px;
+  background-color: hsla(0, 0%, 39%, 0.644);
+  width: 100%;
+}/*# sourceMappingURL=Chip.css.map */

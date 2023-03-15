@@ -3,7 +3,7 @@
   background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
-  heigth: auto;
+  heigth: 500px;
   width: 100%;
   position: absolute;
   top: 5;
@@ -18,6 +18,14 @@
   font-size: 1.5rem;
   font-weight: 600;
   text-align: right;
+}
+.body-slide img {
+  z-index: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  margin: 20px;
+  height: 500px;
 }
 .body-slide .body-slide-text {
   margin: 120px 30px;
