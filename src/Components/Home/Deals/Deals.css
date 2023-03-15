@@ -14,7 +14,8 @@
   margin: 15px;
 }
 .deals-sect h1 {
-  color: aqua;
+  color: rgba(56, 122, 219, 0.781);
+  font-size: 3rem;
 }
 .deals-sect span {
   margin: 5px;
