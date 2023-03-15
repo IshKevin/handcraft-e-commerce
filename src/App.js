@@ -12,6 +12,11 @@ import Adminallproducts from './Pages/AdminProducts/Adminallproducts';
 import Adminsellerdetail from './Pages/AdminsellerDetail/Adminsellerdetail';
 import Adminsales from './Pages/AdminSales/Adminsales';
 import AdminLogout from './Pages/Adminlogout/AdminLogout';
+import VendorDashboard from './Components/Vendor/vendorDashboard/vendorDashboard';
+import Sales from './Pages/VendorDashboard/Sales';
+import Order from './Pages/VendorDashboard/Order';
+import Transition from './Pages/VendorDashboard/Transition';
+import Setting from './Pages/VendorDashboard/Setting';
 
 
 const App = () => {
@@ -41,16 +46,23 @@ const App = () => {
           </Route>
 
           <Route
-            path="vendorDashboard"
-            element={
+            path="vendorDashboard" element={
               <div className="dash">
                 <VendorSidebar />
+                {/* <AdminSideBar /> */}
                 <Outlet />
               </div>
             }
           >
-            <Route index element={<vendorDashboard />} />
-            <Route path="Product" element={<Product />} />
+            <Route index element={<VendorDashboard />} />
+            <Route path="Product" element={<Product/>} />
+            <Route path="Sales" element={<Sales/>} />
+            <Route path="Order" element={<Order/>} />
+            <Route path="Transition" element={<Transition/>} />
+            <Route path="Setting" element={<Setting/>} />
+
+
+
           </Route>
           {/* <Route path="dashBoard" element={<DashBoard posts={posts}/>}/>
       <Route path="/:blogId" element={<SinglePost posts={posts}/>}/>
@@ -61,6 +73,7 @@ const App = () => {
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
       </BrowserRouter>
+
     </>
   );
 }
