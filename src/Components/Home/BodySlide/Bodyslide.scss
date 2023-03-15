@@ -3,12 +3,12 @@
   }
 
 .body-slide{
-    background-image: bg-image('slide2.jpg');
+    // background-image: bg-image('slide2.jpg');
     background-repeat: no-repeat;
 
     background-size: cover;
     object-fit: cover;
-    heigth: auto;
+    heigth: 500px;
     width: 100%;
     position: absolute;
     top: 5;
@@ -23,6 +23,13 @@
     font-size: 1.5rem;
     font-weight: 600;
     text-align: right;
+    img{
+        z-index: 0;
+       object-fit: cover;
+        width: 100%;
+        margin: 20px;
+        height: 500px;
+    }
     
     .body-slide-text{
         margin: 120px 30px;
