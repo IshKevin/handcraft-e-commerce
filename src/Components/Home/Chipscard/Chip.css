@@ -40,6 +40,7 @@
 .chips-card2 {
   display: flex;
   flex-direction: row;
+  margin: 25px;
   width: 100%;
   justify-content: space-between;
 }
@@ -83,7 +84,7 @@
   flex-direction: row;
   background-color: rgb(38, 5, 80);
   color: aliceblue;
-  width: 95%;
+  width: 100%;
   justify-content: space-between;
 }
 .chip-view2 h1 {
@@ -116,7 +117,7 @@
   flex-direction: row;
   background-color: rgb(80, 63, 5);
   color: aliceblue;
-  width: 95%;
+  width: 100%;
   justify-content: space-between;
 }
 .chip-view3 h1 {
@@ -149,7 +150,7 @@
   flex-direction: row;
   background-color: rgb(80, 10, 5);
   color: aliceblue;
-  width: 95%;
+  width: 100%;
   justify-content: space-between;
 }
 .chip-view4 h1 {
