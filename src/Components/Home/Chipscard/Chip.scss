@@ -43,7 +43,8 @@
 .chips-card2{
     display: flex;
     flex-direction: row;
-    margin:25px;
+    width: 100%;
+    justify-content: space-between;
     
 }
 
@@ -52,51 +53,132 @@
     flex-direction: row;
     background-color: rgb(5, 22, 80);
     color: aliceblue;
-    margin:20px;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-between;
     h1{
-        margin-left: 6px;
+        margin-left: 43px;
     }
     img{
-        height: 90px;
+        height: 50px;
         width: 60px;
-        left: 0;
-    }
-    botton{
-        color:black;
-        background-color: aliceblue;
-        border: 1px solid aliceblue;
-        border-radius: 50%;
-    }
-    Link{
-        text-decoration: none;
-        cursor: pointer;
-    }
-}
-
-.chip-view{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(5, 22, 80);
-    color: aliceblue;
-    margin:20px;
-    h1{
-        margin-left: 6px;
-    }
-    img{
-        height: 40px;
-        width: 60px;
-        margin-left:auto;
+        margin-right:auto;
         right: 0;
     }
     button{
         color:black;
+        text-decoration:none;
         background-color: aliceblue;
         border: 1px solid aliceblue;
-        width: 50px;
-        border-radius: 50%;
+        width: 150px;
+        border-radius: 50px;
+        margin-left: 40px;
     }
     Link{
         text-decoration: none;
+        color: rgb(0, 0, 0);
         cursor: pointer;
+        margin-left: 40px;
     }
 }
+
+.chip-view2{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(38, 5, 80);
+    color: aliceblue;
+    width: 95%;
+    justify-content: space-between;
+    h1{
+        margin-left: 43px;
+    }
+    img{
+        height: 50px;
+        width: 60px;
+        margin-right:auto;
+        right: 0;
+    }
+    button{
+        color:black;
+        text-decoration:none;
+        background-color: aliceblue;
+        border: 1px solid aliceblue;
+        width: 150px;
+        border-radius: 50px;
+        margin-left: 40px;
+    }
+    Link{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        margin-left: 40px;
+    }
+}
+
+.chip-view3{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(80, 63, 5);
+    color: aliceblue;
+    width: 95%;
+    justify-content: space-between;
+    h1{
+        margin-left: 43px;
+    }
+    img{
+        height: 50px;
+        width: 60px;
+        margin-right:auto;
+        right: 0;
+    }
+    button{
+        color:black;
+        text-decoration:none;
+        background-color: aliceblue;
+        border: 1px solid aliceblue;
+        width: 150px;
+        border-radius: 50px;
+        margin-left: 40px;
+    }
+    Link{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        margin-left: 40px;
+    }
+}
+
+
+.chip-view4{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(80, 10, 5);
+    color: aliceblue;
+    width: 95%;
+    justify-content: space-between;
+    h1{
+        margin-left: 43px;
+    }
+    img{
+        height: 50px;
+        width: 60px;
+        margin-right:auto;
+        right: 0;
+    }
+    button{
+        color:black;
+        text-decoration:none;
+        background-color: aliceblue;
+        border: 1px solid aliceblue;
+        width: 150px;
+        border-radius: 50px;
+        margin-left: 40px;
+    }
+    Link{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        margin-left: 40px;
+    }
+}
+
