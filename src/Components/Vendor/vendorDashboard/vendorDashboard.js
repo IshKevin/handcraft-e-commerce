@@ -152,14 +152,93 @@ const VendorDashboard = () => {
         </div>
         <div className='main-dash'>
           <div className='card' id="card">
+
           <h1>Earnings</h1>
-          <Pie data={useData} className="pie"/>
+          <div className="pie">
+          <Pie data={useData} />
           </div>
-          <div className='card'> hey there</div>
+          </div>
+          <div className='card'>
+           <div className='statics'> 
+            <h1>Orders</h1>
+            <p>280</p>
+           </div>
+           <div className='statics'>
+           <h1>Tax</h1>
+            <p>280</p>
+           </div>
+           <div className='statics'>
+           <h1>Earning</h1>
+            <p>280</p>
+           </div>
+
+
+
+          </div>
+
           <div className='card' id='box3'>
+            <h1>Sales</h1>
+            <div className='bar-chart'>
             <Bar data={userData}/>
+            </div>
           </div>
-          <div className='card' id='box4'> hey there</div>
+
+
+          <div className='card' id='box4'>
+          <h1>Recent Purchase</h1>
+          <table className='table'>
+            <tr>
+              <th><input type="checkbox" name="select"/> </th>
+            <th>ID</th> <th>Date</th>
+            <th>Product</th><th>Payment</th>
+            <th>Fulfillment</th><th>total</th>
+           </tr>
+           <tr>
+           <th><input type="checkbox" name="select"/> </th>
+            <td>001</td> <td>1/jan/2023</td> <td>dress</td> <td>pending</td> <td>delivered</td> <td>10,000</td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="select"/> </th>
+            <td>001</td> <td>1/jan/2023</td> <td>dress</td> <td>pending</td> <td>delivered</td> <td>10,000</td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="select"/> </th>
+            <td>001</td> <td>1/jan/2023</td> <td>dress</td> <td>pending</td> <td>delivered</td> <td>10,000</td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="select"/> </th>
+            <td>001</td> <td>1/jan/2023</td> <td>dress</td> <td>pending</td> <td>delivered</td> <td>10,000</td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="select"/> </th>
+            <td>001</td> <td>1/jan/2023</td> <td>dress</td> <td>pending</td> <td>delivered</td> <td>10,000</td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="select"/> </th>
+            <td>001</td> <td>1/jan/2023</td> <td>dress</td> <td>pending</td> <td>delivered</td> <td>10,000</td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="select"/> </th>
+            <td>001</td> <td>1/jan/2023</td> <td>dress</td> <td>pending</td> <td>delivered</td> <td>10,000</td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="select"/> </th>
+            <td>001</td> <td>1/jan/2023</td> <td>dress</td> <td>pending</td> <td>delivered</td> <td>10,000</td>
+            </tr>
+            <tr>
+            <th><input type="checkbox" name="select"/> </th>
+            <td>001</td> <td>1/jan/2023</td> <td>dress</td> <td>pending</td> <td>delivered</td> <td>10,000</td>
+            </tr>
+
+
+
+
+
+
+
+          </table>
+
+          </div>
 
         </div>
         

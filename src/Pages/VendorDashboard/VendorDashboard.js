@@ -9,7 +9,6 @@
 const vendorDashboard = () => {
   return (
     <>
-       {/* <VendorSidebar/> */}
       <VendorDashboard/>
       
     </>

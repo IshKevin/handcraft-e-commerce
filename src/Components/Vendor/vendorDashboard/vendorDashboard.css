@@ -27,7 +27,7 @@
 }
 .main-dash{
   
-    background-color: aqua;
+    /* background-color: aqua; */
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -35,31 +35,69 @@
     padding:70px 10px;
 }
 .card{
-    background-color: antiquewhite;
+    background-color:white;
     height:400px;
     width:500px;
+    border-radius:5px;
     margin-bottom: 70px;
-    /* transform: scale(1.05); */
-    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
   
   
+  
+  }
+  .card :hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
   }
 
 #box3{
     height:400px;
     width:1025px; 
+    display: flex;
+    border-radius:5px;
 }
 #box4{
-    height:400px;
+    height:500px;
     width:1025px; 
+    border-radius:5px;
 }
 .card h1{
  padding: 0px 10px;
 }
 .pie{
- height:50px;
- width:50px;
+ height:300px;
+ width:300px;
+ padding:20px 0px;
 }
 #card{
     display: flex;
+}
+.bar-chart{
+ width:700px;
+ height:700px;
+ padding:20px 40px;
+}
+.table{
+   padding:10px 30px;
+   border: 3px black;
+}
+.table th{
+    padding:5px 40px;
+
+}
+.table td{
+    padding:5px 40px;
+}
+.statics{
+    border-bottom:3px black;
+    border-style:groove;
+    padding:17px 0px;
+}
+.statics h1{
+    margin-left:200px;
+}
+.statics p{
+    margin-left:210px;
+}
+.main-content{
+    background-color: #bec5d4;
 }
