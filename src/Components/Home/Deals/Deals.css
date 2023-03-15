@@ -1,1 +1,21 @@
-/*# sourceMappingURL=Deals.css.map */
+.deals-sect {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.deals-sect div {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+.deals-sect h1 {
+  color: aqua;
+}
+.deals-sect span {
+  margin: 5px;
+}/*# sourceMappingURL=Deals.css.map */

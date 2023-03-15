@@ -1,5 +1,5 @@
 import React from 'react'
-import './Deals.scss'
+import './Deals.css'
 const Deals = () => {
   return (
     <div>
@@ -22,12 +22,13 @@ const Deals = () => {
           <b>Money Back Graunte</b><br/>
           Any back in 30 days</p></span>
           </div>
-        </div>
+        
         <div>
          <span> <h1>icon</h1></span>
           <span><p>
           <b>Customer support</b><br/>
           call or email us 24/7</p></span>
+          </div>
           </div>
     </div>
   )
