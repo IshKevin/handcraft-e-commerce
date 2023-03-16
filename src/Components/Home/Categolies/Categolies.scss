@@ -1,0 +1,78 @@
+.catego-sect1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+    Link{
+        text-decoration: none;
+        color: #000;
+        cursor: pointer;
+    }
+    h1{
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      font-size: 40px;
+    }
+    .catego-sect1_img{
+      display:flex;
+      justify-content: space-around;
+
+    }
+}
+
+
+.catego-image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .catego-image-container img {
+    display: block;
+    max-width: 100%;
+    width: 150px;
+    height: 180px;
+  }
+  
+  .catego-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .catog-text-overlay h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .catego-image-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(110, 110, 110, 0.26);
+    z-index: 1;
+  }
+  
+  .catego-image-container:hover:before {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .catego-image-container:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    // background-image: url('/public/Home/sport.jpg');
+    background-size: cover;
+    opacity: 0.5;
+  }
+  
