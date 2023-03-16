@@ -70,4 +70,31 @@
   z-index: 2;
   background-size: cover;
   opacity: 0.5;
+}
+
+.catego-sect3 {
+  display: grid;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.catego-sect3 .catego-sect3-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.catego-sect3 .catego-sect3-img {
+  display: grid;
+}
+.catego-sect3 .catego-sect3-img .catego-sect3-img1 {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.catego-sect3 .catego-sect3-img .catego-sect3-img2 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: space-between;
 }/*# sourceMappingURL=Categolies.css.map */
