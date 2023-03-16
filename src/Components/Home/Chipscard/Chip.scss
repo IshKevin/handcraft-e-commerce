@@ -43,9 +43,8 @@
 .chips-card2{
     display: flex;
     flex-direction: row;
-    margin:25px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
@@ -54,8 +53,9 @@
     flex-direction: row;
     background-color: rgb(5, 22, 80);
     color: aliceblue;
-    width: 100%;
+    width: 610px;
     margin-top: 30px;
+    margin-bottom: 30px;
     justify-content: space-between;
     h1{
         margin-left: 43px;
@@ -88,7 +88,7 @@
     flex-direction: row;
     background-color: rgb(38, 5, 80);
     color: aliceblue;
-    width: 100%;
+    width: 610px;
     justify-content: space-between;
     h1{
         margin-left: 43px;
@@ -121,7 +121,9 @@
     flex-direction: row;
     background-color: rgb(80, 63, 5);
     color: aliceblue;
-    width: 100%;
+    width: 610px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     justify-content: space-between;
     h1{
         margin-left: 43px;
@@ -155,7 +157,8 @@
     flex-direction: row;
     background-color: rgb(80, 10, 5);
     color: aliceblue;
-    width: 100%;
+    width: 610px;
+
     justify-content: space-between;
     h1{
         margin-left: 43px;
