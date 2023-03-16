@@ -11,7 +11,7 @@ const Categolies = () => {
         <div class="catego-image-container">
           <img src="Home/sport.jpg" alt="Your Image"/>
           <div class="catego-text-overlay">
-            <h2>sport clothers</h2>
+            <h2>clothers</h2>
             <p><Link to='#'>Shop Now</Link></p>
             </div>
             </div>
