@@ -1,6 +1,6 @@
 .product-disp-card {
   width: 300px;
-  height: 150px;
+  height: 275px;
 }
 .product-disp-card img {
   width: 100%;
@@ -8,5 +8,6 @@
 }
 .product-disp-card .product-disp-card-text {
   text-align: center;
+  color: black;
   background-color: #a7a7a7;
 }/*# sourceMappingURL=Productdisplay.css.map */
