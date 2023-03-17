@@ -1,5 +1,6 @@
 .Home-header{
     width: 100%;
+    display: inline;
     border: 1px solid #e6e6e6;
     height: 50px;
     background-color: #e6e6e6;
