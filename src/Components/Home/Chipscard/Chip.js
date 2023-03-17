@@ -6,15 +6,6 @@ const Chip = () => {
   return (
     <>
     <div className='chips-card1'>
-      {/* <div className='chips-card1_img'>
-        <img src='Home/sport.jpg' alt='sport'/>
-        <div className='chip-text-cont'>
-        <p>Get up to <span>20 % OFF</span><br/>
-        SPORT OUTFIT COLLECTION <br/>
-        COLLECTION<br/>
-        <small> starting at <span>17 000Rwf</span></small></p>
-        </div>
-      </div> */}
       <div class="image-container">
        <img src="Home/sport.jpg" alt="sport"/>
        <div class="text-overlay">
@@ -27,11 +18,6 @@ const Chip = () => {
 
 
       <div className='chips-card2_img'>
-        {/* <img src='Home/liquer.jpg' alt='sport'/>
-        <p>New arrivals <span>50 % OFF</span><br/>
-        ACCESSORIES COLLLECTION <br/>
-        COLLECTION<br/>
-        <small> only from <span>45000 Rwf</span></small></p> */}
         <div class="image-container">
        <img src="Home/liquer.jpg" alt="liquer"/>
        <div class="text-overlay">
