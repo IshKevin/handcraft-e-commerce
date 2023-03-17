@@ -13,7 +13,7 @@ const Bodyslide = () => {
   return (
 
  <Swiper 
- spaceBetween={99930}
+ spaceBetween={30}
  centeredSlides={true}
  autoplay={{
    delay: 2500,
@@ -35,32 +35,62 @@ const Bodyslide = () => {
       <button> <Link to='/Shop'>Shop Now</Link></button>
     </div>
     </div>
-        {/* 
-        <div className='body-slide-image'>
-        <div className='body-slide-text'>
-            <p>Shoe for running  </p> 
-            <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
-            <p>Shop from the comfort of your home</p>
-            <button>Shop Now</button>
-         </div>
-         </div>     */}
-         
-    </SwiperSlide>
-    {/* <SwiperSlide className='body-slide'>
-         slide2
     </SwiperSlide>
     <SwiperSlide className='body-slide'>
-      slide3
+    <div className='slide-image'>
+    <img src='Slide/slide2.jpg' />
+    <div class="text-overlay">
+    <p>Shoe for running  </p> 
+    <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
+    <p>Shop from the comfort of your home</p>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
+    </div>
+    </div>
     </SwiperSlide>
     <SwiperSlide className='body-slide'>
-      slide4
+    <div className='slide-image'>
+    <img src='Slide/slide3.jpg' />
+    <div class="text-overlay">
+    <p>Shoe for running  </p> 
+    <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
+    <p>Shop from the comfort of your home</p>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
+    </div>
+    </div>
     </SwiperSlide>
     <SwiperSlide className='body-slide'>
-      slide5
+    <div className='slide-image'>
+    <img src='Slide/slide4.jpg' />
+    <div class="text-overlay">
+    <p>Shoe for running  </p> 
+    <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
+    <p>Shop from the comfort of your home</p>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
+    </div>
+    </div>
     </SwiperSlide>
     <SwiperSlide className='body-slide'>
-      slide6
-    </SwiperSlide> */}
+    <div className='slide-image'>
+    <img src='Slide/slide5.jpg' />
+    <div class="text-overlay">
+    <p>Shoe for running  </p> 
+    <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
+    <p>Shop from the comfort of your home</p>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
+    </div>
+    </div>
+    </SwiperSlide>
+    <SwiperSlide className='body-slide'>
+    <div className='slide-image'>
+    <img src='Slide/slide6.jpg' />
+    <div class="text-overlay">
+    <p>Shoe for running  </p> 
+    <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
+    <p>Shop from the comfort of your home</p>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
+    </div>
+    </div>
+    </SwiperSlide>
     </Swiper>
   )
 }
