@@ -10,37 +10,37 @@ const Product = () => {
     <div className='product-disp-card'>left appear card</div>
     <div className='product-disp-list'>
     <ProductDisplay
-        imageUrl="Home/sport.jpg"
+        imageUrl="clothers/clo1.jpg"
         name="Product 1"
         rating={5}
         price="$19.99"
       />
       <ProductDisplay
-        imageUrl="Home/sport.jpg"
+        imageUrl="clothers/clo2.jpg"
         name="Product 1"
         rating={5}
         price="$19.99"
       />
       <ProductDisplay
-        imageUrl="Home/sport.jpg"
+        imageUrl="clothers/clo3.jpg"
         name="Product 1"
         rating={5}
         price="$19.99"
       />
       <ProductDisplay
-        imageUrl="Home/sport.jpg"
+        imageUrl="clothers/clo4.jpeg"
         name="Product 1"
         rating={5}
         price="$19.99"
       />
       <ProductDisplay
-        imageUrl="Home/sport.jpg"
+        imageUrl="clothers/clo5.jpg"
         name="Product 1"
         rating={5}
         price="$19.99"
       />
       <ProductDisplay
-        imageUrl="Home/sport.jpg"
+        imageUrl="clothers/clo6.jpg"
         name="Product 1"
         rating={5}
         price="$19.99"

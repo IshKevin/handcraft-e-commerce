@@ -91,6 +91,11 @@
   justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.catego-sect3 .catego-sect3-header h1 {
+  font-size: 40px;
 }
 .catego-sect3 .catego-sect3-img {
   display: flex;
