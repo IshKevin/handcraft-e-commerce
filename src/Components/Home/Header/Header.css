@@ -1,0 +1,30 @@
+.Home-header {
+  background-color: gray;
+  height: auto;
+}
+.Home-header .header-sect1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Home-header .header-sect1 .header-sect1-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Home-header .header-sect1 .header-sect1-left div {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Home-header .header-sect1 .header-sect1-left .header-link {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.Home-header .header-sect1 .header-sect1-left .header-link :hover {
+  color: #fff;
+}/*# sourceMappingURL=Header.css.map */
