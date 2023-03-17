@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { Link } from 'react-router-dom';
 
 
 const Bodyslide = () => {
@@ -31,9 +32,8 @@ const Bodyslide = () => {
     <p>Shoe for running  </p> 
     <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
     <p>Shop from the comfort of your home</p>
-      <button>Shop Now</button>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
     </div>
-
     </div>
         {/* 
         <div className='body-slide-image'>
