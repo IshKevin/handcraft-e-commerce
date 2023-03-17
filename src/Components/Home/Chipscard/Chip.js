@@ -51,7 +51,7 @@ const Chip = () => {
             <button> <Link to='#'>view all </Link> </button>
           </div>
           <div>
-            <img src={'Home/jordan.jpg'} alt='men shoes' />
+            <img src={'Home/menfash.jpeg'} alt='men shoes' />
           </div>
         </div>
         <div className='chip-view2'>
@@ -60,7 +60,7 @@ const Chip = () => {
             <button> <Link to='#'>view all </Link> </button>
           </div>
           <div>
-            <img src='Home/jordan.jpg' alt='men shoes'/>
+            <img src='Home/tvs.jpg' alt='men shoes'/>
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@ const Chip = () => {
             <button> <Link to='#'>view all </Link> </button>
           </div>
           <div>
-            <img src='Home/jordan.jpg' alt='men shoes'/>
+            <img src='Home/access.jpg' alt='men shoes'/>
           </div>
         </div>
         <div className='chip-view4'>
@@ -80,7 +80,7 @@ const Chip = () => {
             <button> <Link to='#'>view all </Link> </button>
           </div>
           <div>
-            <img src='Home/jordan.jpg' alt='men shoes'/>
+            <img src='Home/jawe.jpeg' alt='men shoes'/>
           </div>
         </div>
       </div>
