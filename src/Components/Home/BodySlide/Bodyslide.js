@@ -1,23 +1,19 @@
 
 import './Bodyslide.css'
 import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
-
-
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { Link } from 'react-router-dom';
+
+
 const Bodyslide = () => {
   return (
 
  <Swiper 
- spaceBetween={130}
+ spaceBetween={30}
  centeredSlides={true}
  autoplay={{
    delay: 2500,
@@ -30,26 +26,70 @@ const Bodyslide = () => {
  modules={[Autoplay, Pagination, Navigation]}
  className="mySwiper">
     <SwiperSlide className='body-slide'>
-        <img src='Home/slide2.jpg' height={'300px'} width={'300px'}/>
-        <div className='body-slide-image'>
-        <div className='body-slide-text'>
-            <p>Shoe for running  </p> 
-            <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
-            <p>Shop from the comfort of your home</p>
-            <button>Shop Now</button>
-         </div>
-         </div>    
+       <div className='slide-image'>
+    <img src='Slide/slide1.webp' />
+    <div class="text-overlay">
+    <p>Shoe for running  </p> 
+    <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
+    <p>Shop from the comfort of your home</p>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
+    </div>
+    </div>
     </SwiperSlide>
     <SwiperSlide className='body-slide'>
-      {/* <img src='Home/slide2.jpg'/>
-       <div className='body-slide-image'>
-        <div className='body-slide-text'>
-            <p>Shoe for running  </p> 
-            <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
-            <p>Shop from the comfort of your home</p>
-            <button>Shop Now</button>
-         </div>
-         </div>    */}
+    <div className='slide-image'>
+    <img src='Slide/slide2.jpg' />
+    <div class="text-overlay">
+    <p>Shoe for running  </p> 
+    <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
+    <p>Shop from the comfort of your home</p>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
+    </div>
+    </div>
+    </SwiperSlide>
+    <SwiperSlide className='body-slide'>
+    <div className='slide-image'>
+    <img src='Slide/slide3.jpg' />
+    <div class="text-overlay">
+    <p>Shoe for running  </p> 
+    <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
+    <p>Shop from the comfort of your home</p>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
+    </div>
+    </div>
+    </SwiperSlide>
+    <SwiperSlide className='body-slide'>
+    <div className='slide-image'>
+    <img src='Slide/slide4.jpg' />
+    <div class="text-overlay">
+    <p>Shoe for running  </p> 
+    <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
+    <p>Shop from the comfort of your home</p>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
+    </div>
+    </div>
+    </SwiperSlide>
+    <SwiperSlide className='body-slide'>
+    <div className='slide-image'>
+    <img src='Slide/slide5.jpg' />
+    <div class="text-overlay">
+    <p>Shoe for running  </p> 
+    <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
+    <p>Shop from the comfort of your home</p>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
+    </div>
+    </div>
+    </SwiperSlide>
+    <SwiperSlide className='body-slide'>
+    <div className='slide-image'>
+    <img src='Slide/slide6.jpg' />
+    <div class="text-overlay">
+    <p>Shoe for running  </p> 
+    <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
+    <p>Shop from the comfort of your home</p>
+      <button> <Link to='/Shop'>Shop Now</Link></button>
+    </div>
+    </div>
     </SwiperSlide>
     </Swiper>
   )

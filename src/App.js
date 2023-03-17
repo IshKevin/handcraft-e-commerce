@@ -17,6 +17,7 @@ import Sales from './Pages/VendorDashboard/Sales';
 import Order from './Pages/VendorDashboard/Order';
 import Transition from './Pages/VendorDashboard/Transition';
 import Setting from './Pages/VendorDashboard/Setting';
+import Shop from './Pages/Shop';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}/>
+          <Route path="Shop" element={<Shop/>}/>
           <Route path="Vender" element={<Vender/>}/>
           <Route index element={<Home />} />
           <Route />
