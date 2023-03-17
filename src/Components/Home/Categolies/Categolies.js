@@ -10,37 +10,35 @@ const Categolies = () => {
       <div className='catego-sect1_img'>
         <div>
         <div class="catego-image-container">
-          <img src="Home/sport.jpg" alt="Your Image"/>
+          <img src="Home/fashion2.jpg" alt="Your Image"/>
           <div class="catego-text-overlay">
-            <h2>clothers</h2>
-            <p><Link to='#'>Shop Now</Link></p>
+            <h2>IGITENGE FASHION</h2>
+            
             </div>
             </div>
         </div>
         <div>
         <div class="catego-image-container">
-          <img src="Home/sport.jpg" alt="Your Image"/>
+          <img src="Home/comp.jpg" alt="Your Image"/>
           <div class="catego-text-overlay">
-            <h2>sport clothers</h2>
-            <p><Link to='#'>Shop Now</Link></p>
+            <h2>GAMING COMPUTER</h2>
             </div>
             </div>
         </div>
         <div>
         <div class="catego-image-container">
-          <img src="Home/sport.jpg" alt="Your Image"/>
+          <img src="Home/workshoe.jpeg" alt="Your I"/>
           <div class="catego-text-overlay">
-            <h2>sport clothers</h2>
-            <p><Link to='#'>Shop Now</Link></p>
+            <h2>WOMEN FASHION</h2>
             </div>
             </div>
         </div>
         <div>
         <div class="catego-image-container">
-          <img src="Home/sport.jpg" alt="Your Image"/>
+          <img src="Home/Fresh-Cream.png" alt="Your Image"/>
           <div class="catego-text-overlay">
-            <h2>sport clothers</h2>
-            <p><Link to='#'>Shop Now</Link></p>
+            <h2>INYANGE PRODUCTS</h2>
+            
             </div>
             </div>
         </div>
