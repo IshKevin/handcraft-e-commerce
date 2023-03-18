@@ -17,7 +17,7 @@ import Sales from './Pages/VendorDashboard/Sales';
 import Order from './Pages/VendorDashboard/Order';
 import Transition from './Pages/VendorDashboard/Transition';
 import Setting from './Pages/VendorDashboard/Setting';
-import Shop from './Pages/Shop';
+import Shop from './Pages/Shop/Shop';
 
 
 const App = () => {
