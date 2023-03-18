@@ -5,6 +5,7 @@ import Footer from '../../Components/Home/Footer/Footer'
 import ShopLeft from '../../Components/Shop/ShopLeft/ShopLeft'
 import Shopdata from '../../Components/Shop/Shopdata/Shopdata'
 
+
 const Shop = () => {
   return (
     <div>
