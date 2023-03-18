@@ -38,5 +38,32 @@
   border: 1px solid #adabab;
   border-radius: 50px;
   font-size: 23px;
-  margin-left: 10px;
+  width: 150px;
+  cursor: pointer;
+}
+.site-footer .footer-down_sec {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 23px;
+}
+.site-footer .footer-down_sec .footer-flag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  row-gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.site-footer .footer-down_sec .footer-flag img {
+  width: 50px;
+  height: 50px;
+}
+.site-footer .footer-down_sec .footer-flag .footer-closing {
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=Footer.css.map */
