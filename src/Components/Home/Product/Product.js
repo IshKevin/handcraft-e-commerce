@@ -11,39 +11,39 @@ const Product = () => {
     <div className='product-disp-list'>
     <ProductDisplay
         imageUrl="clothers/clo1.jpg"
-        name="Product 1"
-        rating={5}
-        price="$19.99"
+        name="Suit"
+        rating={2}
+        price="19990 Rwf"
       />
       <ProductDisplay
         imageUrl="clothers/clo2.jpg"
-        name="Product 1"
+        name="JUmper"
         rating={5}
-        price="$19.99"
+        price="28000 Rwf"
       />
       <ProductDisplay
         imageUrl="clothers/clo3.jpg"
-        name="Product 1"
-        rating={5}
-        price="$19.99"
+        name="Sandal"
+        rating={3}
+        price="10000 Rwf"
       />
       <ProductDisplay
         imageUrl="clothers/clo4.jpeg"
-        name="Product 1"
-        rating={5}
-        price="$19.99"
+        name="Hand bag"
+        rating={4}
+        price="35000 Rwf"
       />
       <ProductDisplay
         imageUrl="clothers/clo5.jpg"
-        name="Product 1"
+        name="Men shoe"
         rating={5}
-        price="$19.99"
+        price="9000 Rwf"
       />
       <ProductDisplay
         imageUrl="clothers/clo6.jpg"
-        name="Product 1"
-        rating={5}
-        price="$19.99"
+        name="MAdein Sandal"
+        rating={3}
+        price="19000 Rwf"
       />
       </div>
     </div>

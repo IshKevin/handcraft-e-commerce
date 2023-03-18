@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import {RxAvatar} from 'react-icons/rx'
 import './Header.css'
 
+
 const Header = () => {
   return (
     <section className='Home-header'>

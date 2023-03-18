@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         <div className="col-xs-6 col-md-3">
-          <h1>Categories</h1>
+          <h6>Categories</h6>
           <ul className="footer-links">
             <li><a href="#">Women</a></li>
             <li><a href="#">Men</a></li>
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
 
         <div className="col-xs-6 col-md-3">
-          <h1>Quick Links</h1>
+          <h6>Quick Links</h6>
           <ul className="footer-links">
             <li><a href="#">About Us</a></li>
             <li><a href="#">Contact Us</a></li>
@@ -41,8 +41,8 @@ const Footer = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-8 col-sm-6 col-xs-12">
-          <p className="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-       <a href="#">Scanfcode</a>.
+          <p className="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+       <a href="#">KLab</a>.
           </p>
         </div>
 

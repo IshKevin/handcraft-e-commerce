@@ -1,44 +1,17 @@
 .chips-card1{
     display: flex;
-    flex-direction: row;
-    margin-left: 10px;
-    margin-right: 40px;
     width: 100%;
     justify-content: space-around;
-
-    // .chips-card1_img{
-    //     border: 1px solid #000;
-    //     width: 45%;
-    //     height: 100%;
-    //     display: flex;
-    //     flex-direction: row;
-    // }
-    // .chip-text-cont{
-    //     z-index: 1;
-    // }
-    .chips-card2_img{
-        border: 1px solid #000;
-        width: 45%;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-    }
-
+    gap: 10px;
     span{
         color: red;
     }
-    // p{
-    //     // font-size: 30px;
-    //     width: 100%;
-    // }
 
 }
 
 .image-container {
     position: relative;
     display: inline-block;
-    // width: auto;
-    // height: auto;
   }
   
   .image-container img {

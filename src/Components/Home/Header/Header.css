@@ -1,36 +1,30 @@
-.Home-header{
-    width: 100%;
-    display: inline;
-    border: 1px solid #e6e6e6;
-    height: 50px;
-    background-color: #e6e6e6;
-    color: #000;
-    
+.Home-header {
+  background-color: gray;
+  height: auto;
 }
-
-.header-sect1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
-   
+.Home-header .header-sect1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-.header-sect1-left{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 10px;
-    
+.Home-header .header-sect1 .header-sect1-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
-.Header-icon{
-    font-size: 20px;
-    margin-right: 8px;
+.Home-header .header-sect1 .header-sect1-left div {
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
-.header-link{
-    text-decoration: none;
-    color: #000;
+.Home-header .header-sect1 .header-sect1-left .header-link {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
 }
+.Home-header .header-sect1 .header-sect1-left .header-link :hover {
+  color: #fff;
+}/*# sourceMappingURL=Header.css.map */
