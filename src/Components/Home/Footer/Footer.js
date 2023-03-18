@@ -32,15 +32,15 @@ const Footer = () => {
         or call us on (+1) 96 716 6879
        </p>
        <div classNmae='footer-icons'>
-        <AiFillFacebook/>
-        <AiFillTwitterCircle/>
-        <AiFillInstagram/>
+        <div><AiFillFacebook/></div>
+        <div><AiFillTwitterCircle/></div>
+        <div><AiFillInstagram/></div>
        </div>
    </div>
    <div className='footer-top_sec1 '>
        <h1>NEWS</h1>
         <p>
-          <input type='text' placeholder='email@ex.co'/>
+          <input type='text' placeholder='email@ex.co'/><br/>
           <button>Subscribe</button>
         </p>
    </div>
