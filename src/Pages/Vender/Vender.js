@@ -11,8 +11,8 @@ const Vender = () => {
       <Header/>
       <SubHeader />
       <div className='vender-body-style'>
-      <div><CategoliesNav/></div>
-      <div><VenderBody/></div>
+      <div className='vender-cat1'><CategoliesNav/></div>
+      <div className='vender-cat2'><VenderBody/></div>
       </div>
       <Footer/>
     </div>
