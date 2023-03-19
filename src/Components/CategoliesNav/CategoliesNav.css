@@ -1,3 +1,12 @@
 .categolies-nav {
   margin-left: 5px;
+}
+.categolies-nav ul {
+  font-size: 23px;
+  margin-left: 5px;
+  font-weight: 20;
+  cursor: pointer;
+}
+.categolies-nav ul :hover {
+  color: #ff0000;
 }/*# sourceMappingURL=CategoliesNav.css.map */
