@@ -12,7 +12,10 @@ const Shop = () => {
       <Header/>
       <SubHeader/>
       <div className="shop-container">
-        <Shopdata/>
+       <div>
+        
+        </div> 
+        <div><Shopdata/></div>
       </div>
       <Footer/>
       </div>
