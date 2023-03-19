@@ -1,1 +1,8 @@
-/*# sourceMappingURL=Shopdata.css.map */
+.shopdata {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.shopdata div {
+  flex-basis: 33.33%;
+}/*# sourceMappingURL=Shopdata.css.map */

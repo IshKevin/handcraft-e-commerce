@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css';
 import { BrowserRouter, Routes, Route, Outlet }  from 'react-router-dom';
-import Vender from './Pages/Vender';
 import Home  from './Pages/Home'
 import AdminDashboard from './Pages/AdminDashboard/AdminDashboard';
 import AdminUsers from './Pages/AdminUsers/AdminUsers';
@@ -18,6 +17,7 @@ import Order from './Pages/VendorDashboard/Order';
 import Transition from './Pages/VendorDashboard/Transition';
 import Setting from './Pages/VendorDashboard/Setting';
 import Shop from './Pages/Shop/Shop';
+import Vender from './Pages/Vender/Vender'
 
 
 const App = () => {
@@ -66,12 +66,6 @@ const App = () => {
 
 
           </Route>
-          {/* <Route path="dashBoard" element={<DashBoard posts={posts}/>}/>
-      <Route path="/:blogId" element={<SinglePost posts={posts}/>}/>
-      <Route path="Manage" element={<Manage posts={posts}/>}/>
-      <Route path="Newpost" element={<Newpost posts={posts}/>}/>
-      <Route path="dash2disp" element={<Dash2disp posts={posts}/>}/>
-      <Route path="Dashhome" element={<Dashhome/>}/> */}
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
       </BrowserRouter>

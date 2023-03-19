@@ -1,16 +1,16 @@
-.shop-container {
+.vender-body-style {
   display: flex;
   flex-direction: row;
   margin: 10px;
   gap: 5px;
 }
 
-.shop-cat1 {
+.vender-cat1 {
   flex-basis: 30%;
   flex-grow: 0;
 }
 
-.shop-cat2 {
+.vender-cat2 {
   flex-basis: 70%;
   flex-grow: 1;
-}/*# sourceMappingURL=Shop.css.map */
+}/*# sourceMappingURL=Vender.css.map */
