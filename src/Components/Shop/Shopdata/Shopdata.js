@@ -1,21 +1,81 @@
 import React from 'react'
 import './Shopdata.css'
+import ProductDisplay from '../../OneProduct/ProductDisplay'
 
 
 const Shopdata = () => {
   return (
     <div className='shopdata'>
       <div>
-        
+      <ProductDisplay
+        imageUrl="/Shop/shop1.jpeg"
+        name="MAdein Sandal"
+        rating={5}
+        price="19000 Rwf"
+      />
       </div>
-      <div>p2</div>
-      <div>p3</div>
-      <div>p4</div>
-      <div>p5</div>
-      <div>p6</div>
-      <div>p7</div>
-      <div>p8</div>
-      <div>p9</div>  
+      <div>
+      <ProductDisplay
+        imageUrl="/Shop/shop2.jpeg"
+        name="MAdein Sandal"
+        rating={5}
+        price="19000 Rwf"
+      />
+      </div>
+      <div>
+      <ProductDisplay
+        imageUrl="/Shop/shop3.jpeg"
+        name="MAdein Sandal"
+        rating={5}
+        price="19000 Rwf"
+      />
+      </div>
+      <div><ProductDisplay
+        imageUrl="/Shop/shop4.jpeg"
+        name="MAdein Sandal"
+        rating={5}
+        price="19000 Rwf"
+      /></div>
+      <div>
+      <ProductDisplay
+        imageUrl="/Shop/shop5.jpeg"
+        name="MAdein Sandal"
+        rating={5}
+        price="19000 Rwf"
+      />
+      </div>
+      <div>
+      <ProductDisplay
+        imageUrl="/Shop/shop6.jpeg"
+        name="MAdein Sandal"
+        rating={5}
+        price="19000 Rwf"
+      />
+      </div>
+      <div>
+      <ProductDisplay
+        imageUrl="/Shop/shop7.jpeg"
+        name="MAdein Sandal"
+        rating={5}
+        price="19000 Rwf"
+      />
+      </div>
+      <div>
+      <ProductDisplay
+        imageUrl="/Shop/shop8.jpeg"
+        name="MAdein Sandal"
+        rating={5}
+        price="19000 Rwf"
+      />
+      </div>
+      <div>
+      <ProductDisplay
+        imageUrl="/Shop/shop9.jpeg"
+        name="MAdein Sandal"
+        rating={5}
+        price="19000 Rwf"
+      />
+      </div>  
     </div>
   )
 }
