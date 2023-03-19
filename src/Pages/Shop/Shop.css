@@ -1,5 +1,16 @@
 .shop-container {
   display: flex;
   flex-direction: row;
-  margin-top: 25px;
+  margin: 10px;
+  gap: 5px;
+}
+
+.shop-cat1 {
+  flex-basis: 30%;
+  flex-grow: 0;
+}
+
+.shop-cat2 {
+  flex-basis: 70%;
+  flex-grow: 1;
 }/*# sourceMappingURL=Shop.css.map */

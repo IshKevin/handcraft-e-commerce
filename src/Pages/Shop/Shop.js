@@ -2,9 +2,9 @@ import React from 'react'
 import Header from '../../Components/Home/Header/Header'
 import SubHeader from '../../Components/Home/SubHeader/SubHeader'
 import Footer from '../../Components/Home/Footer/Footer'
-
 import Shopdata from '../../Components/Shop/Shopdata/Shopdata'
-
+import CategoliesNav from '../../Components/CategoliesNav/CategoliesNav'
+import './Shop.css'
 
 const Shop = () => {
   return (
@@ -12,10 +12,11 @@ const Shop = () => {
       <Header/>
       <SubHeader/>
       <div className="shop-container">
-       <div>
-        
+       <div className='shop-cat1'>
+        <CategoliesNav/>
         </div> 
-        <div><Shopdata/></div>
+        <div className='shop-cat2'>
+          <Shopdata/></div>
       </div>
       <Footer/>
       </div>
