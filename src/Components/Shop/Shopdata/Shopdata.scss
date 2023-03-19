@@ -1,0 +1,8 @@
+.shopdata{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    div{
+        flex-basis: calc(33.33%);
+    }
+}
