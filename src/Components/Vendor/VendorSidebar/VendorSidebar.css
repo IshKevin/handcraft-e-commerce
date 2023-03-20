@@ -1,43 +1,4 @@
-/* .sidebar{
-    background-color:#151515 ;
-    width:276px;
-    height: 1096px;
-    
 
-}
-.sidebar-profile{
-    display:flex;
-    padding:40px 30px;
-    color:white;
-}
-.sidebar-profile-text-h1{
-    margin-top:-19px;
-    font-size:15px;
-}
-.sidebar-profile-text{
-   margin-top: -14px;
-   padding:0px 15px;
-}
-.sidebar-menu{
-  width: 276px;
-  display: table-column;
-  flex-direction: column;
-  height: fit-content;
-
-}
-.sidebar-menu-single{
-    padding:0px 40px;
-    display: flex;
-}
-.sidebar-menu-text-h1{
-    padding:0px 20px;
-    margin-top:5px;
-    color:white
-}
-#icons{
-    color: rgb(122, 126, 129);
-}
- */
 
  .side-menu-single{
     color: white;
@@ -58,7 +19,7 @@
     padding: 40px 30px;
   }
   .side-profile-text-h1{
-    margin-top: -19px;
+    margin-top: 0px;
     font-size: 15px;
   }
   .side-profile-text{
@@ -75,5 +36,8 @@
   .side-menu-single:hover{
     background-color: white;
     color: black;
+    box-shadow:0px 1px 0px 1px;
+    border-radius:50px 0px 50px 0px;
+ 
   }
   

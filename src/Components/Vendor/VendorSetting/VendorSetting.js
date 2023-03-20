@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaSearch } from 'react-icons/fa'
 
 const VendorSetting = () => {
   return (
@@ -10,6 +11,7 @@ const VendorSetting = () => {
          </div>
          <div className='dash-search'>
             <input  className='topnav-input' type= 'text' placeholder='Search everything here'/>
+            <FaSearch className='sear'/>
          </div>
          <div className='dash-right'>
           <p>visit your store</p>

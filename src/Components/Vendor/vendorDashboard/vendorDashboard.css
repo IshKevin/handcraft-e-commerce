@@ -2,52 +2,97 @@
     font-size:30px;
 }
 .dash-para{
-    margin-top:-20px;
+    margin-top:-10px;
 }
 .topbar-item{
     display: flex;
     padding:0px 30px;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap:7rem;
 }
 .topnav-input{
     height:25px;
     width:400px;
-    box-shadow: inset;
+    border:none;
+    outline: none;
     border-radius:5px;
+    padding:7px 7px;
     /* border-style:; */
     background-color:white;
 }
 .dash-search{
-    padding:30px 10px;
-    margin-left:100px;
+    /* padding:0px 10px;
+    margin-left:100px; */
     
 }
 .dash-right{
     padding: 20px 0px;
-    margin-left:200px;
+    /* margin-left:200px; */
 }
-.main-dash{
+#dashboard-content{
+    background-color:#F4F5F9;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    padding: 2rem;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    /* flex-flow: wrap;  */
+    /* padding:70px 10px;  */
+}
+.main-Dashboard{
+    background-color: #F4F5F9;
+}
+#card1{
+grid-column: 1/2;
+width:100%;
+}
+#card2{
+grid-column: 2/3;
+width: 100%;  
+}
+
+#box3{
+    height:400px;
+    width:100%; 
+    display: flex;
+    border-radius:5px;
+grid-column: 1/3;
+
+}
+#box4{
+    height:500px;
+    width:100%; 
+    border-radius:5px;
+grid-column: 1/3;
+
+
+}
+
+/* .main-dash{
   
-    /* background-color: aqua; */
+    background-color: aqua;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     flex-flow: wrap;
     padding:70px 10px;
-}
+} */
 .card{
     background-color:white;
-    height:400px;
+    /* height:400px;
     width:500px;
     border-radius:5px;
     margin-bottom: 70px;
-  
+   */
   
   
   }
-  .card :hover{
+  /* .card :hover{
   transform: scale(1.05);
-  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
-  }
+  box-shadow: 0 0 40px  rgba(0, 0, 0, 0.25);
+  } */
 
 #box3{
     height:400px;
@@ -69,8 +114,9 @@
  padding:20px 0px;
 }
 #card{
-    display: flex;
+    /* display: flex; */
 }
+
 .bar-chart{
  width:700px;
  height:700px;
@@ -99,5 +145,8 @@
     margin-left:210px;
 }
 .main-content{
-    background-color: #bec5d4;
+    background-color: #F4F5F9;
+max-height: 100vh;
+overflow-y: auto;
+padding:20px 100px;
 }

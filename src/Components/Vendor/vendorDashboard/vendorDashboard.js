@@ -3,6 +3,7 @@ import './vendorDashboard.css'
 import { Bar,Pie,Line} from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
 import { useState } from 'react';
+import { FaSearch } from 'react-icons/fa';
 
 const VendorDashboard = () => {
   const pData = [
@@ -135,7 +136,7 @@ const VendorDashboard = () => {
 
 
   return (
-    <div className='main-content'>
+    <div className='main-Dashboard'>
      <div className='topbar'>
         <div className='topbar-item'>
           <div className='dash-left'>
@@ -144,21 +145,22 @@ const VendorDashboard = () => {
          </div>
          <div className='dash-search'>
             <input  className='topnav-input' type= 'text' placeholder='Search everything here'/>
+            <FaSearch className='sear'/>
          </div>
          <div className='dash-right'>
           <p>visit your store</p>
          </div>
 
         </div>
-        <div className='main-dash'>
-          <div className='card' id="card">
+        <div id='dashboard-content'>
+          <div className='card' id="card1">
 
           <h1>Earnings</h1>
           <div className="pie">
           <Pie data={useData} />
           </div>
           </div>
-          <div className='card'>
+          <div className='card' id="card2">
            <div className='statics'> 
             <h1>Orders</h1>
             <p>280</p>

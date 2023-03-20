@@ -1,0 +1,93 @@
+
+.product-content{
+    background-color: #f4f5f9;
+    width: 80vw;
+}
+.dash-search{
+    background-color: white;
+    /* height:10px; */
+    width:400px;
+    display:flex;
+}
+.sear{
+    padding: 10px 5px;
+}
+
+
+.forms{
+    width:60%;
+    padding:10px 60px;
+    background-color:#FFFFFF;
+    margin-left: 150px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 1px 1px ;
+
+    
+
+    
+}
+.forms input{
+    width: 250px;
+    height:29px;
+    background-color:white;
+    border: none;
+    box-shadow: 0px 1px 1px 0px ;
+    outline: none;
+    padding:7px;
+}
+.forms textarea{
+    height:100px;
+    width:250px;
+    border: none;
+    box-shadow: 0px 1px 1px 0px ;
+    outline: none;
+    padding:7px;
+}
+.forms tr{
+    /* gap: 2rem; */
+}
+.forms td{
+  padding:10px 30px
+} 
+/* .tr{
+    padding:30px 0px;
+    margin-top:20px;
+} */
+.ti{
+    margin-left:300px;
+    margin-top:50px;
+    font-size:35px;
+    /* background-color: wheat; */
+    width:400px;
+    text-align: center;
+    border-radius:5px;
+    box-shadow: 0px 1px 1px 0px ;
+}
+.forms h1{
+    padding:10px 0px;
+}
+#product-button{
+    height:35px;
+    width:100px;
+    margin-left:20px;
+    /* padding: 30px 20px; */
+}
+.buttom{
+    padding:30px 100px;
+}
+.update{
+    background-color: blueviolet;
+    border-radius:5px;
+    border: none;
+
+}
+.delete{
+    background-color:red;
+    border-radius:5px;
+    border: none;
+}
+.cancel{
+    background-color: gray;
+    border-radius:5px;
+    border: none;
+}
