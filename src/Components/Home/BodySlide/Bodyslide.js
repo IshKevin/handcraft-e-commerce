@@ -25,9 +25,13 @@ const Bodyslide = () => {
  navigation={true}
  modules={[Autoplay, Pagination, Navigation]}
  className="mySwiper">
-    <SwiperSlide className='body-slide'>
+
+
+  {
+    [1,2,3,4,5,7].map(item => 
+      <SwiperSlide className='body-slide'>
        <div className='slide-image'>
-    <img src='Slide/slide1.webp' />
+    <img src='Slide/slide1.webp' alt="" />
     <div class="text-overlay">
     <p>Shoe for running  </p> 
     <h1 className='body-slide-text__title'>WELCOME TO MADEIN</h1>
@@ -36,7 +40,10 @@ const Bodyslide = () => {
     </div>
     </div>
     </SwiperSlide>
-    <SwiperSlide className='body-slide'>
+      )
+  }
+    
+    {/* <SwiperSlide className='body-slide'>
     <div className='slide-image'>
     <img src='Slide/slide2.jpg' />
     <div class="text-overlay">
@@ -90,7 +97,7 @@ const Bodyslide = () => {
       <button> <Link to='/Shop'>Shop Now</Link></button>
     </div>
     </div>
-    </SwiperSlide>
+    </SwiperSlide> */}
     </Swiper>
   )
 }
