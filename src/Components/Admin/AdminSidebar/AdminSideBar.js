@@ -6,6 +6,7 @@ import { BsBorderStyle } from "react-icons/bs";
 import { GrProductHunt } from "react-icons/gr";
 import { TbTransitionBottom } from "react-icons/tb";
 import { RiLogoutBoxFill } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const AdminSideBar = () => {
   return (
@@ -18,30 +19,31 @@ const AdminSideBar = () => {
         </div>
       </div>
       <div className="side-menu">
-        <div className="side-menu-single">
+        <Link to="./" className="side-menu-single">
           <AiFillDashboard className="D-icon" />
           <h1 className="side-menu-text-h1">Dashboard</h1>
-        </div>
-        <div className="side-menu-single">
+        </Link>
+
+        <Link to="./AdminUsers" className="side-menu-single">
           <MdOutlineManageAccounts className="D-icon" id="icons" />
-          <h1 className="side-menu-text-h1">Manage Users</h1>
-        </div>
-        <div className="side-menu-single">
+          <h1 className="side-menu-text-h1">Manage</h1>
+        </Link>
+        <Link to="./Adminallproducts" className="side-menu-single">
           <GrProductHunt className="D-icon" id="icons" />
           <h1 className="side-menu-text-h1">All products</h1>
-        </div>
-        <div className="side-menu-single">
+        </Link>
+        <Link to="./Adminsellerdetail" className="side-menu-single">
           <BsBorderStyle className="D-icon" id="icons" />
           <h1 className="side-menu-text-h1">Seller detail</h1>
-        </div>
-        <div className="side-menu-single">
+        </Link>
+        <Link to="./Adminsales" className="side-menu-single">
           <TbTransitionBottom className="D-icon" id="icons" />
           <h1 className="side-menu-text-h1">Sales</h1>
-        </div>
-        <div className="side-menu-single">
+        </Link>
+        <Link to="./AdminLogout" className="side-menu-single">
           <RiLogoutBoxFill className="D-icon" id="icons" />
           <h1 className="side-menu-text-h1">Logout</h1>
-        </div>
+        </Link>
       </div>
     </div>
   );
