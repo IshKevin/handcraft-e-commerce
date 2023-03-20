@@ -1,0 +1,68 @@
+.hd-sales{
+    display: flex;
+    gap: 20rem;
+    padding:20px 50px;
+    width:100vw;
+}
+.sale-content{
+    width: 180vh;
+    background-color: #f4f5f9;
+}
+.s-right{
+    display: flex;
+    gap:3rem;
+}
+.filter{
+    display: flex;
+   gap:2rem;
+    background-color:white;
+    width:100px;
+    height:30px;
+    border-radius:5px;
+    border: none;
+
+}
+.filcon{
+    padding:5px 0px;
+}
+.hd-sales select{
+    background-color:white;
+    width:100px;
+    height:30px;
+    border-radius:5px;
+    border: none;
+}
+.hd-sales input{
+    background-color:white;
+    width:100px;
+    height:30px;
+    border-radius:5px;
+    border: none; 
+}
+.boxx{
+    height:500px;
+    border-radius:5px;
+    background-color: white;
+    padding:0px 30px;
+    /* width:70%; */
+    /* margin-left:100p */
+}
+.nextp{
+    display: flex;
+    padding:30px 100px;
+    gap: 2rem;
+}
+.nextp ul {
+    display: flex;
+    gap:2rem;
+}
+
+.nextp li :hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.next{
+    background-color:#5F4C6B;
+    width:30px;
+    height:30px;
+}

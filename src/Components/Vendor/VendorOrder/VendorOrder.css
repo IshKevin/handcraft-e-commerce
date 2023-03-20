@@ -1,0 +1,8 @@
+.topper-order{
+    display: flex;
+    gap:20rem;
+}
+.order-right{
+    display: flex;
+    gap:2rem;
+}
