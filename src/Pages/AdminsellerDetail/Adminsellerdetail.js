@@ -1,9 +1,12 @@
 import React from 'react'
+import SallerDetailcontent from '../../Components/Admin/SallerDetailcontent/SallerDetailcontent'
+import SellerDetailHeader from '../../Components/Admin/SellerDetailHeader/SellerDetailHeader'
 
 function Adminsellerdetail() {
   return (
     <div>
-      <h1>reka ndebe 3</h1>
+      <SellerDetailHeader/>
+      <SallerDetailcontent/>
     </div>
   )
 }

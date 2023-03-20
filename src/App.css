@@ -1,6 +1,8 @@
 
 .admin-container {
   display: flex;
+  max-height:100vh;
+  overflow-y: hidden;
 }
 .dash{
     display: flex;
