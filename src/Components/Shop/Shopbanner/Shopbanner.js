@@ -10,7 +10,7 @@ const Shopbanner = () => {
                 <p>Home / Shop</p>
                 </div>
              <div className='shop-banner-img'>
-                <img src="/Shop/shopbanner.jpeg" alt="shopbanner"/>
+                <img src="/Slide/slide7.jpeg" alt="shopbanner"/>
                 </div>   
             </div>
     </>
