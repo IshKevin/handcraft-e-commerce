@@ -1,5 +1,6 @@
 import React from 'react';
 import './Productdisplay.css';
+import {BiCartAdd} from 'react/'
 
 function ProductDisplay(props) {
   return (
@@ -13,7 +14,7 @@ function ProductDisplay(props) {
           ))}
         </div>
         <p>{props.price}</p>
-        <button>cart</button>
+        <button><BiCartAdd/></button>
       </div>
     </div>
   );
