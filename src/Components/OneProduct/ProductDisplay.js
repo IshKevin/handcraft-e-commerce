@@ -12,11 +12,13 @@ function ProductDisplay(props) {
           {Array.from(Array(props.rating), (_, i) => (
             <span className='product-star' key={i}>⭐</span>
           ))}
-        </div>
+        </div> 
+        <div className='product-disp-card-price'>
         <p>{props.price}</p>
         <button>
           <BiCartAdd/>
           </button>
+          </div>
       </div>
     </div>
   );
