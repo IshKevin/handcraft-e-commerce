@@ -6,6 +6,11 @@
   width: 100%;
   height: 70%;
 }
+.product-disp-card h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
 .product-disp-card .product-disp-card-text {
   text-align: center;
   color: black;
@@ -15,12 +20,9 @@
   color: yellow;
 }
 .product-disp-card button {
-  width: 100%;
-  height: 30%;
   background-color: #D9D9D9;
   border: none;
   color: black;
-  font-size: 1.2rem;
   font-weight: bold;
 }
 .product-disp-card button:hover {

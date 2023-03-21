@@ -1,6 +1,6 @@
 import React from 'react';
 import './Productdisplay.css';
-import {BiCartAdd} from 'react/'
+import {BiCartAdd} from 'react-icons/bi';
 
 function ProductDisplay(props) {
   return (
@@ -14,7 +14,9 @@ function ProductDisplay(props) {
           ))}
         </div>
         <p>{props.price}</p>
-        <button><BiCartAdd/></button>
+        <button>
+          <BiCartAdd/>
+          </button>
       </div>
     </div>
   );
