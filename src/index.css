@@ -9,6 +9,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+a{
+  text-decoration: none;
+}
+
+Link{
+  text-decoration: none;
+}
+
 h1{
  font-size:20px; 
 }
