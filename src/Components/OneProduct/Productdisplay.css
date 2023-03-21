@@ -9,5 +9,8 @@
 .product-disp-card .product-disp-card-text {
   text-align: center;
   color: black;
-  background-color: #a7a7a7;
+  background-color: #D9D9D9;
+}
+.product-disp-card .product-star {
+  color: yellow;
 }/*# sourceMappingURL=Productdisplay.css.map */

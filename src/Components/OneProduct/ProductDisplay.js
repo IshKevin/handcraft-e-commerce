@@ -9,10 +9,11 @@ function ProductDisplay(props) {
         <h2>{props.name}</h2>
         <div>
           {Array.from(Array(props.rating), (_, i) => (
-            <span key={i}>⭐</span>
+            <span className='product-star' key={i}>⭐</span>
           ))}
         </div>
         <p>{props.price}</p>
+        <button>cart</button>
       </div>
     </div>
   );
