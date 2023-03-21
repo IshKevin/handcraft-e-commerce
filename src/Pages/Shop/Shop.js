@@ -5,6 +5,8 @@ import Footer from '../../Components/Home/Footer/Footer'
 import Shopdata from '../../Components/Shop/Shopdata/Shopdata'
 import CategoliesNav from '../../Components/CategoliesNav/CategoliesNav'
 import './Shop.css'
+import Shopbanner from '../../Components/Shop/Shopbanner/Shopbanner'
+
 
 const Shop = () => {
   return (
@@ -16,7 +18,9 @@ const Shop = () => {
         <CategoliesNav/>
         </div> 
         <div className='shop-cat2'>
-          <Shopdata/></div>
+          <Shopbanner/>
+          <Shopdata/>
+          </div>
       </div>
       <Footer/>
       </div>
