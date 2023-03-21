@@ -23,20 +23,20 @@ const CategoliesNav = () => {
     <div className='categolies-nav'>
       <h1>Categolies</h1>
       <ul>
-       <li> <IoShirtOutline/>Fashion</li>
-       <li><SiCultura/>Made in rwanda</li>
-       <li><MdSportsHandball/>Sport</ li>
+       <li> <IoShirtOutline/>  Fashion</li>
+       <li><SiCultura/>  Made in rwanda</li>
+       <li><MdSportsHandball/>  Sport</ li>
        <li><MdOutlineElectricScooter/>Electronics</li>
-       <li><BiHomeSmile/>Home and garden</li>
+       <li><BiHomeSmile/>  Home and garden</li>
        <li>Health and beauty</li>
-       <li><BiBasketball/>Toys and hobbies</li>
-       <li><FaMotorcycle/>Automotive</li>
-       <li><MdBabyChangingStation/>Baby and kids</li>
-       <li><BsBook/>Books and stationery</li>
-       <li><IoFastFoodOutline/>Food and drinks</li>
-       <li><MdPets/>Pets</li>
-       <li><MdCardTravel/>Travel</li>
-       <li><MdDevicesOther/>Other</li>    
+       <li><BiBasketball/>  Toys and hobbies</li>
+       <li><FaMotorcycle/>  Automotive</li>
+       <li><MdBabyChangingStation/>  Baby and kids</li>
+       <li><BsBook/>  Books and stationery</li>
+       <li><IoFastFoodOutline/>  Food and drinks</li>
+       <li><MdPets/>  Pets</li>
+       <li><MdCardTravel/>  Travel</li>
+       <li><MdDevicesOther/>  Other</li>    
       </ul>
     </div>
   )
