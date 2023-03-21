@@ -46,12 +46,6 @@ const Footer = () => {
    </div>
     </div>
     <div className='footer-down_sec'>
-      <div className="footer-flag">
-       <div><img src='Flag/Flag1.jpg' alt='mtn'/></div>
-        <div><img src='Flag/Flag2.jpg' alt='mtn'/></div>
-        <div><img src='Flag/Flag3.png' alt='mtn'/></div>
-        <div><img src='Flag/Flag4.png' alt='mtn'/></div> 
-      </div>
       <div className='footer-closing'>
         copyright &copy; 2023 All right reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://klab.com" target="_blank">Klab</a>  
       </div>

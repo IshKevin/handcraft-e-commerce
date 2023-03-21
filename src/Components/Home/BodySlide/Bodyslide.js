@@ -26,7 +26,6 @@ const Bodyslide = () => {
  modules={[Autoplay, Pagination, Navigation]}
  className="mySwiper">
 
-
   {
     [1,2,3,4,5,7].map(item => 
       <SwiperSlide className='body-slide'>
