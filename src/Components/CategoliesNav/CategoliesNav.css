@@ -2,11 +2,11 @@
   margin-left: 5px;
 }
 .categolies-nav ul {
-  font-size: 23px;
-  margin-left: 5px;
+  font-size: 16px;
+  margin-left: 10px;
   font-weight: 20;
   cursor: pointer;
 }
 .categolies-nav ul :hover {
-  color: #ff0000;
+  color: #00aeff;
 }/*# sourceMappingURL=CategoliesNav.css.map */
