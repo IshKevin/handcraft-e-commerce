@@ -6,7 +6,7 @@ import {MdOutlineLocationOn} from 'react-icons/md'
 import {MdOutlineDiscount} from 'react-icons/md'
 import {GoSearch} from 'react-icons/go'
 import {Link} from 'react-router-dom'
-import Cart from '../../Pages/Cart/Cart'
+
 
 
 const SubHeader = () => {
@@ -52,7 +52,9 @@ const SubHeader = () => {
                 <div>compare</div>
                 </div>
                 <div>
-                <button><Link to='./Cart/Cart'><AiOutlineShoppingCart/></Link></button><br/>
+                <button>
+                <AiOutlineShoppingCart/>
+                </button><br/>
                 <div>cart</div>
                 </div>
 
