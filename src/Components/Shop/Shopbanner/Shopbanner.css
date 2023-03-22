@@ -1,5 +1,23 @@
 .shop-banner {
   display: flex;
   border: 1px solid #000000;
+  border-radius: 15px;
+  width: 90%;
+  height: 350px;
   margin: 10px;
+}
+.shop-banner .shop-banner-text {
+  margin: 10px;
+  width: 70%;
+  font-weight: bold;
+}
+.shop-banner .shop-banner-text h1 {
+  font-size: 20px;
+}
+.shop-banner .shop-banner-text button {
+  border-radius: 5px;
+  border: 1px solid #D9D9D9;
+  background-color: #D9D9D9;
+  color: #ffffff;
+  font-weight: bold;
 }/*# sourceMappingURL=Shopbanner.css.map */
