@@ -6,8 +6,9 @@ const Shopbanner = () => {
     <>
         <div className='shop-banner'>
             <div className='shop-banner-text'>
-                <h1>Shop</h1>
-                <p>Home / Shop</p>
+                <h1>FASHION COLLECTION</h1>
+                <h1>MADE IN RWANDA T-SHIRT</h1>
+                <button>Discover more</button>
                 </div>
              <div className='shop-banner-img'>
                 <img src="/Slide/slide7.jpeg" alt="shopbanner"/>

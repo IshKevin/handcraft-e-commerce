@@ -1,5 +1,38 @@
 .shop-banner{
     display: flex;
     border: 1px solid #000000;
+    border-radius: 15px;
+    width: 90%;    
+    height: 300px;
     margin: 10px;
+    .shop-banner-text{
+        margin: auto;
+        justify-content: center;
+        font-size: 50px;
+        text-align: center;
+
+        width: 70%;
+        font-weight: bold;
+        h1{
+            font-size: 50px;
+        }
+        button{
+           
+            border-radius: 5px;
+            border: 1px solid #858585;
+            background-color: #858585;
+            font-size: 40px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+    }
+    .shop-banner-img{
+        width: 30%;
+        margin: 10px;
+        overflow-y: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
 }

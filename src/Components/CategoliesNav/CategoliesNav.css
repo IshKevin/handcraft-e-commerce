@@ -10,6 +10,10 @@
   font-weight: 20;
   cursor: pointer;
 }
+.categolies-nav ul li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 .categolies-nav ul :hover {
   color: #00aeff;
 }/*# sourceMappingURL=CategoliesNav.css.map */

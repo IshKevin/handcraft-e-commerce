@@ -6,6 +6,7 @@ import Shopdata from '../../Components/Shop/Shopdata/Shopdata'
 import CategoliesNav from '../../Components/CategoliesNav/CategoliesNav'
 import './Shop.css'
 import Shopbanner from '../../Components/Shop/Shopbanner/Shopbanner'
+import Hotitems from '../../Components/Shop/Hotitems/Hotitems'
 
 
 const Shop = () => {
@@ -16,6 +17,7 @@ const Shop = () => {
       <div className="shop-container">
        <div className='shop-cat1'>
         <CategoliesNav/>
+        <Hotitems/>
         </div> 
         <div className='shop-cat2'>
           <Shopbanner/>
