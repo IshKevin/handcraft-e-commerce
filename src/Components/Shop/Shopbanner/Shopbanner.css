@@ -3,24 +3,25 @@
   border: 1px solid #000000;
   border-radius: 15px;
   width: 90%;
-  height: 350px;
+  height: 300px;
   margin: 10px;
 }
 .shop-banner .shop-banner-text {
   margin: auto;
   justify-content: center;
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   width: 70%;
   font-weight: bold;
 }
 .shop-banner .shop-banner-text h1 {
-  font-size: 20px;
+  font-size: 50px;
 }
 .shop-banner .shop-banner-text button {
   border-radius: 5px;
   border: 1px solid #858585;
   background-color: #858585;
+  font-size: 40px;
   color: #ffffff;
   font-weight: bold;
 }

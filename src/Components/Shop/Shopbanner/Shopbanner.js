@@ -6,7 +6,7 @@ const Shopbanner = () => {
     <>
         <div className='shop-banner'>
             <div className='shop-banner-text'>
-                <h1>FASHION cOLLECTION</h1>
+                <h1>FASHION COLLECTION</h1>
                 <h1>MADE IN RWANDA T-SHIRT</h1>
                 <button>Discover more</button>
                 </div>
