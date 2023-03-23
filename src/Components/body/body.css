@@ -1,0 +1,172 @@
+.payments {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  border: 1px solid var(--color-text);
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+}
+.payMentCards {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.payMentCards span {
+  font-size: 60px;
+  color: var(--color-icon-bg);
+  margin-top: 1rem;
+}
+.payDetails p {
+  font-weight: 700;
+}
+.payDetails small {
+  font-weight: 400;
+}
+.advat {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.advatCard {
+  height: 33vh;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+}
+.advatCard img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0.1));
+}
+.advatDeatils {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  color: var(--color-bg);
+  padding: 1rem 2rem;
+}
+.advatDeatils p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.advatDeatils small {
+  color: var(--color-bg);
+}
+.advatDeatils small > span {
+  color: var(--color-red);
+}
+.advatDeatils p > span {
+  color: var(--color-red);
+}
+#bodypart{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+/*============================================== Tablet Media Queries ==============================================*/
+
+@media screen AND (max-width: 1024px) {
+  .container {
+    width: var(--width-md);
+    margin: 0 auto;
+  }
+  .payments {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    border: 1px solid var(--color-text);
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+  }
+  .advat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .advatDeatils {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 15%;
+    color: var(--color-bg);
+    padding: 1rem 2rem;
+  }
+  .advatDeatils small {
+  color: var(--color-bg);
+  font-size: 20px;
+}
+}
+
+/*============================================== mobile  Media Queries ==============================================*/
+
+@media screen AND (max-width: 600px) {
+  .container {
+    width: var(--width-sm);
+    margin: 0 auto;
+  }
+  .payments {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+    border: 1px solid var(--color-text);
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .payMentCards {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .payMentCards span {
+    font-size: 50px;
+    color: var(--color-icon-bg);
+    margin-top: 1rem;
+  }
+  .payDetails p {
+    font-weight: 800;
+    font-size: 14px;
+  }
+  .payDetails small {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .advat {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .advatDeatils p {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  .advatDeatils small {
+    color: var(--color-bg);
+    font-size: 1.4rem;
+  }
+  .advatDeatils small > span {
+    color: var(--color-red);
+  }
+  .advatDeatils p > span {
+    color: var(--color-red);
+  }
+}

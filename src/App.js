@@ -23,6 +23,7 @@ import Login from './Components/Forms/login/Login';
 import Register from './Components/Forms/register/Register';
 
 import Cart from './Pages/Cart/Cart';
+import Wishlist from './Pages/Wishlist/Wishlist'
 
 
 
@@ -39,6 +40,7 @@ const App = () => {
           <Route path="Signup" element={<Register/>}/>
 
           <Route path="Cart" element={<Cart/>}/>
+          <Route path="Wishlist" element={<Wishlist/>}/>
 
           <Route index element={<Home />} />
           <Route />

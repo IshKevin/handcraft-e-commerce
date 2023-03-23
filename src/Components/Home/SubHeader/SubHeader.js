@@ -53,7 +53,9 @@ const SubHeader = () => {
                 </div>
                 <div>
                 <button>
+                  <Link to='/Cart'>
                 <AiOutlineShoppingCart/>
+                </Link>
                 </button><br/>
                 <div>cart</div>
                 </div>
