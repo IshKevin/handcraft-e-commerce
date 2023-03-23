@@ -1,6 +1,6 @@
 .admindash-header-component ul{
   display: flex;
-  gap: 58rem;
+  gap: 59rem;
   background-color: rgba(0, 0, 0, 0.219);
   padding: 10px 10px;
   margin-top: 0%;
@@ -52,13 +52,13 @@
 .cardnew1{
   background-color: white;
   width: 45%;
-  height: 18rem;
+  height: 22rem;
   border-radius: 5px;
 }
 .cardnew2{
   background-color: white;
   width: 45%;
-  height: 18rem;
+  height: 22rem;
   border-radius: 5px;
 }
 .Admin-cards3{
@@ -100,7 +100,7 @@ display: flex;
 
 .admindash-header-component ul{
   display: flex;
-  gap: 40rem;
+  gap: 38rem;
   background-color: rgba(0, 0, 0, 0.219);
   padding: 10px 10px;
   margin-top: 0%;

@@ -31,7 +31,7 @@ const AdminSideBar = () => {
         </Link>
         <Link to="./Adminallproducts" className="side-menu-single">
           <GrProductHunt className="D-icon" id="icons" />
-          <h1 className="side-menu-text-h1">All products</h1>
+          <h1 className="side-menu-text-h1">Products</h1>
         </Link>
         {/* <Link to="./Adminsellerdetail" className="side-menu-single">
           <BsBorderStyle className="D-icon" id="icons" />
@@ -41,7 +41,7 @@ const AdminSideBar = () => {
           <TbTransitionBottom className="D-icon" id="icons" />
           <h1 className="side-menu-text-h1">Sales</h1>
         </Link>
-        <Link to="./AdminLogout" className="side-menu-single">
+        <Link to="/" className="side-menu-single">
           <RiLogoutBoxFill className="D-icon" id="icons" />
           <h1 className="side-menu-text-h1">Logout</h1>
         </Link>

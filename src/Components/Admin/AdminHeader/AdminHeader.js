@@ -3,6 +3,8 @@ import { AiOutlineEye } from "react-icons/ai";
 import { VscFileSymlinkDirectory } from "react-icons/vsc";
 import "./AdminHeader.css";
 import { BarChart,LineChart,Bar,XAxis, YAxis,Line, CartesianGrid,Area, Tooltip,AreaChart, Legend} from 'recharts';
+import { BiMenu } from "react-icons/bi";
+import {useState} from "react";
 const data = [
   {
     name: 'Page A',
@@ -50,6 +52,10 @@ const data = [
 
 // chart two (2)
 function AdminHeader() {
+  const [sider, setSider] = useState(false);
+  const handleSider = () =>{
+    setSider(!sider);
+  }
   return (
     <div className="Admin-header">
       <div className="admindash-header-component">
@@ -58,6 +64,7 @@ function AdminHeader() {
           <li>Admin</li>
         </ul>
       </div>
+      {/* <BiMenu /> */}
       <div className="cards-container">
         {/* Cardpart two (1) */}
 
