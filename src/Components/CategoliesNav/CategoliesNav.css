@@ -1,5 +1,7 @@
 .categolies-nav {
   margin-left: 5px;
+  overflow-x: hidden;
+  color: black;
 }
 .categolies-nav button {
   border: none;

@@ -1,6 +1,8 @@
 .site-footer {
   background-color: #070707;
   color: #adabab;
+  bottom: 0;
+  overflow-x: hidden;
 }
 .site-footer .footer-top_sec {
   display: flex;
