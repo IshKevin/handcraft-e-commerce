@@ -4,8 +4,9 @@ import { BiUserCircle, BiSearch } from "react-icons/bi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { HiShoppingCart } from "react-icons/hi";
 import { HiOutlineBars3 } from "react-icons/hi2";
-
+import {Link} from 'react-router-dom';
 import Header from "../header/Header";
+
 const Nav = () => {
   return (
     <>
@@ -19,18 +20,19 @@ const Nav = () => {
                   <span>
                     <BiUserCircle />
                   </span>
-                  signIn
+                  <Link to='./Login'>signIn</Link>
                 </li>
                 <li>/</li>
-                <li>register</li>
+                <li>
+                <Link to='/Signup'>register</Link>
+                  </li>
               </ul>
             </div>
           </div>
         </div>
         <div className="container search">
           <div className="icon_header">
-            <HiOutlineBars3 className="boo" />
-            <h1>MadeIn</h1>
+          <img src="Madein.PNG" alt='our log'/>
           </div>
           <div className="input_search">
             <select name="allCategories" id="">
