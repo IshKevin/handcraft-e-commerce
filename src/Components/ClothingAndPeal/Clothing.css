@@ -1,0 +1,153 @@
+#clothing {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.appealContainer {
+  display: flex;
+  gap: 1rem;
+  height: 84.4vh;
+  margin-bottom: 3rem;
+}
+.apealLeft {
+  flex-basis: 25%;
+  position: relative;
+  border: 1px solid var(--color-text);
+  height: 84vh;
+}
+.apealLeft img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+.appealOverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0.6));
+}
+.appealDetails {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  padding: 1rem 2rem;
+  top: 10%;
+  color: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.bapeal {
+  border: 1px solid var(--color-bg);
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+}
+.appealDetails span {
+  border-bottom: 3px solid var(--color-bg);
+}
+.btnappeal {
+  font-size: 40px;
+}
+.apealright {
+  flex-basis: 75%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  position: relative;
+}
+.apealright .overview {
+  margin-left: -28%;
+  margin-top: -13%;
+}
+
+
+/* ================================================ Media Tablet Query =========================================== */
+@media screen AND (max-width: 1024px) {
+  .container {
+    width: var(--width-md);
+    margin: 0 auto;
+  }
+  .appealContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 84.4vh;
+  }
+  .apealLeft {
+    flex-basis: 25%;
+    height: 40vh;
+    position: relative;
+    border: 1px solid var(--color-text);
+  }
+  .apealright {
+    flex-basis: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    position: relative;
+  }
+  .apealright .overview {
+    margin-left: 11%;
+    margin-top: -4%;
+  }
+  .appealDetails p {
+    font-size: 2rem;
+  }
+  .appealDetails h3 {
+    font-size: 4rem;
+  }
+  .appealDetails small {
+    font-size: 1.4rem;
+  }
+  .appealDetails {
+    gap: 0rem;
+  }
+}
+/* ================================================ Media Phone Query =========================================== */
+@media screen AND (max-width: 600px) {
+  .container {
+    width: var(--width-sm);
+    margin: 0 auto;
+  }
+  .appealContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 84.4vh;
+  }
+  .apealLeft {
+    flex-basis: 25%;
+    height: 40vh;
+    position: relative;
+    border: 1px solid var(--color-text);
+  }
+  .apealright {
+    flex-basis: 75%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    position: relative;
+  }
+  .apealright .overview {
+    margin-left: -3%;
+    margin-top: -4%;
+  }
+  .appealDetails p {
+    font-size: 20px
+  }
+  .appealDetails h3 {
+    font-size: 30px
+  }
+  .appealDetails small {
+    font-size: 17px
+  }
+  .appealDetails {
+    gap: 0.2rem;
+  }
+}
