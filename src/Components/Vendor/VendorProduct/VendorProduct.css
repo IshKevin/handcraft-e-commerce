@@ -15,11 +15,11 @@
 
 
 .forms{
-    width:60%;
-    padding:10px 60px;
+    width:80%;
+    padding:10px 80px;
     background-color:#FFFFFF;
-    margin-left: 150px;
-    margin-top: 50px;
+    margin:50px;
+   
     box-shadow: 1px 1px 1px 1px ;
 
     
@@ -43,25 +43,14 @@
     outline: none;
     padding:7px;
 }
-.forms tr{
-    /* gap: 2rem; */
-}
 .forms td{
   padding:10px 30px
 } 
-/* .tr{
-    padding:30px 0px;
-    margin-top:20px;
-} */
+
 .ti{
-    margin-left:300px;
-    margin-top:50px;
-    font-size:35px;
-    /* background-color: wheat; */
-    width:400px;
-    text-align: center;
-    border-radius:5px;
-    box-shadow: 0px 1px 1px 0px ;
+    font-size:16px;
+  margin:20px;
+   
 }
 .forms h1{
     padding:10px 0px;
@@ -85,9 +74,82 @@
     background-color:red;
     border-radius:5px;
     border: none;
+    
+
 }
 .cancel{
     background-color: gray;
     border-radius:5px;
     border: none;
+}
+.product-head-nav{
+    background-color:white;
+    display:flex;
+    gap: 32rem;
+    padding:5px 20px;
+    margin:20px 35px ;
+    border-radius:5px;
+    
+}
+.product-left{
+    display: flex;
+    gap:2rem;
+}
+.product-leftcard select{
+    background-color:rgb(240, 236, 236);
+    width:100px;
+    height:30px;
+    border-radius:5px;
+    border: none;
+    outline: none;
+    padding:5px;
+}
+.product-rightcard button{
+    background-color:rgb(56, 74, 236);
+    width:100px;
+    height:30px;
+    border-radius:5px;
+    border: none;
+    padding:5px;
+
+}
+
+.product-table{
+    margin:20px 25px ;
+    background-color:rgb(135, 164, 197);
+    border: none;
+    border-radius:10px;
+    border-collapse: collapse;
+    padding:7px;
+    
+}
+.product-table th{
+padding:5px 35px;
+
+background-color:rgb(56, 74, 236);
+}
+.product-table td{
+padding:5px 35px;
+background-color:white;
+}
+.prod-div{
+    background-color:white;
+    margin:40px;
+}
+.popup-bg{
+    position:fixed;
+    background-color: rgb(5, 5, 5,0.5);
+    margin-top:-650px;
+    width:80%;
+    max-height:110vh;
+    overflow-y:auto;
+  
+}
+.popup{
+   
+   padding:0px 50px;
+    /* background-color: black; */
+    z-index:30;
+   
+  
 }

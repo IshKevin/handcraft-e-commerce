@@ -1,0 +1,31 @@
+.line1{
+    border-bottom: 2px solid;
+    /* background-color:aquamarine; */
+    /* padding:30px; */
+    margin-left:50px;
+    margin-top:50px;
+}
+.form1{
+    display: flex;
+    padding: 30px;
+    margin-left:40px;
+
+}
+.form1 td{
+    padding:10px 30px
+}
+.form1 textarea{
+    width:200px;
+    height:200px;
+    outline: none;
+    border-radius:5px;
+}
+.form1 input{
+    width:300px;
+    height:30px;
+    outline: none;
+    border-radius:5px;
+}
+.bttn{
+    margin-left:100px;
+}
