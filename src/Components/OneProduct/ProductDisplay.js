@@ -1,5 +1,6 @@
 import React from 'react';
 import './Productdisplay.css';
+import {BiCartAdd} from 'react-icons/bi';
 
 function ProductDisplay(props) {
   return (
@@ -9,10 +10,15 @@ function ProductDisplay(props) {
         <h2>{props.name}</h2>
         <div>
           {Array.from(Array(props.rating), (_, i) => (
-            <span key={i}>⭐</span>
+            <span className='product-star' key={i}>⭐</span>
           ))}
-        </div>
+        </div> 
+        <div className='product-disp-card-price'>
         <p>{props.price}</p>
+        <button>
+          <BiCartAdd/>
+          </button>
+          </div>
       </div>
     </div>
   );

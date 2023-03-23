@@ -8,6 +8,7 @@ import {GoSearch} from 'react-icons/go'
 import {Link} from 'react-router-dom'
 
 
+
 const SubHeader = () => {
   return (
    <div>
@@ -51,7 +52,9 @@ const SubHeader = () => {
                 <div>compare</div>
                 </div>
                 <div>
-                <button><AiOutlineShoppingCart/></button><br/>
+                <button>
+                <AiOutlineShoppingCart/>
+                </button><br/>
                 <div>cart</div>
                 </div>
 
