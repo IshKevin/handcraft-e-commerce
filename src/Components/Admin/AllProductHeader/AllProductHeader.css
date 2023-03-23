@@ -1,6 +1,6 @@
-.admin-header-component ul{
+.product-header-component ul{
   display: flex;
-  gap: 59rem;
+  gap: 58rem;
   background-color: rgba(0, 0, 0, 0.219);
   padding: 10px 10px;
   margin-top: 0%;
@@ -9,7 +9,7 @@
 body{
   background-color:#F4F5F9;
 }
-.admin-header-component ul li{
+.product-header-component ul li{
   list-style: none;
 }
 .Right-Headericon{
@@ -36,6 +36,14 @@ body{
   color: blue;
   margin-top: -18px;
   margin-left: 10px;
+}
+#enter-date{
+  border: none;
+}
+.product-cont1{
+  display: flex;
+  margin-left: 2rem;
+  gap: 39.5rem;
 }
 @media screen AND (max-width: 480px){
   .admin-header-component ul{

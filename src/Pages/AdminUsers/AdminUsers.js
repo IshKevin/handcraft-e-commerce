@@ -1,11 +1,13 @@
 import React from 'react'
-
+import UserManageConent from '../../Components/Admin/UserManageConent/UserManageConent';
+import UserManageHeader from '../../Components/Admin/UserManageHeader/UserManageHeader';
 const AdminUsers = () => {
   return (
     <div>
-      <h1>reka nze ndebe</h1>
+      <UserManageHeader/>
+      <UserManageConent/>
     </div>
-  )
+  );
 }
 
 export default AdminUsers

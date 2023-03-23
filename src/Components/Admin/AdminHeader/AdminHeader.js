@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineEye } from "react-icons/ai";
+import { VscFileSymlinkDirectory } from "react-icons/vsc";
 import "./AdminHeader.css";
 import { BarChart,LineChart,Bar,XAxis, YAxis,Line, CartesianGrid,Area, Tooltip,AreaChart, Legend} from 'recharts';
 const data = [
@@ -74,7 +75,7 @@ function AdminHeader() {
             </div>
             <div className="bottom-card1icon">
               <div className="details-icon">
-                <AiOutlineEye />
+                <VscFileSymlinkDirectory />
               </div>
               <div className="details-content">
                 <p>Deatails</p>
@@ -94,7 +95,7 @@ function AdminHeader() {
             </div>
             <div className="bottom-card1icon">
               <div className="details-icon">
-                <AiOutlineEye />
+                <VscFileSymlinkDirectory />
               </div>
               <div className="details-content">
                 <p>Deatails</p>
@@ -114,7 +115,7 @@ function AdminHeader() {
             </div>
             <div className="bottom-card1icon">
               <div className="details-icon">
-                <AiOutlineEye />
+                <VscFileSymlinkDirectory />
               </div>
               <div className="details-content">
                 <p>Deatails</p>
@@ -139,7 +140,7 @@ function AdminHeader() {
             </div>
             <div className="bottom-card1icon">
               <div className="details-icon">
-                <AiOutlineEye />
+                <VscFileSymlinkDirectory />
               </div>
               <div className="details-content">
                 <p>Deatails</p>
@@ -159,7 +160,7 @@ function AdminHeader() {
             </div>
             <div className="bottom-card1icon">
               <div className="details-icon">
-                <AiOutlineEye />
+                <VscFileSymlinkDirectory />
               </div>
               <div className="details-content">
                 <p>Deatails</p>
@@ -179,7 +180,7 @@ function AdminHeader() {
             </div>
             <div className="bottom-card1icon">
               <div className="details-icon">
-                <AiOutlineEye />
+                <VscFileSymlinkDirectory />
               </div>
               <div className="details-content">
                 <p>Deatails</p>
@@ -188,13 +189,19 @@ function AdminHeader() {
           </div>
         </div>
 
-
         <div className="newcard">
-{/* chart-content 1 */}
+          {/* chart-content 1 */}
 
           <div className="Admin-cards3">
             <div className="cardnew1">
-              <  BarChart
+              <b>
+                <p>Customers</p>
+              </b>{" "}
+              <br />
+              <p>
+                Total customers this month: <b>92556</b>{" "}
+              </p>
+              <BarChart
                 width={460}
                 height={280}
                 data={data}
@@ -215,6 +222,11 @@ function AdminHeader() {
               </BarChart>
             </div>
             <div className="cardnew2">
+              <b>
+                <p>Revenue</p>
+              </b>
+              <br />
+              <p>Total conversation this month</p>
               <AreaChart
                 width={460}
                 height={280}
@@ -240,10 +252,15 @@ function AdminHeader() {
             </div>
           </div>
 
-{/* chart-content2 */}
+          {/* chart-content2 */}
 
           <div className="Admin-cards4">
             <div className="cardnew1">
+              <b>
+                <p>Revenue for last 30 days</p>
+              </b>
+              <br />
+              <p>sales performance for online revenue of past 30 days</p>
               <LineChart
                 width={460}
                 height={280}

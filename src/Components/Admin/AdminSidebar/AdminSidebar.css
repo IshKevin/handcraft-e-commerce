@@ -36,3 +36,34 @@
   color: black;
   border-radius: 50px 0px 50px 0px;
 }
+.side-profile img{
+margin-top: -13px;
+}
+
+/* Tablet responsiveness */
+@media screen AND (max-width: 1040px){
+  .side{
+    display: none;
+  }
+}
+
+/* Mobile-large responsiveness */
+@media screen AND (max-width: 1200px){
+  .side{
+    display: none;
+  }
+}
+
+/* Mobile-large responsiveness */
+@media screen AND (max-width: 768px){
+  .side{
+    display: none;
+  }
+}
+
+/* Small-mobile responsiveness */
+@media screen AND (max-width: 480px){
+  .side{
+    display: none;
+  }
+}
