@@ -7,7 +7,7 @@
   background-size: cover;
   background: linear-gradient(
     rgba(255, 255, 255, 0.5),
-    rgba(74, 140, 194, 0.5)
+    rgba(8, 8, 8, 0.5)
     
   );
 }
@@ -81,4 +81,12 @@ border-style:groove;
   border: none;
   color: white;
   border-radius: 10px;
+}
+.link{
+ cursor: pointer;
+ color: rgb(7, 7, 7);
+ border: none;
+ text-align: center;
+text-decoration: none;
+font-size:16px;
 }

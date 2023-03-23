@@ -15,7 +15,7 @@ import VendorDashboard from './Components/Vendor/vendorDashboard/vendorDashboard
 import Sales from './Pages/VendorDashboard/Sales';
 import Order from './Pages/VendorDashboard/Order';
 import Transition from './Pages/VendorDashboard/Transition';
-// import Setting from './Pages/VendorDashboard/Setting';
+import Setting from './Pages/VendorDashboard/Setting';
 import Shop from './Pages/Shop/Shop';
 import Vender from './Pages/Vender/Vender'
 
@@ -73,7 +73,7 @@ const App = () => {
             <Route path="Sales" element={<Sales/>} />
             <Route path="Order" element={<Order/>} />
             <Route path="Transition" element={<Transition/>} />
-            <Route path="Setting" element={<Register/>} />
+            <Route path="Setting" element={<Setting/>} />
 
 
 

@@ -9,6 +9,7 @@ import {AiFillSetting} from 'react-icons/ai'
 import { GrProductHunt } from 'react-icons/gr'
 import { RiLogoutBoxFill } from 'react-icons/ri'
 import { Link } from 'react-router-dom';
+import robot from '../VendorSidebar/robot.jpg';
 
 
 
@@ -16,7 +17,7 @@ const VendorSidebar = () => {
   return (
     <div className="side">
     <div className="side-profile">
-      <img src="robot.jpg" alt="profile icon" className="img-mic" />
+      <img src={robot} alt="profile icon" className="img-mic" />
       <div className="side-profile-text">
         <p>hello!!</p>
         <h1 className="side-profile-text-h1">IC Store</h1>
