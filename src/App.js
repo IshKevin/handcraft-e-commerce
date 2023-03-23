@@ -19,6 +19,7 @@ import Setting from './Pages/VendorDashboard/Setting';
 import Shop from './Pages/Shop/Shop';
 import Vender from './Pages/Vender/Vender'
 import Cart from './Pages/Cart/Cart';
+import Wishlist from './Pages/Wishlist/Wishlist'
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="Shop" element={<Shop/>}/>
           <Route path="Vender" element={<Vender/>}/>
           <Route path="Cart" element={<Cart/>}/>
+          <Route path="Wishlist" element={<Wishlist/>}/>
           <Route index element={<Home />} />
           <Route />
           <Route
