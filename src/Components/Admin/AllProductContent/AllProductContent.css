@@ -1,0 +1,25 @@
+.product-boxx{
+     background-color: white;
+   width: 95%;
+   margin-left: 2rem;
+   margin-top: 1rem;
+}
+.next-cont {
+  display: flex;
+  padding: 30px 100px;
+  gap: 2rem;
+}
+.next-cont ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.next-cont li :hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.next1 {
+  background-color: #5f4c6b;
+  width: 30px;
+  height: 30px;
+}

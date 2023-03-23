@@ -4,10 +4,12 @@ import './VendorTransition.css'
 
 const VendorTransition = () => {
   return (
-    <div className='trans-content'>
+ <>
+ 
+ <div className='sale-content'>
          <div className='topbar-item'>
           <div className='dash-left'>
-         <h1 className='dash-head'>Transaction </h1>
+         <h1 className='dash-head'>Transitions</h1>
          <p className='dash-para'>Everything here!</p>
          </div>
          <div className='dash-search'>
@@ -19,14 +21,13 @@ const VendorTransition = () => {
          </div>
 
         </div>
-
         <div className='hd-sales'>
           <div> 
             <select>
-           <option>All category</option> 
-            <option>Clothes</option>
-            <option>Art</option>
-            <option>Food</option>
+           <option>Method</option> 
+            <option>MTN</option>
+            <option>Airtel</option>
+            <option>Paypal</option>
             </select>
           </div>
           <div className='s-right'>
@@ -47,52 +48,52 @@ const VendorTransition = () => {
             <FaSearch className='filcon'/>
           </div>
           </div>
-          </div>
 
+        </div>
 
-          <div className='card' id='box4'>
+        <div className='boxx'>
           <table className='table'>
             <tr>
-              <th><input type="checkbox" name="select"/> </th>
-            <th>PID</th> 
+            <th>Date</th> <th>Customer</th>
             <th>  Payment</th><th>Method</th>
-            <th>Expense</th><th>Date</th> <th>Earning</th>
+            <th>Status</th><th> Expenses</th> <th>Earnings</th>
            </tr>
            <tr>
-           <th><input type="checkbox" name="select"/> </th>
-            <td>001</td> <td>10,000</td> <td>Paypal</td> <td>1000</td> <td> 1/jan/2023</td> <td>9000</td>
+           
+            <td> 1/jan/2023</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td>$200</td>
+            <td>$2000</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
-            <td>001</td>  <td>10,000</td> <td>Paypal</td> <td>1000</td> <td> 1/jan/2023</td> <td>9000</td>
+            <td> 1/jan/2023</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td>$200</td>
+            <td>$2000</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
-            <td>001</td>  <td>10,000</td> <td>Paypal</td> <td>1000</td> <td> 1/jan/2023</td> <td>9000</td>
+            <td> 1/jan/2023</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td>$200</td>
+            <td>$2000</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
-            <td>001</td>  <td>10,000</td> <td>Paypal</td> <td>1000</td> <td> 1/jan/2023</td> <td>9000</td>
+            <td> 1/jan/2023</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td>$200</td>
+            <td>$2000</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
-            <td>001</td>  <td>10,000</td> <td>Paypal</td> <td>1000</td> <td> 1/jan/2023</td> <td>9000</td>
+            <td> 1/jan/2023</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td>$200</td>
+            <td>$2000</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
-            <td>001</td>  <td>10,000</td> <td>Paypal</td> <td>1000</td> <td> 1/jan/2023</td> <td>9000</td>
+            <td> 1/jan/2023</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td>$200</td>
+            <td>$2000</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
-            <td>001</td>  <td>10,000</td> <td>Paypal</td> <td>1000</td> <td> 1/jan/2023</td> <td>9000</td>
+            <td> 1/jan/2023</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td>$200</td>
+            <td>$2000</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
-            <td>001</td> <td>10,000</td> <td>Paypal</td> <td>1000</td> <td> 1/jan/2023</td> <td>9000</td>
+            <td> 1/jan/2023</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td>$200</td>
+            <td>$2000</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
-            <td>001</td> <td>10,000</td> <td>Paypal</td> <td>1000</td> <td> 1/jan/2023</td> <td>9000</td>
+            <td> 1/jan/2023</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td>$200</td>
+            <td>$2000</td>
             </tr>
 
 
@@ -102,12 +103,20 @@ const VendorTransition = () => {
 
 
           </table>
+           <div className='nextp'>
+            <ul>
+              <li className='next'>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li>
+            </ul>
+             <p>Next</p>
+           </div>
 
           </div>
-       
-
 
     </div>
+ 
+ 
+ </>
+   
   )
 }
 

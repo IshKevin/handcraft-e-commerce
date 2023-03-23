@@ -1,0 +1,27 @@
+.sales-boxx{
+    height:500px;
+    border-radius:5px;
+    background-color: white;
+    padding:0px 30px;
+    /* width:70%; */
+    /* margin-left:100p */
+}
+.next-cont {
+  display: flex;
+  padding: 30px 100px;
+  gap: 2rem;
+}
+.next-cont ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.next-cont li :hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.next1 {
+  background-color: #5f4c6b;
+  width: 30px;
+  height: 30px;
+}

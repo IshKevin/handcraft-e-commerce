@@ -1,6 +1,7 @@
 import React from "react";
 import "./SallerDetailcontent.css";
-
+import { GrClose } from "react-icons/gr";
+import sallerpc from "../SallerDetailcontent/seller.jpg";
 import { LineChart,XAxis, YAxis,Line, CartesianGrid,Tooltip,Legend} from 'recharts';
 const data = [
   {
@@ -48,13 +49,21 @@ const data = [
 ];
 
 
-const SallerDetailcontent = () => {
+const SallerDetailcontent = ({modal, setModal}) => {
   return (
     <div className="allcontent">
+      <span>
+        <GrClose
+          id="modle-close"
+          onClick={() => {
+            setModal(false);
+          }}
+        />
+      </span>
       <div className="detail-container">
         <div className="right-details">
           <div className="top-content">
-            <img src="robot.jpg" alt="profile icon" className="img-mic" />
+            <img src={sallerpc} alt="seller-photo" className="sallerpc" />
             <p>
               <b>FOX MEDIA</b> <br /> SINCE 2012
             </p>
@@ -97,10 +106,9 @@ const SallerDetailcontent = () => {
         </div>
         <div className="left-allcontainer">
           <div className="left-container1">
-
             <LineChart
               width={460}
-              height={280}
+              height={300}
               data={data}
               margin={{
                 top: 5,
@@ -149,7 +157,7 @@ const SallerDetailcontent = () => {
 
               <tr>
                 <td>
-                  <img src="robot.jpg" alt="profile icon" className="img-mic" />
+                  <img src={sallerpc} alt="seller-photo" className="sallerpc" />
                 </td>
                 <td>T-shirt</td>
                 <td>80,000 frw</td>
@@ -159,7 +167,7 @@ const SallerDetailcontent = () => {
 
               <tr>
                 <td>
-                  <img src="robot.jpg" alt="profile icon" className="img-mic" />
+                  <img src={sallerpc} alt="seller-photo" className="sallerpc" />
                 </td>
                 <td>T-shirt</td>
                 <td>80,000 frw</td>
@@ -168,7 +176,7 @@ const SallerDetailcontent = () => {
               </tr>
               <tr>
                 <td>
-                  <img src="robot.jpg" alt="profile icon" className="img-mic" />
+                  <img src={sallerpc} alt="seller-photo" className="sallerpc" />
                 </td>
                 <td>T-shirt</td>
                 <td>80,000 frw</td>

@@ -7,12 +7,13 @@ import { GrProductHunt } from "react-icons/gr";
 import { TbTransitionBottom } from "react-icons/tb";
 import { RiLogoutBoxFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import robot from "../AdminSidebar/robot.jpg";
 
 const AdminSideBar = () => {
   return (
     <div className="side">
       <div className="side-profile">
-        <img src="robot.jpg" alt="profile icon" className="img-mic" />
+        <img src={robot} alt="seller-photo" className="img-mic" />
         <div className="side-profile-text">
           <p>hello!!</p>
           <h1 className="side-profile-text-h1">IC Store</h1>
@@ -32,10 +33,10 @@ const AdminSideBar = () => {
           <GrProductHunt className="D-icon" id="icons" />
           <h1 className="side-menu-text-h1">All products</h1>
         </Link>
-        <Link to="./Adminsellerdetail" className="side-menu-single">
+        {/* <Link to="./Adminsellerdetail" className="side-menu-single">
           <BsBorderStyle className="D-icon" id="icons" />
           <h1 className="side-menu-text-h1">Seller detail</h1>
-        </Link>
+        </Link> */}
         <Link to="./Adminsales" className="side-menu-single">
           <TbTransitionBottom className="D-icon" id="icons" />
           <h1 className="side-menu-text-h1">Sales</h1>

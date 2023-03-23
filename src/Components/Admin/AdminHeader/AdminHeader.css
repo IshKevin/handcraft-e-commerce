@@ -4,6 +4,7 @@
   background-color: rgba(0, 0, 0, 0.219);
   padding: 10px 10px;
   margin-top: 0%;
+  width: 100vw;
 }
 .admindash-header-component ul li{
   list-style: none;
@@ -18,19 +19,21 @@
   width: 30%;
   height: 8rem;
   border-radius: 5px;
-  
+  box-shadow:1px 1px 1px 1px;
 }
 .card2{
   background-color: white;
   width: 30%;
   height: 8rem;
   border-radius: 5px;
+  box-shadow:1px 1px 1px 1px;
 }
 .card3{
   background-color: white;
   width: 30%;
   height: 8rem;
   border-radius: 5px;
+  box-shadow:1px 1px 1px 1px;
 }
 .Admin-cards1{
   display: flex;
@@ -44,6 +47,7 @@
 }
 .cards-container{
   margin-left:3rem;
+  margin-top: 1rem;
 }
 .cardnew1{
   background-color: white;
@@ -82,21 +86,40 @@ display: flex;
   gap: 1rem;
 }
 .details-icon{
-  font-size: 30px;
+  font-size: 19px;
   color: blue;
   margin-top: 10px;
 }
 .details-content{
   color: blue;
+  margin-top: 10px;
 }
-@media screen AND (max-width: 480px){
+
+/* Tablet responsiveness */
+@media screen AND (max-width: 1040px){
+
 .admindash-header-component ul{
   display: flex;
-  gap: 20px;
+  gap: 40rem;
   background-color: rgba(0, 0, 0, 0.219);
   padding: 10px 10px;
   margin-top: 0%;
+  width:100%;
+}
+}
+
+/* Small-Mobile Responsiveness */
+
+@media screen AND (max-width: 480px){
+.admindash-header-component ul{
+  display: flex;
+  gap: 250px;
+  background-color: rgba(0, 0, 0, 0.219);
+  padding: 10px 10px;
   width: 100%;
+}
+.admindash-header-component ul li{
+  list-style: none;
 }
 .Admin-cards1{
   display: flex;
@@ -120,33 +143,73 @@ display: flex;
 }
 .card1{
   background-color: white;
-  width: 100%;
+  width: 90%;
   height: 8rem;
   border-radius: 5px;
-  
+  margin-right: 10px;
 }
 .card2{
   background-color: white;
-  width: 100%;
+  width: 90%;
   height: 8rem;
   border-radius: 5px;
+  margin-right: 10px;
 }
 .card3{
-  background-color: white;
-  width: 100%;
+ background-color: white;
+  width: 90%;
   height: 8rem;
   border-radius: 5px;
+  margin-right: 10px;
 }
 .cardnew1{
   background-color: white;
-  width: 100%;
+  width: 90%;
   height: 18rem;
   border-radius: 5px;
 }
 .cardnew2{
   background-color: white;
-  width: 100%;
+  width: 90%;
   height: 18rem;
   border-radius: 5px;
 }
+.Admin-cards3{
+  display: flex;
+  margin-top: 2rem;
+  gap:1em;
+  flex-direction: column;
 }
+.Admin-cards4{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+}
+
+
+
+/* Mobile-large responsiveness */
+/* @media screen AND (max-width: 768px){
+  .Admin-header{
+  margin-left: -30px;
+ }
+ .admindash-header-component ul{
+  display: flex;
+  gap:600px;
+  background-color: rgba(0, 0, 0, 0.219);
+  padding: 10px 10px;
+  margin-top: 0%;
+  width: 100%;
+}
+.admindash-header-component ul li{
+  list-style: none;
+  margin-left: 30px;
+}
+} */
+
+/* Mobile-large responsiveness */
+/* @media screen AND (max-width: 1200px){
+
+} */

@@ -1,114 +1,149 @@
-.right-details{
-    background-color: white;
-    width: 25rem;
-    height: 75vh;
-    margin-left: 3rem;
+.right-details {
+  background-color: white;
+  width: 25rem;
+  height:70vh;
+  margin-left: 3rem;
+  box-shadow: 10px;
 }
-.left-container1{
-    background-color: white;
-    width: 30rem;
-    height: 45vh; 
-    margin-left: 1rem;
+.left-container1 {
+  background-color: white;
+  width: 30rem;
+  height: 50vh;
+  margin-left: 1rem;
 }
-.left-container2{
-    background-color: white;
-    width: 30rem;
-    height: 30vh;
-    margin-left: 1rem;
+.left-container2 {
+  background-color: white;
+  width: 30rem;
+  height: 25vh;
+  margin-left: 1rem;
 }
-.detail-container{
-    display: flex;
-    gap: 3rem;
+.detail-container {
+  display: flex;
+  gap: 3rem;
 }
-.left-allcontainer{
-   display: flex;
-   flex-direction: column;
-   gap: 1rem;
+.left-allcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-.top-content{
-    text-align: center;
+.top-content {
+  text-align: center;
+  margin-bottom: 2rem;
 }
-.midle-content{
-    display: flex;
-    gap: 7rem;
-    margin-left: 20px;
+.midle-content {
+  display: flex;
+  gap: 7rem;
+  margin-left: 20px;
+  /* margin-top: 1rem; */
 }
-#Subject{
-    background-color: white;
-    border: 2px solid black;
-    height: 30px;
-    width: 22rem;
-    border-radius: 3px;
-  }
-  #commentbuton{
-    width:150px;
-    height: 40px;
-    color: white;
-    background-color: lightseagreen;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-left: 210px;
-    margin-top: 10px;
-    border: none;
-  }
-  #Comments{
-     background-color: white;
-    border: 2px solid black;
-    height: 60px;
-    width: 22rem;
-    border-radius: 3px;
-    margin-top: 5px;
-  }
-  .bottom-content{
-    margin-left: 20px;
-    margin-top: -5px;
-  }
-  .midle-content{
-    margin-left: 20px;
-    margin-top: -20px;
-  }
-  #contact-header{
-    text-align: center;
-  }
-  #seller-table{
-    gap: 1rem;
-    border: 1px;
-  }
+#Subject {
+  background-color: white;
+  border: 2px solid black;
+  height: 30px;
+  width: 22rem;
+  border-radius: 3px;
+}
+#commentbuton {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: lightseagreen;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 210px;
+  margin-top: 10px;
+  border: none;
+}
+#Comments {
+  background-color: white;
+  border: 2px solid black;
+  height: 60px;
+  width: 22rem;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+.bottom-content {
+  margin-left: 20px;
+  margin-top: -5px;
+}
+.midle-content {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+#contact-header {
+  text-align: center;
+}
+#seller-table {
+  width: 100%;
+  border: 1 solid black;
+}
 
-  @media screen AND (max-width: 480px){
-    .detail-container{
+.next-cont {
+  display: flex;
+  padding: 30px 100px;
+  gap: 2rem;
+}
+.next-cont ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.next-cont li :hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.next1 {
+  background-color: #5f4c6b;
+  width: 30px;
+  height: 30px;
+}
+#modle-close{
+  margin-left: 976px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+#modle-close:hover{
+  color: red;
+}
+.sallerpc{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+}
+@media screen AND (max-width: 480px) {
+  .detail-container {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-}
+  }
 
-.right-details{
+  .right-details {
     background-color: white;
     width: 20rem;
     height: 75vh;
     margin-left: 1rem;
-}
-.left-container1{
+  }
+  .left-container1 {
     background-color: white;
     width: 20rem;
-    height: 45vh; 
+    height: 45vh;
     margin-left: 1rem;
-}
-.left-container2{
+  }
+  .left-container2 {
     background-color: white;
     width: 17rem;
     height: 30vh;
     margin-left: 1rem;
-}
-#Subject{
+  }
+  #Subject {
     background-color: white;
     border: 2px solid black;
     height: 30px;
     width: 17rem;
     border-radius: 3px;
   }
-  #commentbuton{
-    width:100px;
+  #commentbuton {
+    width: 100px;
     height: 40px;
     color: white;
     background-color: lightseagreen;
@@ -118,12 +153,17 @@
     margin-top: 10px;
     border: none;
   }
-  #Comments{
-     background-color: white;
+  #Comments {
+    background-color: white;
     border: 2px solid black;
     height: 60px;
     width: 17rem;
     border-radius: 3px;
     margin-top: 5px;
   }
-  }
+}
+.allcontent {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 2rem;
+}

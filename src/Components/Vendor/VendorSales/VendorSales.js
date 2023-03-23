@@ -53,44 +53,44 @@ const VendorSales = () => {
           <table className='table'>
             <tr>
               <th><input type="checkbox" name="select"/> </th>
-            <th>PID</th> <th>Customer</th>
+            <th>Date</th> <th>Customer</th>
             <th>  Payment</th><th>Method</th>
-            <th>Status</th><th>Date</th>
+            <th>Status</th><th></th>
            </tr>
            <tr>
-           <th><input type="checkbox" name="select"/> </th>
+           <td><input type="checkbox" name="select"/> </td>
             <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
+            <td><input type="checkbox" name="select"/> </td>
             <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
+            <td><input type="checkbox" name="select"/> </td>
             <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
+            <td><input type="checkbox" name="select"/> </td>
             <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
+            <td><input type="checkbox" name="select"/> </td>
             <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
+            <td><input type="checkbox" name="select"/> </td>
             <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
+            <td><input type="checkbox" name="select"/> </td>
             <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
+            <td><input type="checkbox" name="select"/> </td>
             <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
             </tr>
             <tr>
-            <th><input type="checkbox" name="select"/> </th>
+            <td><input type="checkbox" name="select"/> </td>
             <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
             </tr>
 
