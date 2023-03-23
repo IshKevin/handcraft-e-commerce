@@ -83,7 +83,7 @@ const SallerDetailcontent = ({modal, setModal}) => {
                   Title Mula <br />
                   Partnership <br /> ma@gmail <br />
                   Huye,Tumba <br />
-                  +250 788567398 <br /> online <br /> 20 jan 2023
+                  0788567398 <br /> online <br /> 20 jan 2023
                 </p>
               </b>
             </div>
