@@ -122,12 +122,12 @@ const [success,setSuccess] = useState(false);
         
         />
         <button className="loginButton">
-       
+        <Link className="link" to="/vendorDashboard">
           Login
-       
+          </Link>
           </button>
        <p>
-     <Link className="link" to="/register">
+     <Link className="link" to="/AdminDashboard">
  Don't have Account Register Here !
           </Link>
           </p>

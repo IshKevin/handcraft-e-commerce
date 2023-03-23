@@ -53,9 +53,9 @@ const VendorSales = () => {
           <table className='table'>
             <tr>
               <th><input type="checkbox" name="select"/> </th>
-            <th>PID</th> <th>Customer</th>
+            <th>Date</th> <th>Customer</th>
             <th>  Payment</th><th>Method</th>
-            <th>Status</th><th>Date</th>
+            <th>Status</th><th></th>
            </tr>
            <tr>
            <td><input type="checkbox" name="select"/> </td>
