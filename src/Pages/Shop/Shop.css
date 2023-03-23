@@ -1,7 +1,8 @@
 .shop-container {
   display: flex;
   flex-direction: row;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   gap: 5px;
 }
 

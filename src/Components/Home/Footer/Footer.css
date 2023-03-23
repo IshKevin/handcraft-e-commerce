@@ -6,21 +6,21 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  font-size: 23px;
+  font-size: 14px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 15px;
 }
 .site-footer h1 {
   font-weight: bold;
-  font-size: 26px;
+  font-size: 15px;
 }
 .site-footer .footer-icons {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 16px;
 }
 .site-footer input {
   border: none;
@@ -37,7 +37,7 @@
   color: #adabab;
   border: 1px solid #adabab;
   border-radius: 50px;
-  font-size: 23px;
+  font-size: 18px;
   width: 150px;
   cursor: pointer;
 }
