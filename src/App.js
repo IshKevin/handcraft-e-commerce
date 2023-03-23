@@ -15,10 +15,15 @@ import VendorDashboard from './Components/Vendor/vendorDashboard/vendorDashboard
 import Sales from './Pages/VendorDashboard/Sales';
 import Order from './Pages/VendorDashboard/Order';
 import Transition from './Pages/VendorDashboard/Transition';
-import Setting from './Pages/VendorDashboard/Setting';
+// import Setting from './Pages/VendorDashboard/Setting';
 import Shop from './Pages/Shop/Shop';
 import Vender from './Pages/Vender/Vender'
+
+import Login from './Components/Forms/login/Login';
+import Register from './Components/Forms/register/Register';
+
 import Cart from './Pages/Cart/Cart';
+
 
 
 const App = () => {
@@ -29,7 +34,12 @@ const App = () => {
           <Route path="/" element={<Home />}/>
           <Route path="Shop" element={<Shop/>}/>
           <Route path="Vender" element={<Vender/>}/>
+
+          <Route path="Login" element={<Login/>}/>
+          <Route path="Signup" element={<Register/>}/>
+
           <Route path="Cart" element={<Cart/>}/>
+
           <Route index element={<Home />} />
           <Route />
           <Route
@@ -63,7 +73,7 @@ const App = () => {
             <Route path="Sales" element={<Sales/>} />
             <Route path="Order" element={<Order/>} />
             <Route path="Transition" element={<Transition/>} />
-            <Route path="Setting" element={<Setting/>} />
+            <Route path="Setting" element={<Register/>} />
 
 
 
