@@ -2,6 +2,7 @@ import React from 'react'
 import './VendorProduct.css'
 import {FaSearch} from 'react-icons/fa'
 import { useState, useEffect } from "react";
+import product from '../VendorProduct/product1.png'
 
 const VendorProduct = () => {
   const [modal, setModal] = useState(false);
@@ -65,84 +66,46 @@ const VendorProduct = () => {
             <table className='product-table'>
            
             <tr className='ptr'> 
-            <th>PName</th> <th>Category</th>
-            <th>Description</th><th>Price</th>
+            <th>Image</th><th>PName</th> <th>Category</th>
+            <th>Price</th>
             <th>Stock</th><th>Sold</th><th>Earings</th> <th>Actions</th>
            </tr>
         
           
            <tr >
+           <td><img src={product} alt="pimage" className='img-min'></img></td>
             <td>
               <p>skirt</p>
            </td> 
-              <td>Women</td> <td>large</td> <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
+              <td>Women</td>  <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
             </tr>
-            
-            
-           <tr>
-            <td>
-              <p>skirt</p>
-           </td> 
-              <td>Women</td> <td>large</td> <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
-            </tr>
-          
-          
-           <tr>
-            <td>
-              <p>skirt</p>
-           </td> 
-              <td>Women</td> <td>large</td> <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
-            </tr>
-          
-            
-           <tr>
-            <td>
-              <p>skirt</p>
-           </td> 
-              <td>Women</td> <td>large</td> <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
-            </tr>
-            
-           
-           <tr>
-            <td>
-              <p>skirt</p>
-           </td> 
-              <td>Women</td> <td>large</td> <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
-            </tr>
-           
-           
-           <tr>
-            <td>
-              <p>skirt</p>
-           </td> 
-              <td>Women</td> <td>large</td> <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
-            </tr>
-            <tr>
-            <td>
-              <p>skirt</p>
-           </td> 
-              <td>Women</td> <td>large</td> <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
-            </tr>
-            <tr>
-            <td>
-              <p>skirt</p>
-           </td> 
-              <td>Women</td> <td>large</td> <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
-            </tr>
-            <tr>
-            <td>
-              <p>skirt</p>
-           </td> 
-              <td>Women</td> <td>large</td> <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
-            </tr>
-            <tr>
-            <td>
-              <p>skirt</p>
-           </td> 
-              <td>Women</td> <td>large</td> <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
-            </tr>
-           
 
+            <tr >
+           <td><img src={product} alt="pimage" className='img-min'></img></td>
+            <td>
+              <p>skirt</p>
+           </td> 
+              <td>Women</td>  <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
+            </tr>
+
+            <tr >
+           <td><img src={product} alt="pimage" className='img-min'></img></td>
+            <td>
+              <p>skirt</p>
+           </td> 
+              <td>Women</td>  <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
+            </tr>
+
+            <tr >
+           <td><img src={product} alt="pimage" className='img-min'></img></td>
+            <td>
+              <p>skirt</p>
+           </td> 
+              <td>Women</td>  <td>$200</td> <td>20</td> <td>10</td><td>2000</td><td>:</td>
+            </tr>
+            
+            
+          
            
             </table>
 
