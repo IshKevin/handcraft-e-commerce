@@ -10,10 +10,10 @@
   gap: 0;
   list-style: none;
 }
-.wel {
+.welcome-home{
   background-color: var(--color-nav-bg);
 }
-nav {
+.nav-page {
   border-bottom: 1px solid var(--color-gray);
 }
 .search {

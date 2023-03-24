@@ -10,8 +10,8 @@ import Header from "../header/Header";
 const Nav = () => {
   return (
     <>
-      <nav>
-        <div className="wel">
+      <nav className="nav-page">
+        <div className="welcome-home">
           <div className="container welcome">
             <h6>Welcome to madein hand craft</h6>
             <div className="Nav-register">

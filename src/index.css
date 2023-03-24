@@ -7,9 +7,13 @@
   
 }
 
+ul li{
+  list-style: none;
+}
+
 
 :root {
-  --color-bg: white;
+  --color-bg: rgb(255, 255, 255);
   --color-text: black;
   --color-nav-bg: #f4f4f5;
   --color-icon-bg: #6193f4;
