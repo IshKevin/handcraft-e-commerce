@@ -9,8 +9,9 @@
 const vendorDashboard = () => {
   return (
     <>
+    <div className="vendorDashbord-pages">
       <VendorDashboard/>
-      
+      </div>
     </>
   );
 }

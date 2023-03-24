@@ -2,6 +2,8 @@
 .product-content{
     background-color: #f4f5f9;
     width: 80vw;
+    /* background-color: #F4F5F9; */
+    overflow-y: auto;
 }
 .dash-search{
     background-color: white;
@@ -62,7 +64,8 @@
     /* padding: 30px 20px; */
 }
 .buttom{
-    padding:30px 100px;
+    padding:30px 70px;
+    width:100%;
 }
 .update{
     background-color: blueviolet;
@@ -115,12 +118,15 @@
 }
 
 .product-table{
-    margin:20px 25px ;
+    /* margin:20px 25px ; */
     background-color:rgb(135, 164, 197);
     border: none;
     border-radius:10px;
     border-collapse: collapse;
     padding:7px;
+    /* margin-right:50px; */
+    width:40px;
+
     
 }
 .product-table th{
@@ -142,7 +148,7 @@ border-radius:2px;
 .popup-bg{
     position:fixed;
     background-color: rgb(5, 5, 5,0.5);
-    margin-top:-650px;
+    margin-top:-700px;
     width:80%;
     max-height:110vh;
     overflow-y:auto;

@@ -43,6 +43,7 @@
 }
 .main-Dashboard{
     background-color: #F4F5F9;
+    overflow-y: auto;
 }
 #card1{
 grid-column: 1/2;

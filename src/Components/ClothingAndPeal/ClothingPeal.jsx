@@ -4,8 +4,8 @@ import { MdArrowRightAlt } from "react-icons/md";
 import { FaCartPlus } from "react-icons/fa";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { AiFillStar, AiOutlineHeart } from "react-icons/ai";
-import APEAL from "../../assets/appeal.jpg";
-import ING from "../../assets/ingo.jpg";
+import APEAL from '../../assets/appeal.jpg';
+import ING from '../../assets/ingo.jpg';
 const ClothingPeal = () => {
   return (
     <>

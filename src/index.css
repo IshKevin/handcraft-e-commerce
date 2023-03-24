@@ -4,6 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  /* overflow-y:hidden; */
+  /* overflow-x: hidden; */
   
 }
 
@@ -101,8 +103,8 @@ h1{
   border-radius:10px;
 }
 .img-min{
-  width:100px;
-  height:90px;
+  width:50px;
+  height:50px;
   border-radius:10px;
 }
 .img-mic{
