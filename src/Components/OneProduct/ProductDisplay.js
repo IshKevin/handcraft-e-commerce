@@ -20,7 +20,7 @@ function ProductDisplay(props) {
       <Link to='/Wishlist'><AiOutlineHeart className="iconx" /></Link>
     </li>
     <li>
-      <HiOutlineArrowNarrowRight className="iconx" />
+     <Link to='/Buy'> <HiOutlineArrowNarrowRight className="iconx" /></Link>
     </li>
   </ul>
 </div>
