@@ -7,7 +7,7 @@ const VendorOrder = () => {
   const [modal, setModal] = useState(false);
   return (
     <>
-    <div>
+    <div className='main-dashboard-order'>
          <div className='topbar-item'>
           <div className='dash-left'>
          <h1 className='dash-head'>Order Info</h1>

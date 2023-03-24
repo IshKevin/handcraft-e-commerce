@@ -89,3 +89,7 @@
     position: fixed;
     padding: 40px;
 }
+.main-dashboard-order{
+    background-color: #F4F5F9;
+    overflow-y: auto;
+}
