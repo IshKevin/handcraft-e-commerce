@@ -9,3 +9,8 @@
     max-height: 100vh;
     overflow-y:hidden;
 }
+
+.h{
+  max-height: 101vh;
+  overflow-y: auto  !important;
+}

@@ -13,6 +13,7 @@ const EMAIL_REGEX = /^[a-zA-Z0-9]+@+[a-zA-Z0-9]+.+[A-z]/;
 
 
 export default function Register() {
+  const [modal, setModal] = useState(false);
  const navigate = useNavigate();
   const userRef = useRef();
   const errRef = useRef();
@@ -107,10 +108,16 @@ export default function Register() {
 
     return (
       <>
+
+
+
+
+
+
+      <div className="customer-register" style={{display: !modal? "none" : "flex" }} >
       {/* {success ? (
         <div className="success-msg">
           <h1>success!</h1>
-          <p><Link to="/login">Login</Link></p>
         </div>
       ) :( */}
 
@@ -207,6 +214,7 @@ export default function Register() {
       </div>
        </div>
       {/* )} */}
+      </div>
     </>
     )
 }

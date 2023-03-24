@@ -96,6 +96,27 @@ const VendorSales = () => {
 
 
 
+            <tr>
+            <td><input type="checkbox" name="select"/> </td>
+            <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
+            </tr>
+            <tr>
+            <td><input type="checkbox" name="select"/> </td>
+            <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
+            </tr>
+            <tr>
+            <td><input type="checkbox" name="select"/> </td>
+            <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
+            </tr>
+            <tr>
+            <td><input type="checkbox" name="select"/> </td>
+            <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
+            </tr>
+            <tr>
+            <td><input type="checkbox" name="select"/> </td>
+            <td>001</td> <td>Ms.kelly</td> <td>10,000</td> <td>Paypal</td> <td>delivered</td> <td> 1/jan/2023</td>
+            </tr>
+
 
 
 
