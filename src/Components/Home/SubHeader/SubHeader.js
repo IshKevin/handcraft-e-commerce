@@ -6,13 +6,23 @@ import {MdOutlineLocationOn} from 'react-icons/md'
 import {MdOutlineDiscount} from 'react-icons/md'
 import {GoSearch} from 'react-icons/go'
 import {Link} from 'react-router-dom'
+import {BiSearch} from 'react-icons/bi'
+import {HiShoppingCart} from 'react-icons/hi'
+import {IoPricetagsOutline} from 'react-icons/io5'
+import {AiOutlineBars} from 'react-icons/ai'
+import {MdKeyboardArrowDown} from 'react-icons/md'
+import {GoLocation} from 'react-icons/go'
+
+
+
 
 
 
 const SubHeader = () => {
   return (
-   <div>
-    <section className='subHeader' >
+    <>
+   <div className='nav-page'>
+    {/* <section className='subHeader' >
         <div className='subheader-sect1'>
         <img src="Madein.PNG" alt='our log'/>
         </div>
@@ -93,9 +103,85 @@ const SubHeader = () => {
             <MdOutlineDiscount/> Dialy Deals 
         </div>
     
-     </div>
-    </div>
+     </div> */}
 
+<div className="container search">
+          <div className="icon_header">
+          <img src="Madein.PNG" alt='our log'/>
+          </div>
+          <div className="input_search">
+            <select name="allCategories" id="">
+              <option value="">All Category</option>
+              <option value="">Shoes</option>
+              <option value="">funiture</option>
+              <option value="">technology</option>
+              <option value="">t shirt</option>
+            </select>
+            <input type="text" placeholder="Search In" />
+            <span className="searchIcon">
+              <BiSearch />
+            </span>
+          </div>
+          <div className="cartWishlist">
+            <div className="contact">
+              <p>live chat or :</p>
+              <small>+250 785 161 508</small>
+            </div>
+            <div className="cwcontainer">
+              <div className="cart">
+                <span>
+                  <AiOutlineHeart />
+                </span>
+                <small>Wishlist</small>
+              </div>
+              <div className="cart">
+                <span>
+                  <HiShoppingCart />
+                </span>
+                <small>Cart</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div className="navBar">
+        <div className="container subNav">
+          <div className="categories">
+            <span>
+              <AiOutlineBars />
+            </span>
+            <div className="pdetails">
+              <p>BrowseCategory</p>
+              <span>
+                <MdKeyboardArrowDown />
+              </span>
+            </div>
+          </div>
+          <div className="links">
+            <ul>
+              <li><Link to='/'>Home</Link></li>
+              <li><Link to='./Shop'>Shop</Link></li>
+              <li><Link to='./Vender'>Vendor</Link></li>
+              <li>Pages</li>
+            </ul>
+          </div>
+          <div className="trackOrders">
+            <div className="track">
+              <span>
+                <GoLocation />
+              </span>
+              <p>Track Order</p>
+            </div>
+            <div className="track">
+              <span>
+                <IoPricetagsOutline />
+              </span>
+              <p>Track Order</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 

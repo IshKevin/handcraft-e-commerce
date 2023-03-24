@@ -7,9 +7,13 @@
   
 }
 
+ul li{
+  list-style: none;
+}
+
 
 :root {
-  --color-bg: white;
+  --color-bg: rgb(255, 255, 255);
   --color-text: black;
   --color-nav-bg: #f4f4f5;
   --color-icon-bg: #6193f4;
@@ -84,7 +88,7 @@ Link{
 }
 
 h1{
- font-size:20px; 
+ font-size:16px; 
 }
 .img-l{
   width:250px;
@@ -111,6 +115,6 @@ border-radius:50%;
   height:30px;
 }
 h2,h3,h4,h5,h6{
-  font-size:25px;
+  font-size:14px;
 }
 
