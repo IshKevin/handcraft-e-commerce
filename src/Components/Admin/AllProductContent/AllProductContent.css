@@ -1,8 +1,11 @@
 .product-boxx{
-     background-color: white;
-   width: 95%;
+  background-color: white;
+   width:82.5%;
    margin-left: 2rem;
    margin-top: 1rem;
+   cursor: pointer;;
+   overflow-y: scroll;
+   overflow-x: hidden;
 }
 .next-cont {
   display: flex;
@@ -30,6 +33,7 @@
 .product-boxx{
   min-width:80%;
   overflow-x: auto;
+  margin-top: 10rem;
 }
 
 }
@@ -38,6 +42,7 @@
 .product-boxx{
   min-width:80%;
   overflow-x: auto;
+  margin-top: 10rem;
 }
 
 .next-cont {

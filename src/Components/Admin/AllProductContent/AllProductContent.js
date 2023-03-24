@@ -7,7 +7,7 @@ const AllProductContent = () => {
         <table className="table">
           <tr>
             <th>
-              <input type="checkbox" name="select" />{" "}
+              <input type="checkbox" name="select" />
             </th>
             <th>P.name</th>
             <th> Vendor</th>
@@ -16,82 +16,42 @@ const AllProductContent = () => {
             <th>Description</th>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Black-shirt</td> <td>Yves Bryan</td>
             <td>30,000 frw</td>
             <td>20</td> <td>large</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Black-shirt</td> <td>Yves Bryan</td>
             <td>30,000 frw</td>
             <td>20</td> <td>large</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Black-shirt</td> <td>Yves Bryan</td>
             <td>30,000 frw</td>
             <td>20</td> <td>large</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Black-shirt</td> <td>Yves Bryan</td>
             <td>30,000 frw</td>
             <td>20</td> <td>large</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Black-shirt</td> <td>Yves Bryan</td> <td>30,000 frw</td>
-            <td>20</td> <td>large</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
-            <td>Black-shirt</td> <td>Yves Bryan</td>
-            <td>30,000 frw</td>
-            <td>20</td> <td>large</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
-            <td>Black-shirt</td> <td>Yves Bryan</td>
-            <td>30,000 frw</td>
-            <td>20</td> <td>large</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
-            <td>Black-shirt</td> <td>Yves Bryan</td>
-            <td>30,000 frw</td>
-            <td>20</td> <td>large</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
-            <td>Black-shirt</td> <td>Yves Bryan</td>
-            <td>30,000 frw</td>
-            <td>20</td> <td>large</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
-            <td>Black-shirt</td> <td>Yves Bryan</td>
-            <td>30,000 frw</td>
             <td>20</td> <td>large</td>
           </tr>
         </table>

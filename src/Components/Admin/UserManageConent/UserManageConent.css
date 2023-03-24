@@ -25,7 +25,7 @@
   height: 30px;
 }
 .modal{
-  margin-top: -44rem;
+  margin-top: -33rem;
   background-color: rgb(10, 10, 10,0.5);
   position: fixed;
   width: 100%;
@@ -41,6 +41,7 @@
 .user-boxx{
   min-width:80%;
   overflow-x: auto;
+  margin-top: 10rem;
 }
 
 }
@@ -49,6 +50,7 @@
 .user-boxx{
   min-width:80%;
   overflow-x: auto;
+  margin-top: 10rem;
 }
 
 .user-next-cont {

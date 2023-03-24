@@ -20,64 +20,64 @@ const UserManageConent = () => {
             <th>Actions</th>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td
               onClick={() => {
                 setModal(true);
               }}
             >
               Tite mula
-            </td>{" "}
+            </td>
             <td>ma@gmail </td> <td>099 345</td>
             <td>Huye, SH23</td>
             <td>Online</td> <td>20 jan 2023</td> <td>...</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Tite mula</td> <td>ma@gmail </td> <td>099 345</td>
             <td>Huye, SH23</td>
             <td>Online</td> <td>20 jan 2023</td> <td>...</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Tite mula</td> <td>ma@gmail </td> <td>099 345</td>
             <td>Huye, SH23</td>
             <td>Online</td> <td>20 jan 2023</td> <td>...</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Tite mula</td> <td>ma@gmail </td> <td>099 345</td>
             <td>Huye, SH23</td>
             <td>Online</td> <td>20 jan 2023</td> <td>...</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Tite mula</td> <td>ma@gmail </td> <td>099 345</td>
             <td>Huye, SH23</td>
             <td>Online</td> <td>20 jan 2023</td> <td>...</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Tite mula</td> <td>ma@gmail </td> <td>099 345</td>
             <td>Huye, SH23</td>
             <td>Online</td> <td>20 jan 2023</td> <td>...</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Tite mula</td> <td>ma@gmail </td> <td>099 345</td>
             <td>Huye, SH23</td>
             <td>Online</td> <td>20 jan 2023</td> <td>...</td>
