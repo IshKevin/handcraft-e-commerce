@@ -5,13 +5,12 @@ import { useState} from "react";
 const UserManageConent = () => {
   const[modal, setModal] = useState(false);
   return (
-    
     <div>
       <div className="user-boxx">
         <table className="table">
           <tr>
             <th>
-              <input type="checkbox" name="select" />{" "}
+              <input type="checkbox" name="select" />
             </th>
             <th>Name</th> <th>E-mail</th>
             <th>Phone</th>
@@ -84,21 +83,21 @@ const UserManageConent = () => {
             <td>Online</td> <td>20 jan 2023</td> <td>...</td>
           </tr>
         </table>
-        <div className="next-cont">
-          <ul>
-            <li className="next1">1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-          </ul>
-          <p>Next</p>
-        </div>
+      </div>
+      <div className="user-next-cont">
+        <ul>
+          <li className="next1">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+        </ul>
+        <p>Next</p>
       </div>
       <div className="modal" style={{ display: !modal ? "none" : "flex" }}>
         <div className="background-between">
-          <SallerDetailcontent modal={modal} setModal={setModal}/>
+          <SallerDetailcontent modal={modal} setModal={setModal} />
         </div>
       </div>
     </div>

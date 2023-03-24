@@ -5,7 +5,7 @@ import { GrFilter } from "react-icons/gr";
 const UserManageHeader = () => {
   return (
     <div className="HeadContainer">
-      <div className="admin-header-component">
+      <div className="admin-manageheader-component">
         <ul>
           <li>Dashboard</li>
           <li>Admin</li>
