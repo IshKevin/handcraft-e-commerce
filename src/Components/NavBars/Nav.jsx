@@ -49,19 +49,19 @@ const Nav = () => {
           </div>
           <div className="cartWishlist">
             <div className="contact">
-              <p>live chat or :</p>
+              <p>Live chat or :</p>
               <small>+250 785 161 508</small>
             </div>
             <div className="cwcontainer">
               <div className="cart">
                 <span>
-                  <AiOutlineHeart />
+                  <Link to='/Wishlist'><AiOutlineHeart /></Link>
                 </span>
                 <small>Wishlist</small>
               </div>
               <div className="cart">
                 <span>
-                  <HiShoppingCart />
+                <Link to='/Cart'><HiShoppingCart /></Link>
                 </span>
                 <small>Cart</small>
               </div>

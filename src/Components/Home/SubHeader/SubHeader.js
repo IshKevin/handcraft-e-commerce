@@ -129,14 +129,14 @@ const SubHeader = () => {
             </div>
             <div className="cwcontainer">
               <div className="cart">
-                <span>
-                  <AiOutlineHeart />
+              <span>
+                  <Link to='/Wishlist'><AiOutlineHeart /></Link>
                 </span>
                 <small>Wishlist</small>
               </div>
               <div className="cart">
                 <span>
-                  <HiShoppingCart />
+                <Link to='/Cart'><HiShoppingCart /></Link>
                 </span>
                 <small>Cart</small>
               </div>
@@ -160,8 +160,8 @@ const SubHeader = () => {
           <div className="links">
             <ul>
               <li><Link to='/'>Home</Link></li>
-              <li><Link to='./Shop'>Shop</Link></li>
-              <li><Link to='./Vender'>Vendor</Link></li>
+              <li><Link to='/Shop'>Shop</Link></li>
+              <li><Link to='/Vender'>Vendor</Link></li>
               <li>Pages</li>
             </ul>
           </div>
