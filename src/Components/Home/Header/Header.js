@@ -1,24 +1,30 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import {RxAvatar} from 'react-icons/rx'
+import {BiUserCircle} from 'react-icons/bi'
 import './Header.css'
 
 
 const Header = () => {
   return (
-    <section className='Home-header'>
-    <div className='header-sect1' >
-      <p className='header-p'>
-        Welcome to made in rwanda handcrafted website
-      </p>
-      <div className='header-sect1-left'>
-        <div>
-        <RxAvatar className='Header-icon'/>
+    <div className="welcome-home">
+          <div className="container welcome">
+            <h6>Welcome to made in RWANDA hand craft</h6>
+            <div className="Nav-register">
+              <ul>
+                <li>
+                  <span>
+                    <BiUserCircle />
+                  </span>
+                  <Link to='./Login'>signIn</Link>
+                </li>
+                <li>/</li>
+                <li>
+                <Link to='/Signup'>register</Link>
+                  </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div><Link to='./Login' className='header-link' >SignIn</Link>/<Link to='/Signup' className='header-link'>Register</Link></div>
-      </div>
-    </div>
-  </section>
   )
 }
 

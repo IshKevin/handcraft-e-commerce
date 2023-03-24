@@ -6,13 +6,15 @@ import {MdOutlineLocationOn} from 'react-icons/md'
 import {MdOutlineDiscount} from 'react-icons/md'
 import {GoSearch} from 'react-icons/go'
 import {Link} from 'react-router-dom'
+import {BiSearch} from 'react-icons/bi'
+import {HiShoppingCart} from 'react-icons/hi'
 
 
 
 const SubHeader = () => {
   return (
-   <div>
-    <section className='subHeader' >
+   <div className='nav-page'>
+    {/* <section className='subHeader' >
         <div className='subheader-sect1'>
         <img src="Madein.PNG" alt='our log'/>
         </div>
@@ -93,7 +95,46 @@ const SubHeader = () => {
             <MdOutlineDiscount/> Dialy Deals 
         </div>
     
-     </div>
+     </div> */}
+
+<div className="container search">
+          <div className="icon_header">
+          <img src="Madein.PNG" alt='our log'/>
+          </div>
+          <div className="input_search">
+            <select name="allCategories" id="">
+              <option value="">All Category</option>
+              <option value="">Shoes</option>
+              <option value="">funiture</option>
+              <option value="">technology</option>
+              <option value="">t shirt</option>
+            </select>
+            <input type="text" placeholder="Search In" />
+            <span className="searchIcon">
+              <BiSearch />
+            </span>
+          </div>
+          <div className="cartWishlist">
+            <div className="contact">
+              <p>live chat or :</p>
+              <small>+250 785 161 508</small>
+            </div>
+            <div className="cwcontainer">
+              <div className="cart">
+                <span>
+                  <AiOutlineHeart />
+                </span>
+                <small>Wishlist</small>
+              </div>
+              <div className="cart">
+                <span>
+                  <HiShoppingCart />
+                </span>
+                <small>Cart</small>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 
   )
