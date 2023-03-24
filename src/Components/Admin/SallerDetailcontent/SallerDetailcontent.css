@@ -110,9 +110,10 @@
 }
 
 .allcontent {
-  margin-top: 2rem;
+  margin-top:-2rem;
   background-color: #F4F5F9;
   padding: 2rem;
+  overflow-y: auto;
 }
 
 

@@ -68,7 +68,7 @@ body{
 @media screen AND (max-width: 480px){
   .product-header-component ul{
   display: flex;
-  gap: 15rem;
+  gap: 13rem;
   background-color: rgba(0, 0, 0, 0.219);
   padding: 10px 10px;
   width:100% ;

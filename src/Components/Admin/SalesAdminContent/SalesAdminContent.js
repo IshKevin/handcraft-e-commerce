@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const SalesAdminHeader = () => {
   return (
@@ -16,89 +16,33 @@ const SalesAdminHeader = () => {
             <th>Date</th>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Stiven sigar </td> <td>$3000</td>
             <td>Paypal</td>
             <td>Delivered</td> <td>20 jan 2023</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Stiven sigar </td> <td>$3000</td>
             <td>Paypal</td>
             <td>Delivered</td> <td>20 jan 2023</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Stiven sigar </td> <td>$3000</td>
             <td>Paypal</td>
             <td>Delivered</td> <td>20 jan 2023</td>
           </tr>
           <tr>
-            <th>
+            <td>
               <input type="checkbox" name="select" />
-            </th>
-            <td>Stiven sigar </td> <td>$3000</td>
-            <td>Paypal</td>
-            <td>Delivered</td> <td>20 jan 2023</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
-            <td>Stiven sigar </td> <td>$3000</td>
-            <td>Paypal</td>
-            <td>Delivered</td> <td>20 jan 2023</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
-            <td>Stiven sigar </td> <td>$3000</td>
-            <td>Paypal</td>
-            <td>Delivered</td> <td>20 jan 2023</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
-            <td>Stiven sigar </td> <td>$3000</td>
-            <td>Paypal</td>
-            <td>Delivered</td> <td>20 jan 2023</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
-            <td>Stiven sigar </td> <td>$3000</td>
-            <td>Paypal</td>
-            <td>Delivered</td> <td>20 jan 2023</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
-            <td>Stiven sigar </td> <td>$3000</td>
-            <td>Paypal</td>
-            <td>Delivered</td> <td>20 jan 2023</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
-            <td>Stiven sigar </td> <td>$3000</td>
-            <td>Paypal</td>
-            <td>Delivered</td> <td>20 jan 2023</td>
-          </tr>
-          <tr>
-            <th>
-              <input type="checkbox" name="select" />
-            </th>
+            </td>
             <td>Stiven sigar </td> <td>$3000</td>
             <td>Paypal</td>
             <td>Delivered</td> <td>20 jan 2023</td>
@@ -118,6 +62,6 @@ const SalesAdminHeader = () => {
       </div>
     </div>
   );
-}
+};
 
-export default SalesAdminHeader
+export default SalesAdminHeader;
