@@ -3,7 +3,7 @@ import VendorSales from '../../Components/Vendor/VendorSales/VendorSales'
 
 const Sales = () => {
   return (
-    <div>
+    <div className='h'>
         <VendorSales/>
     </div>
   )
