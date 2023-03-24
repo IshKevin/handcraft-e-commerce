@@ -6,6 +6,7 @@ import ProductDisplay from '../../OneProduct/ProductDisplay'
 const Shopdata = () => {
   return (
     <div className='shopdata'>
+      <div className='shopdata-container1'>
       <div>
       <ProductDisplay
         imageUrl="/Shop/shop1.jpeg"
@@ -30,6 +31,8 @@ const Shopdata = () => {
         price="19000 Rwf"
       />
       </div>
+      </div>
+      <div className='shopdata-container1'>
       <div><ProductDisplay
         imageUrl="/Shop/shop4.jpeg"
         name="MAdein Sandal"
@@ -52,6 +55,8 @@ const Shopdata = () => {
         price="19000 Rwf"
       />
       </div>
+      </div>
+      <div className='shopdata-container1'>
       <div>
       <ProductDisplay
         imageUrl="/Shop/shop7.jpeg"
@@ -75,7 +80,8 @@ const Shopdata = () => {
         rating={5}
         price="19000 Rwf"
       />
-      </div>  
+      </div> 
+      </div> 
     </div>
   )
 }
