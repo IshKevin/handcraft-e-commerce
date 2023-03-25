@@ -1,0 +1,16 @@
+.Wishlist-style {
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.wishlist-cat1 {
+  flex-basis: 20%;
+  flex-grow: 0;
+}
+
+.wishlist-cat2 {
+  flex-basis: 75%;
+  flex-grow: 1;
+}/*# sourceMappingURL=Wishlist.css.map */
