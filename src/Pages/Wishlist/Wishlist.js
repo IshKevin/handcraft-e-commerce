@@ -12,7 +12,7 @@ const Wishlist = () => {
       
       <div className='Wishlist-style'>
       <div className='wishlist-cat1'><CategoliesNav/></div>
-      <div className='wishlist-cat2'>wishlist component</div>
+      <div className='wishlist-cat2'><Wishlist/></div>
       </div>
       <Footer/>
     </div>
