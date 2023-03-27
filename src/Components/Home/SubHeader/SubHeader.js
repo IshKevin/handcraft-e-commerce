@@ -110,13 +110,23 @@ const SubHeader = () => {
           <img src="Madein.PNG" alt='our log'/>
           </div>
           <div className="input_search">
-            <select name="allCategories" id="">
-              <option value="">All Category</option>
-              <option value="">Shoes</option>
-              <option value="">funiture</option>
-              <option value="">technology</option>
-              <option value="">t shirt</option>
-            </select>
+          <select>
+          <option value="option1"> categories </option>
+          <option value="option2">FASHION</option>
+          <option value="option3">Made in rwanda</option>
+          <option value="option3">Sport</option>
+          <option value="option3">Electronics</option>
+          <option value="option3">Home and garden</option>
+          <option value="option3">Health and beauty</option>
+          <option value="option3">Toys and hobbies</option>
+          <option value="option3">Automotive</option>
+          <option value="option3">Baby and kids</option>
+          <option value="option3">Books and stationery</option>
+          <option value="option3">Food and drinks</option>
+          <option value="option3">Pets</option>
+          <option value="option3">Travel</option>
+          <option value="option3">Other</option>
+        </select>
             <input type="text" placeholder="Search In" />
             <span className="searchIcon">
               <BiSearch />
@@ -129,14 +139,14 @@ const SubHeader = () => {
             </div>
             <div className="cwcontainer">
               <div className="cart">
-                <span>
-                  <AiOutlineHeart />
+              <span>
+                  <Link to='/Wishlist'><AiOutlineHeart /></Link>
                 </span>
                 <small>Wishlist</small>
               </div>
               <div className="cart">
                 <span>
-                  <HiShoppingCart />
+                <Link to='/Cart'><HiShoppingCart /></Link>
                 </span>
                 <small>Cart</small>
               </div>
@@ -151,7 +161,23 @@ const SubHeader = () => {
               <AiOutlineBars />
             </span>
             <div className="pdetails">
-              <p>BrowseCategory</p>
+            <select className='subheader-select2'>
+               <option value="option1"> categories </option>
+               <option value="option2">FASHION</option>
+               <option value="option3">Made in rwanda</option>
+               <option value="option3">Sport</option>
+               <option value="option3">Electronics</option>
+               <option value="option3">Home and garden</option>
+               <option value="option3">Health and beauty</option>
+               <option value="option3">Toys and hobbies</option>
+               <option value="option3">Automotive</option>
+               <option value="option3">Baby and kids</option>
+               <option value="option3">Books and stationery</option>
+               <option value="option3">Food and drinks</option>
+               <option value="option3">Pets</option>
+               <option value="option3">Travel</option>
+               <option value="option3">Other</option>
+          </select>
               <span>
                 <MdKeyboardArrowDown />
               </span>
@@ -160,9 +186,9 @@ const SubHeader = () => {
           <div className="links">
             <ul>
               <li><Link to='/'>Home</Link></li>
-              <li><Link to='./Shop'>Shop</Link></li>
-              <li><Link to='./Vender'>Vendor</Link></li>
-              <li>Pages</li>
+              <li><Link to='/Shop'>Shop</Link></li>
+              <li><Link to='/Vender'>Vendor</Link></li>
+              <li>About us</li>
             </ul>
           </div>
           <div className="trackOrders">
@@ -176,7 +202,7 @@ const SubHeader = () => {
               <span>
                 <IoPricetagsOutline />
               </span>
-              <p>Track Order</p>
+              <p>Hot deals</p>
             </div>
           </div>
         </div>
