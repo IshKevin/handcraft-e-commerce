@@ -2,7 +2,12 @@
   display: grid;
   border: 1px;
 }
-.vender-card .upper {
+
+.upper {
   display: flex;
   flex-direction: column;
+}
+
+.vender-pic {
+  border-radius: 50%;
 }/*# sourceMappingURL=venderBody.css.map */

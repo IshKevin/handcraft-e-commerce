@@ -208,8 +208,12 @@
 .vender-card{
     display: grid;
     border: 1px;
-    .upper{
-        display: flex;
-        flex-direction: column;
-    }
+   
+}
+.upper{
+    display: flex;
+    flex-direction: column;
+}
+.vender-pic{
+    border-radius: 50%;
 }

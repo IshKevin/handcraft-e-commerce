@@ -1,4 +1,5 @@
 import {BsTelephoneFill} from "react-icons/bs";
+import './venderBody.css'
 
 
 const VenderBody = () => {
@@ -15,7 +16,7 @@ const VenderBody = () => {
                0788460904</div>
                </div>
             </div>
-            <div className="right-pic"><img src={'Home/jordan.jpg'} alt=""/></div>
+            <div className="vender-pic"><img src={'Home/jordan.jpg'} alt=""/></div>
         </div>
         <div className="paragraph"><p>Umushanana Shop is a shop that is located in Huye city near the market which has different products which include made in Rwanda clothes of different kind.</p>
         <button>visit shop</button> </div>
