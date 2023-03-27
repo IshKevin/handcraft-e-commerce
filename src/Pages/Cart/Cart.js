@@ -3,6 +3,7 @@ import Header from '../../Components/Home/Header/Header'
 import SubHeader from '../../Components/Home/SubHeader/SubHeader'
 import Footer from '../../Components/Home/Footer/Footer'
 import './Cart.css'
+import Cartcomp from '../../Components/Cart/Cartcomp/Cartcomp'
 
 
 const Cart = () => {
@@ -11,7 +12,7 @@ const Cart = () => {
     <Header />
     <SubHeader/>
     <div className='cart'>
-      cart components
+      <Cartcomp/>
       </div>
       <Footer/>  
     </>
