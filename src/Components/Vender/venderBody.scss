@@ -209,13 +209,13 @@
     text-align: center;
     font-size: 26px;
     font-weight: bold;
-    margin: 15px;
+    margin-bottom: 15px;
 }
 
 .vender-card{
     display: grid;
     width: 250px;
-    height: 320px;
+    height: 300px;
     background-color: rgb(246, 249, 251);
     box-shadow: 9rem;
     border-radius: 2rem;
@@ -240,4 +240,26 @@
         margin-left: 4rem;
     }
    
+}
+
+.vender-card-layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+    margin-bottom: -0.25rem;
+}
+
+.vender-card-layout__item {
+    flex-basis: 33.33333%;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.vender-views{
+    margin-top: 20px;
+    right: 0;
+    margin-bottom: 5px;
 }
