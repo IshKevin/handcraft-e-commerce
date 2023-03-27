@@ -25,6 +25,7 @@ import Register from './Components/Forms/register/Register';
 import Cart from './Pages/Cart/Cart';
 import Wishlist from './Pages/Wishlist/Wishlist'
 import Buy from './Pages/Buy/Buy';
+import Singlevender from './Pages/SingleVender/Singlevender';
 
 
 
@@ -41,6 +42,7 @@ const App = () => {
           <Route path="Signup" element={<Register/>}/>
           <Route path="Buy" element={<Buy/>}/>
           <Route path="Cart" element={<Cart/>}/>
+          <Route path="Singlevender" element={<Singlevender/>}/>
           <Route path="Wishlist" element={<Wishlist/>}/>
 
           <Route index element={<Home />} />
