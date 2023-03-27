@@ -17,6 +17,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination } from "swiper";
 import BodyPart from "../body/BodyPart";
+import {Link} from 'react-router-dom'; 
 
 const MainHeader = () => {
   return (
@@ -49,7 +50,7 @@ const MainHeader = () => {
                 </p>
                 <div className="btnContainer">
                   <button className="btns">
-                    Explore More <HiOutlineArrowNarrowRight />{" "}
+                  <Link to='/Shop' color="white"> Explore More</Link> <HiOutlineArrowNarrowRight />{" "}
                   </button>
                 </div>
               </div>
@@ -69,7 +70,7 @@ const MainHeader = () => {
                 </p>
                 <div className="btnContainer">
                   <button className="btns">
-                    Explore More <HiOutlineArrowNarrowRight />{" "}
+                  <Link to='/Shop' color="white"> Explore More</Link> <HiOutlineArrowNarrowRight />{" "}
                   </button>
                 </div>
               </div>
@@ -89,7 +90,7 @@ const MainHeader = () => {
                 </p>
                 <div className="btnContainer">
                   <button className="btns">
-                    Explore More <HiOutlineArrowNarrowRight />{" "}
+                  <Link to='/Shop' color="white"> Explore More</Link> <HiOutlineArrowNarrowRight />{" "}
                   </button>
                 </div>
               </div>
@@ -109,7 +110,7 @@ const MainHeader = () => {
                 </p>
                 <div className="btnContainer">
                   <button className="btns">
-                    Explore More <HiOutlineArrowNarrowRight />
+                  <Link to='/Shop' color="white"> Explore More</Link> <HiOutlineArrowNarrowRight />
                   </button>
                 </div>
               </div>
@@ -129,7 +130,7 @@ const MainHeader = () => {
                 </p>
                 <div className="btnContainer">
                   <button className="btns">
-                    Explore More <HiOutlineArrowNarrowRight />{" "}
+                  <Link to='/Shop' color="white"> Explore More</Link> <HiOutlineArrowNarrowRight />{" "}
                   </button>
                 </div>
               </div>
@@ -150,7 +151,7 @@ const MainHeader = () => {
                 </p>
                 <div className="btnContainer">
                   <button className="btns">
-                    Explore More <HiOutlineArrowNarrowRight />{" "}
+                  <Link to='/Shop' color="white"> Explore More</Link> <HiOutlineArrowNarrowRight />{" "}
                   </button>
                 </div>
               </div>
@@ -170,7 +171,7 @@ const MainHeader = () => {
                 </p>
                 <div className="btnContainer">
                   <button className="btns">
-                    Explore More <HiOutlineArrowNarrowRight />{" "}
+                  <Link to='/Shop' color="white"> Explore More</Link> <HiOutlineArrowNarrowRight />{" "}
                   </button>
                 </div>
               </div>
@@ -190,7 +191,7 @@ const MainHeader = () => {
                 </p>
                 <div className="btnContainer">
                   <button className="btns">
-                    Explore More <HiOutlineArrowNarrowRight />{" "}
+                  <Link to='/Shop' color="white"> Explore More</Link> <HiOutlineArrowNarrowRight />{" "}
                   </button>
                 </div>
               </div>
@@ -210,7 +211,7 @@ const MainHeader = () => {
                 </p>
                 <div className="btnContainer">
                   <button className="btns">
-                    Explore More <HiOutlineArrowNarrowRight />{" "}
+                  <Link to='/Shop' color="white"> Explore More</Link> <HiOutlineArrowNarrowRight />{" "}
                   </button>
                 </div>
               </div>

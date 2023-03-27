@@ -1,35 +1,121 @@
-import React from 'react'
-import './venderBody.css'
+import {BsTelephoneFill} from "react-icons/bs";
+import black from "../assets/download.jpg";
 
 const VenderBody = () => {
   return (
     <>
-    <div className='vender-card-layout'>
-    <div className="vender-card-layout__item">
-        <div className='vender-adderss'>
-        <div className='vender-adderss__item'>
-        <h1>UMUSHANANA SHOP</h1>
-        <span>Huye-Rwanda</span>
-        <span>phone</span>
+        <div className="container">
+    <div className="container-up">
+      
+    <div className="card1">
+        <div className="upper">
+            <div className="left">
+                <h5>UMUSHANANA SHOP</h5>
+                <div className="wrapper">
+                <h6>HUYE - RWANDA</h6>
+
+                <div className="icon"><BsTelephoneFill/>
+               0788460904</div>
+               </div>
+            </div>
+            <div className="right-pic"><img src={black} alt=""/></div>
         </div>
-        <div className='vender-adderss__item'>
-        <div className="vender-body-avatar">
-          <img className="vender-avatar__image" src="Home/download.jpg" />
+        <div className="paragraph"><p>Umushanana Shop is a shop that is located in Huye city near the market which has different products which include made in Rwanda clothes of different kind.</p>
+        <button>visit shop</button> </div>
+       </div>
+
+       <div className="card2">
+        <div className="upper">
+            <div className="left">
+                <h5>UMUSHANANA SHOP</h5>
+                <div className="wrapper">
+                <h6>HUYE - RWANDA</h6>
+
+                <div className="icon"><BsTelephoneFill/>
+               0788460904</div>
+               </div>
+            </div>
+            <div className="right-pic"><img src={black} alt=""/></div>
         </div>
+        <div className="paragraph"><p>Umushanana Shop is a shop that is located in Huye city near the market which has different products which include made in Rwanda clothes of different kind.</p>
+        <button>visit shop</button> </div>
+       </div>
+       
+      
+       
+       <div className="card3">
+        <div className="upper">
+            <div className="left">
+                <h5>UMUSHANANA SHOP</h5>
+                <div className="wrapper">
+                <h6>HUYE - RWANDA</h6>
+
+                <div className="icon"><BsTelephoneFill/>
+               0788460904</div>
+               </div>
+            </div>
+            <div className="right-pic"><img src={black} alt=""/></div>
         </div>
+        <div className="paragraph"><p>Umushanana Shop is a shop that is located in Huye city near the market which has different products which include made in Rwanda clothes of different kind.</p>
+        <button>visit shop</button> </div>
+       </div>
+       </div>
+    
+       <div className="container-down">
+       <div className="card4">
+        <div className="upper">
+            <div className="left">
+                <h5>UMUSHANANA SHOP</h5>
+                <div className="wrapper">
+                <h6>HUYE - RWANDA</h6>
+
+                <div className="icon"><BsTelephoneFill/>
+               0788460904</div>
+               </div>
+            </div>
+            <div className="right-pic"><img src={black} alt=""/></div>
         </div>
-        <p>Umushanana shop is a shop that sells <br/>
-        all kinds of clothes and shoes</p>
-    </div>
-    <div className="vender-card-layout__item">...</div>
-    <div className="vender-card-layout__item">...</div>
-    <div className="vender-card-layout__item">...</div>
-    <div className="vender-card-layout__item">...</div>
-    <div className="vender-card-layout__item">...</div>
-    <div className="vender-card-layout__item">...</div>
-    <div className="vender-card-layout__item">...</div>
-    <div className="vender-card-layout__item">...</div>
-    </div>
+        <div className="paragraph"><p>Umushanana Shop is a shop that is located in Huye city near the market which has different products which include made in Rwanda clothes of different kind.</p>
+        <button>visit shop</button> </div>
+       </div>
+       
+      
+       
+       <div className="card5">
+        <div className="upper">
+            <div className="left">
+                <h5>UMUSHANANA SHOP</h5>
+                <div className="wrapper">
+                <h6>HUYE - RWANDA</h6>
+
+                <div className="icon"><BsTelephoneFill/>
+               0788460904</div>
+               </div>
+            </div>
+            <div className="right-pic"><img src={black} alt=""/></div>
+        </div>
+        <div className="paragraph"><p>Umushanana Shop is a shop that is located in Huye city near the market which has different products which include made in Rwanda clothes of different kind.</p>
+        <button>visit shop</button> </div>
+       </div>
+       <div className="card6">
+        <div className="upper">
+            <div className="left">
+                <h5>UMUSHANANA SHOP</h5>
+                <div className="wrapper">
+                <h6>HUYE - RWANDA</h6>
+
+                <div className="icon"><BsTelephoneFill/>
+               0788460904</div>
+               </div>
+            </div>
+            <div className="right-pic"><img src={black} alt=""/></div>
+        </div>
+        <div className="paragraph"><p>Umushanana Shop is a shop that is located in Huye city near the market which has different products which include made in Rwanda clothes of different kind.</p>
+        <button>visit shop</button> </div>
+       </div>
+      
+       </div>
+       </div>
     </>
   )
 }
