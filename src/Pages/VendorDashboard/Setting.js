@@ -3,7 +3,7 @@ import VendorSetting from '../../Components/Vendor/VendorSetting/VendorSetting'
 
 const Setting = () => {
   return (
-    <div>
+    <div className='setti'>
         <VendorSetting/>
     </div>
   )
