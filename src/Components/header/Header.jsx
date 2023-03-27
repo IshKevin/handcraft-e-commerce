@@ -26,9 +26,9 @@ const Header = () => {
           <div className="links">
             <ul>
               <li><Link to='/'>Home</Link></li>
-              <li><Link to='./Shop'>Shop</Link></li>
-              <li><Link to='./Vender'>Vendor</Link></li>
-              <li>Pages</li>
+              <li><Link to='/Shop'>Shop</Link></li>
+              <li><Link to='/Vender'>Vendor</Link></li>
+              <li><Link to='#'>About us</Link></li>
             </ul>
           </div>
           <div className="trackOrders">
@@ -42,7 +42,7 @@ const Header = () => {
               <span>
                 <IoPricetagsOutline />
               </span>
-              <p>Track Order</p>
+              <p>Hot deals</p>
             </div>
           </div>
         </div>
