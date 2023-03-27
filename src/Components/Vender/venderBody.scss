@@ -205,15 +205,39 @@
 
 // }
 
+.vender-header{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 15px;
+}
+
 .vender-card{
     display: grid;
-    border: 1px;
+    width: 250px;
+    height: 320px;
+    background-color: rgb(246, 249, 251);
+    box-shadow: 9rem;
+    border-radius: 2rem;
+    box-shadow:  4px 3px rgba(0,0,0,0.3);
+    .upper{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+    .vender-pic{
+        border-radius:inline;
+        img{
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+        }
+    }
+    .Vender-paragraph{
+        margin: 10px;
+    }
+    .Vender-button{
+        margin-left: 4rem;
+    }
    
-}
-.upper{
-    display: flex;
-    flex-direction: column;
-}
-.vender-pic{
-    border-radius: 50%;
 }
