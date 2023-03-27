@@ -108,13 +108,13 @@ export default function Register() {
 
     return (
       <>
+    {/* <form>
+    <input type='radio' >REGISTER AS CUSTOMER </input>
+    </form> */}
 
 
 
-
-
-
-      <div className="customer-register" style={{display: !modal? "none" : "flex" }} >
+      <div className="customer-register" >
       {/* {success ? (
         <div className="success-msg">
           <h1>success!</h1>
@@ -122,15 +122,26 @@ export default function Register() {
       ) :( */}
 
         <div className="register">
-          <div className="red">
+
+
+          
+  <div className="choose">
+    <p onClick={() =>{
+                    setModal(true);}} className="as-customer">register as customer</p>
+    <p className="as-vendor">register as vendor</p>
+
+  </div>
+
+
+          <div className="red" style={{display: !modal? "none": "flex" }}>
             <div className="registerr">
       <span className="registerTitle">Register</span>
-      <form className="registerForm">
+      <form className="registerForm" >
 
       <p ref={errRef} className={errMsg ? "errmsg" :
       "offscreen"} aria-live="assertive">{errMsg}</p>
 
-<label>Username</label>
+<label>First Name</label>
         <input className="registerInput"
          type="text" 
          name="name"
@@ -149,6 +160,27 @@ export default function Register() {
                !validName ? "instructions" : "offscreen"}>
                  username not valid
                 </p>
+
+                <label>Last Name</label>
+        <input className="registerInput"
+         type="text" 
+         name="name"
+         id="username"
+         ref={userRef}
+         autoComplete="off"
+        //  onChange={(e) => setName(e.target.value)}
+         aria-invalid={validName? "false": "true"}
+         ria-describedby="uidnote"
+         onFocus={ () => setNameFocus(true)}
+         onBlur={() => setNameFocus(false)}
+         placeholder="Enter your username..." 
+      
+          />
+              <p id="uidnote" className={nameFocus && name &&
+               !validName ? "instructions" : "offscreen"}>
+                 username not valid
+                </p>
+
         
 
       
@@ -169,6 +201,11 @@ export default function Register() {
         </p>
 
         
+        <label>Add Profile </label>
+        <input className="registerInput"
+         type="file"
+         name="image"
+         />
 
 
       

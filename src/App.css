@@ -14,3 +14,8 @@
   max-height: 101vh;
   overflow-y: auto  !important;
 }
+.setti{
+  /* max-height: 101vh; */
+  overflow-y: auto  !important;
+  max-width: 100vw;
+}
