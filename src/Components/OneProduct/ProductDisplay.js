@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 function ProductDisplay(props) {
   return (
     <div className="proCards">
-      <img src={props.imageUrl} alt={props.name}/>
+      <img src={props.imageUrl} alt={props.name} width={'100%'} height={'80px'} />
       <div className="overview">
   <ul>
     <li>
@@ -41,20 +41,3 @@ function ProductDisplay(props) {
 
 export default ProductDisplay;
 
-
-{/* <div className="proCards">
-<img src={ING} alt="" />
-
-<div className="proDetails">
-  <h3>Classic hat</h3>
-  <div className="reviws">
-    <div className="rates">
-     
-      <AiFillStar className="rate" />
-      <AiFillStar className="rate" />
-      <AiFillStar className="rate" />
-    </div>
-    <p>(1 reviews)</p>
-  </div>
-  <small>$3000</small>
-</div> */}

@@ -1,5 +1,5 @@
 .register {
-  height:650px;
+  height:150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,10 +18,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left:50px;
 }
 .red{
 
-  height:500px;
+  height:120vh;
   width: 400px;
   border-color: black 1px;
 
@@ -46,7 +47,7 @@
 
 .registerForm > label {
   margin: 10px 0;
-  font-size:20px;
+  font-size:15px;
 }
 
 .registerInput {
@@ -93,4 +94,19 @@ display: none;
 .Inputt{
   margin-left:10px;
 
+}
+.as-customer{
+  background-color: aquamarine;
+  padding:20px;
+
+}
+.as-vendor{
+  background-color: rgb(55, 221, 105);
+  padding:20px;
+
+}
+.choose{
+  display:flex;
+  gap:2rem;
+  padding:20px;
 }

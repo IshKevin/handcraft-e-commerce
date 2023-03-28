@@ -24,10 +24,11 @@ import Register from './Components/Forms/register/Register';
 
 import Cart from './Pages/Cart/Cart';
 import Wishlist from './Pages/Wishlist/Wishlist'
-import Buy from './Pages/Buy/Buy';
+import Buy from './Pages/Buy/Buy'
 import {useState} from "react";
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
+import Singlevender from './Pages/SingleVender/Singlevender';
 
 
 const App = () => {
@@ -37,6 +38,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <Routes>
+
           <Route path="/" element={<Home />} />
           <Route path="Shop" element={<Shop />} />
           <Route path="Vender" element={<Vender />} />
@@ -48,6 +50,8 @@ const App = () => {
           <Route path="Wishlist" element={<Wishlist />} />
           <Route path="About" element={<About />} />
           <Route path="Contact" element={<Contact/>} />
+           <Route path="Singlevender" element={<Singlevender/>}/>
+
           <Route index element={<Home />} />
           <Route />
           <Route

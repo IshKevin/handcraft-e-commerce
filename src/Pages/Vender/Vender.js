@@ -4,6 +4,8 @@ import Header from '../../Components/Home/Header/Header'
 import SubHeader from '../../Components/Home/SubHeader/SubHeader'
 import VenderBody from '../../Components/Vender/VenderBody'
 import CategoliesNav from '../../Components/CategoliesNav/CategoliesNav'
+import './Vender.css'
+
 
 const Vender = () => {
   return (

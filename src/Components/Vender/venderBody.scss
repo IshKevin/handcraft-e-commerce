@@ -1,40 +1,265 @@
-$color:black;
-$border_color:gray;
-$border_radius:5px;
-$width: 200px;
-$height: 50px;
-$subheight: 47px;
-$subwidth: 200px;
+// .container{
+    
+//     display: flex;
+//     flex-direction: column;
+//     gap: 2rem;
+//     background-color: rgb(246, 249, 251);
+// }
 
-.vender-card-layout{
+// .container-up{
+//     /* height: 100%; */
+//     /* width: 100%; */
+//     gap: 4rem;
+//     display: flex;
+//     flex-direction: row;
+//     box-sizing: border-box;
+    
+//     /* max-width: 100%; */
+    
+//     /* background-color: rgb(246, 249, 251); */
+// }
+// .container-down{
+//     gap: 4rem;
+//     display: flex;
+//     flex-direction: row;
+//     /* margin-left: 2rem; */
+// }
+
+// .card1{
+    
+//     /* height: 20%; */
+//     /* width: 20%; */
+//     max-width: 30%;
+//     box-sizing: border-box;
+//     padding: 1rem 1rem;
+//     /* margin: 1rem; */
+//     background-color: rgb(246, 249, 251);
+//     box-shadow: 9rem;
+//     border-radius: 2rem;
+//     box-shadow:  4px 3px rgba(0,0,0,0.3);
+// }
+// .card2{
+    
+//     /* height: 20%; */
+//     /* width: 20%; */
+//     max-width: 30%;
+//     box-sizing: border-box;
+//     padding: 1rem 1rem;
+//     /* margin: 1rem; */
+//     background-color: rgb(246, 249, 251);
+//     box-shadow: 9rem;
+//     border-radius: 2rem;
+//     box-shadow:  4px 3px rgba(0,0,0,0.3);
+   
+// }
+// .card3{
+    
+//     /* height: 20%; */
+//     /* width: 20%; */
+//     max-width: 30%;
+//     box-sizing: border-box;
+//     padding: 1rem 1rem;
+//     /* margin: 1rem; */
+//     background-color: rgb(246, 249, 251);
+//     box-shadow: 9rem;
+//     border-radius: 2rem;
+//     box-shadow:  4px 3px rgba(0,0,0,0.3);
+   
+// }
+// .card4{
+    
+//     /* height: 20%; */
+//     /* width: 20%; */
+    
+//     max-width: 30%;
+//     box-sizing: border-box;
+//     padding: 1rem 1rem;
+//     /* margin: 1rem; */
+//     background-color: rgb(246, 249, 251);
+//     box-shadow: 9rem;
+//     border-radius: 2rem;
+//     box-shadow:  4px 3px rgba(0,0,0,0.3);
+   
+// }
+// .card5{
+    
+//     /* height: 20%; */
+//     /* width: 20%; */
+//     max-width: 30%;
+//     box-sizing: border-box;
+//     padding: 1rem 1rem;
+//     /* margin: 1rem; */
+//     background-color: rgb(246, 249, 251);
+//     box-shadow: 9rem;
+//     border-radius: 2rem;
+//     box-shadow:  4px 3px rgba(0,0,0,0.3);
+   
+// }
+// .card6{
+    
+//     /* height: 20%; */
+//     /* width: 20%; */
+//     max-width: 30%;
+//     box-sizing: border-box;
+//     padding: 1rem 1rem;
+//     /* margin: 1rem; */
+//     background-color: rgb(246, 249, 251);
+//     box-shadow: 9rem;
+//     border-radius: 2rem;
+//     box-shadow:  4px 3px rgba(0,0,0,0.3);
+   
+// }
+
+// .icon{
+//     display: flex;
+//     /* align-items: flex-end; */
+//     /* align-content:center; */
+//     gap: 1rem;
+//     font-weight: 200;
+//     margin-top: -1rem;
+// }
+
+
+// .left h5{
+//     margin-bottom: -0.5rem;
+//     font-weight:bolder;
+
+    
+// }
+// .wrapper{
+//     margin: 1rem;
+//     font-weight: 100;
+// }
+// .right-pic{
+//     width: 100%;
+//     height: 100%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     /* background-color: #252d5d; */
+// }
+
+// .right-pic img{
+//     border-radius: 50%;
+//     width: 80px;
+//     height: 80px;
+//     border: 0px solid #fff;
+//     margin-top: 2rem;
+// }
+// .upper{
+//     display: flex;
+//     /* gap: 1rem; */
+// } 
+// .paragraph button{
+   
+//     margin-left: 2rem;
+//     /* align-items: center; */
+//     /* justify-content:end; */
+//     /* flex-direction: flex-end; */
+//     /* align-content: center; */
+//     background-color: rgb(166, 164, 164);
+//     color: white;
+//     font-weight: bold;
+//     font-size: large;
+//     /* font-weight: 200; */
+//     border-radius: 1rem;
+//     height: 30px;
+//     width: 120px;
+    
+// }
+// @media (max-width:770px){
+//     .container{
+//         display: flex;
+//         flex-direction: column;
+        
+        
+//     }
+//     .container-up{
+//         display: flex;
+//         flex-direction: column;
+       
+//     }
+//     .container-down{
+//         display: flex;
+//         flex-direction: column;
+        
+//     }
+//     .card1{
+//         max-width:  100%;
+//     }
+//     .card2{
+//         max-width:   100%;
+//     }
+//     .card3{
+//         max-width:  100% ;
+//     }
+//     .card4{
+//         max-width: 100%;
+//     }
+//     .card5{
+//         max-width: 100%;
+//     }
+//     .card6{
+//         max-width: 100%;
+//     }
+
+// }
+
+.vender-header{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.vender-card{
+    display: grid;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(246, 249, 251);
+    box-shadow: 9rem;
+    border-radius: 2rem;
+    box-shadow:  4px 3px rgba(0,0,0,0.3);
+    .upper{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+    .vender-pic{
+        border-radius:inline;
+        img{
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+        }
+    }
+    .Vender-paragraph{
+        margin: 10px;
+    }
+    .Vender-button{
+        margin-left: 4rem;
+    }
+   
+}
+
+.vender-card-layout {
     display: flex;
     flex-wrap: wrap;
     margin-left: -0.25rem;
     margin-right: -0.25rem;
-   
+    margin-bottom: -0.25rem;
 }
 
-.vender-card-layout_item{
-        flex-basis: 33.33333%;
-        padding-left: 0.25rem;
-        padding-right: 0.25rem;
-    }
- .vender-adderss__item{
-    display:flex;
-    flex-direction: column;
- } 
- 
- .vender-body-avatar{
-        border-radius: 50%;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        height: 4rem;
-        width: 4rem;
- }
-.vender-avatar__image {
-    height: 50%;
-    width: 50%;
-    border-radius: 50%;
+.vender-card-layout__item {
+    flex-basis: 33.33333%;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
 }
-    
+
+.vender-views{
+    margin-top: 20px;
+    right: 0;
+    margin-bottom: 5px;
+}

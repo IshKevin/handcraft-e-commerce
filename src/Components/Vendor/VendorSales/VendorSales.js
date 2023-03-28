@@ -15,7 +15,9 @@ const VendorSales = () => {
             <FaSearch className='sear'/>
          </div>
          <div className='dash-right'>
-          <p>visit your store</p>
+         
+          <p>Logout </p>
+          
          </div>
 
         </div>
