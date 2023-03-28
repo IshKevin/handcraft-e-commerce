@@ -5,7 +5,7 @@ import './VendorSales.css'
 const VendorSales = () => {
   return (
     <div className='sale-content'>
-         <div className='topbar-item'>
+         <div className='topbar-item' id="sales-top" >
           <div className='dash-left'>
          <h1 className='dash-head'>Sales Details</h1>
          <p className='dash-para'>Everything here!</p>

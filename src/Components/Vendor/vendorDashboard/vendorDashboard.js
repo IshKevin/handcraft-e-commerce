@@ -137,7 +137,7 @@ const VendorDashboard = () => {
 
   return (
     <div className='main-Dashboard'>
-     <div className='topbar'>
+     <div className='topbar' id='dash-top'>
         <div className='topbar-item'>
           <div className='dash-left'>
          <h1 className='dash-head'>Dashboard</h1>

@@ -8,7 +8,7 @@ const VendorOrder = () => {
   return (
     <>
     <div className='main-dashboard-order'>
-         <div className='topbar-item'>
+         <div className='topbar-item' id="order-top">
           <div className='dash-left'>
          <h1 className='dash-head'>Order Info</h1>
          <p className='dash-para'>Everything here!</p>
@@ -24,7 +24,7 @@ const VendorOrder = () => {
         </div>
 
 
-       <div>
+       {/* <div> */}
 
        <div className='prod-div'>
           <h1 className='ti'>All Purchases</h1>
@@ -115,7 +115,7 @@ const VendorOrder = () => {
             </table>
 
           </div>
-       </div>
+       {/* </div> */}
 
 
 

@@ -7,7 +7,7 @@ const VendorTransition = () => {
  <>
  
  <div className='sale-content'>
-         <div className='topbar-item'>
+         <div className='topbar-item' id='trans-top' >
           <div className='dash-left'>
          <h1 className='dash-head'>Transitions</h1>
          <p className='dash-para'>Everything here!</p>

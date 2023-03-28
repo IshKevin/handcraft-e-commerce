@@ -24,26 +24,33 @@ import Register from './Components/Forms/register/Register';
 
 import Cart from './Pages/Cart/Cart';
 import Wishlist from './Pages/Wishlist/Wishlist'
-import Buy from './Pages/Buy/Buy';
+import Buy from './Pages/Buy/Buy'
+import {useState} from "react";
+import About from './Pages/About/About';
+import Contact from './Pages/Contact/Contact';
 import Singlevender from './Pages/SingleVender/Singlevender';
 
 
-
 const App = () => {
+
+  const [sider, setSider] = useState(false);
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="Shop" element={<Shop/>}/>
-          <Route path="Vender" element={<Vender/>}/>
 
-          <Route path="Login" element={<Login/>}/>
-          <Route path="Signup" element={<Register/>}/>
-          <Route path="Buy" element={<Buy/>}/>
-          <Route path="Cart" element={<Cart/>}/>
-          <Route path="Singlevender" element={<Singlevender/>}/>
-          <Route path="Wishlist" element={<Wishlist/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="Shop" element={<Shop />} />
+          <Route path="Vender" element={<Vender />} />
+
+          <Route path="Login" element={<Login />} />
+          <Route path="Signup" element={<Register />} />
+          <Route path="Buy" element={<Buy />} />
+          <Route path="Cart" element={<Cart />} />
+          <Route path="Wishlist" element={<Wishlist />} />
+          <Route path="About" element={<About />} />
+          <Route path="Contact" element={<Contact/>} />
+           <Route path="Singlevender" element={<Singlevender/>}/>
 
           <Route index element={<Home />} />
           <Route />
@@ -51,12 +58,15 @@ const App = () => {
             path="AdminDashboard"
             element={
               <div className="admin-container">
-                <AdminSideBar />
+                <AdminSideBar sider={sider} setSider={setSider} />
                 <Outlet />
               </div>
             }
           >
-            <Route index element={<AdminDashboard />} />
+            <Route
+              index
+              element={<AdminDashboard sider={sider} setSider={setSider} />}
+            />
             <Route path="AdminUsers" element={<AdminUsers />} />
             <Route path="Adminallproducts" element={<Adminallproducts />} />
             <Route path="Adminsellerdetail" element={<Adminsellerdetail />} />
@@ -65,7 +75,8 @@ const App = () => {
           </Route>
 
           <Route
-            path="vendorDashboard" element={
+            path="vendorDashboard"
+            element={
               <div className="dash">
                 <VendorSidebar />
                 {/* <AdminSideBar /> */}
@@ -74,19 +85,15 @@ const App = () => {
             }
           >
             <Route index element={<VendorDashboard />} />
-            <Route path="Product" element={<Product/>} />
-            <Route path="Sales" element={<Sales/>} />
-            <Route path="Order" element={<Order/>} />
-            <Route path="Transition" element={<Transition/>} />
-            <Route path="Setting" element={<Setting/>} />
-
-
-
+            <Route path="Product" element={<Product />} />
+            <Route path="Sales" element={<Sales />} />
+            <Route path="Order" element={<Order />} />
+            <Route path="Transition" element={<Transition />} />
+            <Route path="Setting" element={<Setting />} />
           </Route>
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
       </BrowserRouter>
-
     </>
   );
 }

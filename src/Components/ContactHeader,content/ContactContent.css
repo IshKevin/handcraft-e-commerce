@@ -1,0 +1,102 @@
+#contact-Subject {
+  background-color: white;
+  border: 2px solid black;
+  height: 30px;
+  width: 22rem;
+  border-radius: 3px;
+}
+#contact-commentbuton{
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: lightseagreen;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+}
+#main-Comments {
+  background-color: white;
+  border: 2px solid black;
+  height: 60px;
+  width: 22rem;
+  border-radius: 3px;
+}
+/* .bottom-content {
+  margin-left: 20px;
+  margin-top: -5px;
+}
+.midle-content {
+  margin-left: 20px;
+  margin-top: -20px;
+} */
+#wholecontact-header{
+  text-align: center;
+}
+.contact-comments{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.contact-commenttop{
+    margin-left: -3rem;
+}
+.contact-leftside{
+    border: black 1px solid;
+}
+.contact-box1{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+#main-Comments{
+    height: 6rem;
+}
+.icon1{
+  font-size: 20px;
+  margin-top: 3.5rem;
+}
+.text1{
+  margin-left: 1.5rem;
+  font-weight: 300;
+}
+.icon2{
+  font-size: 20px;
+}
+.text2{
+  margin-left: 1.5rem;
+  font-weight: 300;
+  color: blue;
+}
+.icon3{
+  font-size: 20px;
+}
+.text3{
+  margin-left: 1.5rem;
+  font-weight: 300;
+  color: blue;
+}
+.contact-leftside{
+  padding: 40px;
+}
+/* Tablet responsiveness */
+@media screen AND (max-width: 1040px){
+
+}
+
+/* Small-mobile responsiveness */
+
+@media screen AND (max-width: 480px){
+.contact-box1{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-leftside{
+    border: black 1px solid;
+    width: 90%;
+}
+} 

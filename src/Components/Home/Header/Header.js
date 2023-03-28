@@ -13,7 +13,7 @@ const Header = () => {
               <ul>
                 <li>
                   <span>
-                    <BiUserCircle />
+                    <BiUserCircle id="user-logo" />
                   </span>
                   <Link to='./Login'>signIn</Link>
                 </li>

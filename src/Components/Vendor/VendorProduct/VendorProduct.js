@@ -8,7 +8,7 @@ const VendorProduct = () => {
   const [modal, setModal] = useState(false);
   return (
     <div className='product-content' >
-         <div className='topbar-item'>
+         <div className='topbar-item' id='pro-top' >
           <div className='dash-left'>
          <h1 className='dash-head'>Product info</h1>
          <p className='dash-para'>Everything here!</p>

@@ -1,0 +1,26 @@
+/* .AboutHeader-container{
+    background-color: black;
+    
+} */
+#aboutbackground-pc{
+    height: 20vh;
+    width: 100%;
+}
+#about-title{
+    margin-top: -5rem;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: 1500px;
+}
+
+/* Tablet responsiveness */
+@media screen AND (max-width: 1040px){
+
+}
+
+/* Small-mobile responsiveness */
+
+@media screen AND (max-width: 480px){
+
+} 

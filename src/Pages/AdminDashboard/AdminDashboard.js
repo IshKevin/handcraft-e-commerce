@@ -1,10 +1,10 @@
 import React from "react";
 import './AdminDashboard.css'
 import AdminHeader from "../../Components/Admin/AdminHeader/AdminHeader";
-function AdminDashboard() {
+function AdminDashboard({sider, setSider}) {
   return (
     <>
-      <AdminHeader />
+      <AdminHeader  sider={sider} setSider={setSider}/>
     </>
   );
 }
