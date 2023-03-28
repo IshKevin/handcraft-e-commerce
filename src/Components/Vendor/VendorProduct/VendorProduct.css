@@ -1,7 +1,7 @@
 
 .product-content{
     background-color: #f4f5f9;
-    width: 80vw;
+    width: 75vw;
     /* background-color: #F4F5F9; */
     overflow-y: auto;
 }
@@ -130,12 +130,13 @@
     
 }
 .product-table th{
-padding:5px 35px;
+padding:5px 30px;
+font-size:14px;
 
 background-color:var(--color-icon-bg);
 }
 .product-table td{
-padding:5px 35px;
+padding:5px 30px;
 background-color:white;
 border-bottom:1px solid rgb(146, 144, 144);
 border-radius:2px;
