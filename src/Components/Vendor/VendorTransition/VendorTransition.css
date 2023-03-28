@@ -3,3 +3,18 @@
     width:100%;
     /* overflow-x: auto; */
 }
+/* Tablet responsiveness */
+@media screen AND (max-width: 1040px){
+#trans-top{
+    margin-left: -58rem;
+}
+}
+
+/* Small-mobile responsiveness */
+
+@media screen AND (max-width: 480px){
+#trans-top{
+    margin-left: -49rem;
+}
+
+} 

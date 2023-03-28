@@ -9,9 +9,9 @@ import { RiLogoutBoxFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import robot from "../AdminSidebar/robot.jpg";
 
-const AdminSideBar = () => {
+const AdminSideBar = ({sider}) => {
   return (
-    <div className="side">
+    <div className={sider ? "sider-open" : "side"}>
       <div className="side-profile">
         <img src={robot} alt="seller-photo" className="img-mic" />
         <div className="side-profile-text">

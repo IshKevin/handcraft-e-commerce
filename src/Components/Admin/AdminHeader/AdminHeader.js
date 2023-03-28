@@ -4,7 +4,7 @@ import { VscFileSymlinkDirectory } from "react-icons/vsc";
 import "./AdminHeader.css";
 import { BarChart,LineChart,Bar,XAxis, YAxis,Line, CartesianGrid,Area, Tooltip,AreaChart, Legend} from 'recharts';
 import { BiMenu } from "react-icons/bi";
-import {useState} from "react";
+
 const data = [
   {
     name: 'Page A',
@@ -51,20 +51,23 @@ const data = [
 ];
 
 // chart two (2)
-function AdminHeader() {
-  const [sider, setSider] = useState(false);
+function AdminHeader({sider, setSider}) {
+
   const handleSider = () =>{
     setSider(!sider);
+    console.log("button clicked");
   }
   return (
     <div className="Admin-header">
       <div className="admindash-header-component">
         <ul>
           <li>Dashboard</li>
-          <li>Admin</li>
+          <li id="Tagbar">
+            Admin <BiMenu onClick={handleSider} id="Tagbar-icon" />
+          </li>
         </ul>
       </div>
-      {/* <BiMenu /> */}
+
       <div className="cards-container">
         {/* Cardpart two (1) */}
 

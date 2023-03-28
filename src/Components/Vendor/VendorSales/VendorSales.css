@@ -66,3 +66,61 @@
     width:30px;
     height:30px;
 }
+
+/* Tablet responsiveness */
+@media screen AND (max-width: 1040px){
+#sales-top{
+    overflow-y: hidden;
+    margin-left: -62rem;
+}
+.hd-sales{
+    display: flex;
+    gap:2rem;
+    padding:50px;
+    width:50vw;
+}
+.s-right{
+    display: flex;
+    gap:2rem;
+}
+.boxx{
+    height:500px;
+    border-radius:5px;
+    background-color: white;
+    padding:0px 30px;
+    width:58%;
+    /* margin-left:100p */
+}
+}
+
+/* Small-mobile responsiveness */
+
+@media screen AND (max-width: 480px){
+#sales-top{
+    overflow-y: hidden;
+    margin-left:-49rem;
+}
+.hd-sales{
+    display: flex;
+    gap:3px;
+    padding:5px;
+    width:50vw;
+}
+.s-right{
+    display: flex;
+    gap:5px;
+}
+.filter{
+    display: flex;
+    gap:5px;
+    width:60px;
+}
+.boxx{
+    height:500px;
+    border-radius:5px;
+    background-color: white;
+    padding:0px 30px;
+    width:81%;
+    /* margin-left:100p */
+}
+} 

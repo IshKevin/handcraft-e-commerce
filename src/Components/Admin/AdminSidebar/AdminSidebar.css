@@ -7,6 +7,14 @@
   width: 276px;
   color: white;
 }
+.sider-open{
+  background-color: black;
+  /* height: 1000px;
+  width: 276px; */
+  color: white;
+  position: absolute;
+  z-index: 1000;
+}
 .side-menu-single{
   display: flex;
   padding: 15px 40px;

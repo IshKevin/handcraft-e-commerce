@@ -4,8 +4,8 @@ import './VendorSetting.css'
 
 const VendorSetting = () => {
   return (
-    <div>
-         <div className='topbar-item'>
+    <div className='allsettings'>
+         <div className='topbar-item' id='set-top'>
           <div className='dash-left'>
          <h1 className='dash-head'>MY Profile</h1>
          <p className='dash-para'>Everything here!</p>
@@ -19,7 +19,7 @@ const VendorSetting = () => {
          </div>
 
         </div>
-        <div>
+        <div id="main-content-setting">
           <div className='line1'>
             <h1>Personal Information</h1>
           </div>
@@ -67,8 +67,8 @@ const VendorSetting = () => {
         <input type= 'text'name="name" placeholder='Shoesshop'/>
         </td>
         <td>
-        <h1>ACCOUNT NUMBER</h1>
-        <input type= 'text'name="name" placeholder='2345 **** **** **** ****'/>
+        <h1 id='act-head' >ACCOUNT NUMBER</h1>
+        <input type= 'text'name="name" placeholder='2345 **** **** **** ****' id="act-number" />
         </td>
         </tr>
         <tr className='tr'>

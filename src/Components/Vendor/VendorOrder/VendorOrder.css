@@ -93,3 +93,33 @@
     background-color: #F4F5F9;
     overflow-y: auto;
 }
+
+/* Tablet responsiveness */
+@media screen AND (max-width: 1040px){
+#order-top{
+    overflow-y: hidden;
+    margin-left: -15rem;
+}
+}
+
+/* Small-mobile responsiveness */
+
+@media screen AND (max-width: 480px){
+#order-top{
+    overflow-y: hidden;
+    margin-left: -36rem;
+}
+
+.dash-search{
+    width: 15rem;
+    margin-left: -2rem;
+}
+.main-dashboard-order{
+    background-color: #F4F5F9;
+    overflow-y: hidden;
+}
+.prod-div{
+    overflow-y: auto;
+    width: 100%;
+}
+} 
