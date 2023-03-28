@@ -1,139 +1,162 @@
-import "./register.css"
-import { Link } from "react-router-dom"
-import { useRef,useState,useEffect } from "react";
+import "./register.css";
+import { Link } from "react-router-dom";
+import { useRef, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-// import axios from "axios";
+import axios from "axios";
+import * as yup from "yup";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { useForm } from "react-hook-form";
 
+const REGISTER_URL = "https://madeinapi.onrender.com/api/zeus/users/signUp";
 
-const USER_REGEX = /^[A-Za-z][A-Za-z0-9_]{7,29}$/;
-const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/;
-const EMAIL_REGEX = /^[a-zA-Z0-9]+@+[a-zA-Z0-9]+.+[A-z]/;
-
-// const REGISTER_URL = "https://blogzilha-piyj.onrender.com/auth/register";
-
+const schema = yup.object().shape({
+  firstname: yup.string().required(),
+  lastname: yup.string().required(),
+  email: yup.string().email().required(),
+  password: yup.string().min(6).max(12).required(),
+});
 
 export default function Register() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
+    resolver: yupResolver(schema),
+  });
+
   const [modal, setModal] = useState(false);
- const navigate = useNavigate();
-  const userRef = useRef();
-  const errRef = useRef();
+  const [mymodal, setmyModal] = useState(false);
+   const [success, setSuccess] = useState(false);
+  const navigate = useNavigate();
+  const onSubmit = async (data) => {
+    console.log(data);
+  const userData= new FormData();
+  userData.append('firstname',data.firstname);
+  userData.append("lastname", data .lastname);
+  userData.append("email", data.email);
+  userData.append("profile", data.profile[0]);
+  userData.append("password", data.password);
 
-  const [name, setName] = useState('');
-  const [validName, setValidName] = useState(false);
-  const [nameFocus, setNameFocus] = useState(false);
+  console.log(userData.get("password"));
+    try {
+      const response = await axios.post(REGISTER_URL, userData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
+       console.log(response);
+        console.log(response.accessToken);
+        console.log(JSON.stringify(response));
+        setSuccess(true);
+        navigate("/login");
+    } catch (err) {
+      console.log(err.response)
+    }
+  };
 
-  const [password, setPassword] = useState("");
-  const [validPassword, setValidPassword] = useState(false);
-  const [PasswordFocus, setPasswordFocus] = useState(false);
-
-  const [matchpwd, setMatchPwd] = useState("");
-  const [validMatchPwd, setValidMatchPwd] = useState(false);
-  const [matchPwdFocus, setMatchPwdFocus] = useState(false);
-
-  const [email, setEmail] = useState("");
-  const [validEmail, setValidEmail] = useState(false);
-  const [emailFocus, setEmailFocus] = useState(false);
-
-  const [errMsg, setErrMsg] = useState('');
-  const [success, setSuccess] = useState(false);
-
-  useEffect(() =>{
-    userRef.current.focus();
-  }, [])
-  useEffect(() =>{
-    const result = USER_REGEX.test(name);
-    console.log(result);
-    console.log(name);
-    setValidName(result);
-  }, [name])
-
-  useEffect(() => {
-    const result = PWD_REGEX.test(password);
-    console.log(result);
-    console.log(password);
-    setValidPassword(result);
-    const match = password === matchpwd;
-    setValidMatchPwd(match);
-  }, [password, matchpwd])
-
-  useEffect(() => {
-    const result = EMAIL_REGEX.test(email);
-    console.log(result);
-    console.log(email);
-    setValidEmail(result);
-  }, [email])
-
-  useEffect(() =>{
-    setErrMsg('');
-  }, [name, password])
-
-  // const handleSubmit = async (e) =>{
-  //   e.preventDefault();
-  //   const v1 = USER_REGEX.test(name);
-  //   const v2 = PWD_REGEX.test(password);
-  //   const v3 = EMAIL_REGEX.test(email);
-  //   if(!v1 || !v2 || !v3){
-  //     setErrMsg("Invalid Entry");
-  //     return;
-  //   }
-    
-  //   try{
-  //     const response = await axios.post(REGISTER_URL,
-  //       JSON.stringify({name,password,email}),
-  //       {
-  //         headers:{"Content-Type": "application/json"},
-  //       }
-  //       );
-  //       console.log(response.data);
-  //       console.log(response.accessToken);
-  //       console.log(JSON.stringify(response));
-  //       setSuccess(true);
-  //       navigate (
-  //         "/login"
-  //       )
-        
-  //   } catch(err){
-  //     if(!err?.response){
-  //       setErrMsg('No Server Response');
-  //     } else if(err.response?.status === 409){
-  //       setErrMsg('Username Taken');
-  //     } else {
-  //       setErrMsg('Registration Failed');
-  //     }
-  //    errRef.current.focus();
-  //   }
-
-  // }
-
-
-    return (
-      <>
-    {/* <form>
-    <input type='radio' >REGISTER AS CUSTOMER </input>
-    </form> */}
-
-
-
-      <div className="customer-register" >
-      {/* {success ? (
-        <div className="success-msg">
-          <h1>success!</h1>
-        </div>
-      ) :( */}
-
+  return (
+    <>
+      <div className="customer-register">
         <div className="register">
+          <div className="choose">
+            <p
+              onClick={() => {
+                setModal(true);
+              }}
+              className="as-customer"
+            >
+              register as customer
+            </p>
 
+            <p
+              className="as-vendor"
+              onClick={() => {
+                setmyModal(true);
+              }}
+            >
+              register as vendor
+            </p>
+          </div>
+          {/* ...........................modal ............................................ */}
 
-          
-  <div className="choose">
-    <p onClick={() =>{
-                    setModal(true);}} className="as-customer">register as customer</p>
-    <p className="as-vendor">register as vendor</p>
+          <div className="red" style={{ display: !modal ? "none" : "flex" }}>
+            <div className="registerr">
+              <span className="registerTitle">Register</span>
+              <form className="registerForm" onSubmit={handleSubmit(onSubmit)}>
+                <label>First Name</label>
+                <input
+                  className="registerInput"
+                  type="text"
+                  {...register("firstname")}
+                  autoComplete="off"
+                  placeholder="Enter your username..."
+                />
+                <span>{errors?.firstname?.message}</span>
 
-  </div>
+                <label>Last Name</label>
+                <input
+                  className="registerInput"
+                  type="text"
+                  {...register("lastname")}
+                  placeholder="Enter your username..."
+                />
+                <span>{errors?.lastname?.message}</span>
+                <label>Email</label>
+                <input
+                  className="registerInput"
+                  type="text"
+                  id="email"
+                  {...register("email")}
+                  placeholder="Enter your email..."
+                />
+                <span>{errors?.email?.message}</span>
 
+                <label>Add Profile </label>
+                <input
+                  className="registerInput"
+                  type="file"
+                  {...register("profile")}
+                />
 
-          <div className="red" style={{display: !modal? "none": "flex" }}>
+                <label>Password</label>
+                <input
+                  className="registerInput"
+                  type="password"
+                  {...register("password")}
+                  id="password"
+                  placeholder="Enter your password..."
+                />
+                <span>{errors?.password?.message}</span>
+
+                {/* <label>confirm password</label>
+         <input className="registerInput"
+         type="password"
+         {...register('password')}
+         id="confirm_pwd"
+       
+       
+        placeholder="confirm password.."
+        /> */}
+
+                <button className="registerButton">Register </button>
+
+                <p>
+                  Already have an account?{" "}
+                  <Link
+                    to="/login"
+                    style={{ color: "inherit", textDecoration: "inherit" }}
+                  >
+                    <span>Login</span>
+                  </Link>
+                </p>
+              </form>
+            </div>
+          </div>
+          {/* <---------------------- MODAL FOR  REGISTER AS VENDOR ---------------------------------------------------------------------------> */}
+
+          {/*    
+      <div className="red-vendor" style={{display: !mymodal? "none": "flex" }}>
             <div className="registerr">
       <span className="registerTitle">Register</span>
       <form className="registerForm" >
@@ -148,7 +171,7 @@ export default function Register() {
          id="username"
          ref={userRef}
          autoComplete="off"
-        //  onChange={(e) => setName(e.target.value)}
+         onChange={(e) => setName(e.target.value)}
          aria-invalid={validName? "false": "true"}
          ria-describedby="uidnote"
          onFocus={ () => setNameFocus(true)}
@@ -168,7 +191,7 @@ export default function Register() {
          id="username"
          ref={userRef}
          autoComplete="off"
-        //  onChange={(e) => setName(e.target.value)}
+         onChange={(e) => setName(e.target.value)}
          aria-invalid={validName? "false": "true"}
          ria-describedby="uidnote"
          onFocus={ () => setNameFocus(true)}
@@ -189,7 +212,7 @@ export default function Register() {
         type="text"
         id="email"
         name="email"
-        // onChange={(e) => setEmail(e.target.value)}
+        onChange={(e) => setEmail(e.target.value)}
         aria-invalid={validEmail ? "false": "true"}
         aria-describedby="emailnote"
         onFocus={() => setEmailFocus(true)}
@@ -206,6 +229,13 @@ export default function Register() {
          type="file"
          name="image"
          />
+         <label>Shop Name</label>
+        <input className="registerInput"
+         type="text"
+         name="image"
+         placeholder="Enter your Shop name"
+         />
+
 
 
       
@@ -214,7 +244,7 @@ export default function Register() {
          type="password" 
          name="password"
          id="password"
-        // onChange={(e) => setPassword(e.target.value)}
+        onChange={(e) => setPassword(e.target.value)}
         aria-invalid={validPassword ? "false" : "true"}
         aria-describedby="pwdnote"
         onFocus={() => setPasswordFocus(true)}
@@ -229,7 +259,7 @@ export default function Register() {
          type="password"
          name="password"
          id="confirm_pwd"
-        // onChange={(e) => setMatchPwd(e.target.value)}
+        onChange={(e) => setMatchPwd(e.target.value)}
         aria-invalid={validMatchPwd ? "false" : "true"}
         aria-describedby="Matchpwdnote"
         onFocus={() => setMatchPwdFocus(true)}
@@ -248,10 +278,9 @@ export default function Register() {
 
       </form>
       </div>
-      </div>
-       </div>
-      {/* )} */}
+      </div> */}
+        </div>
       </div>
     </>
-    )
+  );
 }

@@ -30,8 +30,15 @@
 
   border-radius:5px;
 
+}
+.red-vendor{
+  height:150vh;
+  width: 400px;
+  border-color: black 1px;
+  /* margin-top:-60rem; */
 
-  
+  border-style: groove;
+  border-radius:5px;
 
 
 }
